@@ -30,8 +30,11 @@ if [ -n "${MYSQL_ATTR_SSL_CA:-}" ]; then
     ca_source="$MYSQL_ATTR_SSL_CA"
     [ -f "$ca_source" ] || { echo "Không tìm thấy CA MySQL tại $ca_source" >&2; exit 1; }
     mkdir -p /run/app-certificates
+    chown root:www-data /run/app-certificates
+    chmod 750 /run/app-certificates
     cp "$ca_source" /run/app-certificates/mysql-ca.pem
-    chmod 600 /run/app-certificates/mysql-ca.pem
+    chown www-data:www-data /run/app-certificates/mysql-ca.pem
+    chmod 400 /run/app-certificates/mysql-ca.pem
     export MYSQL_ATTR_SSL_CA=/run/app-certificates/mysql-ca.pem
     php docker/check-ca.php "$MYSQL_ATTR_SSL_CA"
 fi
