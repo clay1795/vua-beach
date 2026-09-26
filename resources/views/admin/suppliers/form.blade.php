@@ -1,0 +1,9 @@
+@extends('layouts.admin')
+@section('page-title', $supplier->exists ? 'Sửa nhà cung cấp' : 'Thêm nhà cung cấp')
+@section('content')
+<form method="POST" action="{{ $supplier->exists ? route('admin.suppliers.update',$supplier) : route('admin.suppliers.store') }}" class="panel p-4">
+    @csrf @if($supplier->exists) @method('PUT') @endif
+    <div class="row g-3"><div class="col-md-7"><label class="form-label">Tên nhà cung cấp *</label><input class="form-control" name="name" required value="{{ old('name',$supplier->name) }}"></div><div class="col-md-5"><label class="form-label">Người liên hệ</label><input class="form-control" name="contact_name" value="{{ old('contact_name',$supplier->contact_name) }}"></div><div class="col-md-6"><label class="form-label">Số điện thoại</label><input class="form-control" name="phone" value="{{ old('phone',$supplier->phone) }}"></div><div class="col-md-6"><label class="form-label">Email</label><input class="form-control" type="email" name="email" value="{{ old('email',$supplier->email) }}"></div><div class="col-12"><label class="form-label">Địa chỉ</label><input class="form-control" name="address" value="{{ old('address',$supplier->address) }}"></div><div class="col-12"><label class="form-label">Ghi chú</label><textarea class="form-control" rows="4" name="note">{{ old('note',$supplier->note) }}</textarea></div><div class="col-12"><label class="form-check"><input class="form-check-input" type="checkbox" name="is_active" value="1" @checked(old('is_active',$supplier->exists ? $supplier->is_active : true))><span class="form-check-label">Đang hợp tác</span></label></div></div>
+    <div class="mt-4 d-flex gap-2"><button class="btn btn-admin">Lưu nhà cung cấp</button><a class="btn btn-light" href="{{ route('admin.suppliers.index') }}">Hủy</a></div>
+</form>
+@endsection

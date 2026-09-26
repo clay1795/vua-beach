@@ -1,0 +1,106 @@
+- generic [active] [ref=f3e1]:
+  - link "Chuyển đến nội dung chính" [ref=f3e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - text: 
+      - link "Trang chủ Vua Beach" [ref=f3e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "Logo Vua Beach" [ref=f3e6]
+      - generic [ref=f3e7]:
+        - text: 
+        - generic [ref=f3e8]:
+          - button "Mở menu tài khoản" [ref=f3e9] [cursor=pointer]:
+            - generic [ref=f3e10]: 
+            - text: 
+          - text:  
+        - link "Giỏ hàng" [ref=f3e12] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gio-hang
+          - generic [ref=f3e13]: 
+          - generic [ref=f3e14]: "0"
+    - navigation "Danh mục chính" [ref=f3e15]:
+      - button "Mở menu" [ref=f3e17] [cursor=pointer]:
+        - generic [ref=f3e18]: 
+        - generic [ref=f3e19]: Danh mục
+  - main [ref=f3e21]:
+    - generic [ref=f3e22]:
+      - generic [ref=f3e24]:
+        - heading "Bắt đầu cùng Vua Beach." [level=2] [ref=f3e25]
+        - paragraph [ref=f3e26]: Lưu địa chỉ, theo dõi đơn hàng và mua sắm nhanh hơn.
+      - generic [ref=f3e27]:
+        - heading "Tạo tài khoản" [level=1] [ref=f3e28]
+        - generic [ref=f3e29]:
+          - generic [ref=f3e30]:
+            - generic [ref=f3e31]: Họ và tên
+            - textbox "Họ và tên" [ref=f3e32]
+          - generic [ref=f3e33]:
+            - generic [ref=f3e34]: Tên đăng nhập
+            - textbox "Tên đăng nhập" [ref=f3e35]
+            - generic [ref=f3e36]: Dùng chữ cái, số, dấu gạch nối hoặc gạch dưới.
+          - generic [ref=f3e37]:
+            - generic [ref=f3e38]: Email
+            - textbox "Email" [ref=f3e39]
+          - generic [ref=f3e40]:
+            - generic [ref=f3e41]: Số điện thoại
+            - textbox "Số điện thoại" [ref=f3e42]
+          - generic [ref=f3e43]:
+            - generic [ref=f3e44]:
+              - generic [ref=f3e45]: Mật khẩu
+              - textbox "Mật khẩu" [ref=f3e46]
+              - generic [ref=f3e47]: Ít nhất 12 ký tự, gồm chữ hoa, chữ thường, số và ký hiệu.
+            - generic [ref=f3e48]:
+              - generic [ref=f3e49]: Nhập lại mật khẩu
+              - textbox "Nhập lại mật khẩu" [ref=f3e50]
+          - button "Tạo tài khoản" [ref=f3e51] [cursor=pointer]
+        - paragraph [ref=f3e52]:
+          - text: Đã có tài khoản?
+          - link "Đăng nhập" [ref=f3e53] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dang-nhap
+  - navigation "Điều hướng nhanh trên điện thoại" [ref=f3e54]:
+    - link " Trang chủ" [ref=f3e55] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000
+      - generic [ref=f3e56]: 
+      - generic [ref=f3e57]: Trang chủ
+    - link " Sản phẩm" [ref=f3e58] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/san-pham
+      - generic [ref=f3e59]: 
+      - generic [ref=f3e60]: Sản phẩm
+    - link " 0 Giỏ hàng" [ref=f3e61] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/gio-hang
+      - generic [ref=f3e62]:
+        - generic [ref=f3e63]: 
+        - generic [ref=f3e64]: "0"
+      - generic [ref=f3e65]: Giỏ hàng
+    - link " Đăng nhập" [ref=f3e66] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/dang-nhap
+      - generic [ref=f3e67]: 
+      - generic [ref=f3e68]: Đăng nhập
+  - contentinfo [ref=f3e69]:
+    - generic [ref=f3e70]:
+      - generic [ref=f3e71]:
+        - link "Trang chủ Vua Beach" [ref=f3e72] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "Logo Vua Beach" [ref=f3e73]
+        - navigation "Liên kết cuối trang" [ref=f3e74]:
+          - link "Sản phẩm" [ref=f3e75] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham
+          - link "Giỏ hàng" [ref=f3e76] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/gio-hang
+          - link "Đăng nhập" [ref=f3e77] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dang-nhap
+          - link "Giao hàng" [ref=f3e78] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=f3e79] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=f3e80] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=f3e81]:
+          - link "Gọi 0998 999999" [ref=f3e82] [cursor=pointer]:
+            - /url: tel:0998999999
+            - generic [ref=f3e83]: 
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f3e84] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f3e85]: 
+      - generic [ref=f3e86]:
+        - generic [ref=f3e87]: © 2026 Vua Beach
+        - text:  

@@ -1,0 +1,88 @@
+- generic [active] [ref=f10e1]:
+  - link "Chuyển đến nội dung chính" [ref=f10e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - text: 
+      - link "Trang chủ Vua Beach" [ref=f10e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "Logo Vua Beach" [ref=f10e6]
+      - generic [ref=f10e7]:
+        - text: 
+        - generic [ref=f10e8]:
+          - button "Mở menu tài khoản" [ref=f10e9] [cursor=pointer]:
+            - generic [ref=f10e10]: 
+            - text: 
+          - text:  
+        - link "Giỏ hàng" [ref=f10e12] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gio-hang
+          - generic [ref=f10e13]: 
+          - generic [ref=f10e14]: "0"
+    - navigation "Danh mục chính" [ref=f10e15]:
+      - button "Mở menu" [ref=f10e17] [cursor=pointer]:
+        - generic [ref=f10e18]: 
+        - generic [ref=f10e19]: Danh mục
+  - main [ref=f10e21]:
+    - generic [ref=f10e22]:
+      - generic [ref=f10e23]:
+        - paragraph [ref=f10e24]: Giỏ hàng
+        - heading "Các món bạn đã chọn" [level=1] [ref=f10e25]
+        - paragraph [ref=f10e26]: Kiểm tra phân loại, số lượng và chọn sản phẩm cần thanh toán.
+      - link "Tiếp tục mua sắm " [ref=f10e27] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/san-pham
+        - text: Tiếp tục mua sắm
+        - generic [ref=f10e28]: 
+    - generic [ref=f10e29]:
+      - generic [ref=f10e30]: 
+      - heading "Giỏ hàng đang trống" [level=2] [ref=f10e32]
+      - paragraph [ref=f10e33]: Hãy khám phá các mẫu đồ bơi dành riêng cho chuyến đi của bạn.
+      - link "Xem sản phẩm" [ref=f10e34] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/san-pham
+  - navigation "Điều hướng nhanh trên điện thoại" [ref=f10e35]:
+    - link " Trang chủ" [ref=f10e36] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000
+      - generic [ref=f10e37]: 
+      - generic [ref=f10e38]: Trang chủ
+    - link " Sản phẩm" [ref=f10e39] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/san-pham
+      - generic [ref=f10e40]: 
+      - generic [ref=f10e41]: Sản phẩm
+    - link " 0 Giỏ hàng" [ref=f10e42] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/gio-hang
+      - generic [ref=f10e43]:
+        - generic [ref=f10e44]: 
+        - generic [ref=f10e45]: "0"
+      - generic [ref=f10e46]: Giỏ hàng
+    - link " Đăng nhập" [ref=f10e47] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/dang-nhap
+      - generic [ref=f10e48]: 
+      - generic [ref=f10e49]: Đăng nhập
+  - contentinfo [ref=f10e50]:
+    - generic [ref=f10e51]:
+      - generic [ref=f10e52]:
+        - link "Trang chủ Vua Beach" [ref=f10e53] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "Logo Vua Beach" [ref=f10e54]
+        - navigation "Liên kết cuối trang" [ref=f10e55]:
+          - link "Sản phẩm" [ref=f10e56] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham
+          - link "Giỏ hàng" [ref=f10e57] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/gio-hang
+          - link "Đăng nhập" [ref=f10e58] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dang-nhap
+          - link "Giao hàng" [ref=f10e59] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=f10e60] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=f10e61] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=f10e62]:
+          - link "Gọi 0998 999999" [ref=f10e63] [cursor=pointer]:
+            - /url: tel:0998999999
+            - generic [ref=f10e64]: 
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f10e65] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f10e66]: 
+      - generic [ref=f10e67]:
+        - generic [ref=f10e68]: © 2026 Vua Beach
+        - text:  

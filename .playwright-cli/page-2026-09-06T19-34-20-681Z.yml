@@ -1,0 +1,322 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: Vua Beach · Laravel 13
+      - heading "Học dự án như nhìn bản đồ." [level=1] [ref=e6]: Học dự ánnhư nhìn bản đồ.
+      - paragraph [ref=e7]: "Đừng nhớ từng file rời rạc. Hãy nhớ các tuyến đường dữ liệu: khách bấm gì, hệ thống kiểm tra gì, bảng nào đổi và chuyện gì xảy ra sau đó."
+    - generic "Minh họa biển và phao học theo luồng" [ref=e8]: HỌC THEO LUỒNG
+  - navigation [ref=e12]:
+    - link "Bản đồ" [ref=e13] [cursor=pointer]:
+      - /url: "#map"
+    - link "Checkout" [ref=e14] [cursor=pointer]:
+      - /url: "#checkout"
+    - link "Trạng thái" [ref=e15] [cursor=pointer]:
+      - /url: "#states"
+    - link "Bảng dữ liệu" [ref=e16] [cursor=pointer]:
+      - /url: "#tables"
+    - link "Thẻ nhớ" [ref=e17] [cursor=pointer]:
+      - /url: "#cards"
+    - link "Tự kiểm tra" [ref=e18] [cursor=pointer]:
+      - /url: "#quiz"
+  - generic [ref=e19]:
+    - generic [ref=e20]: 01 · Bức tranh lớn
+    - heading "1 request đi qua 6 trạm" [level=2] [ref=e21]
+    - paragraph [ref=e22]: Bất kể bạn đang đọc tính năng nào, hãy lần theo chuỗi này trước.
+    - generic "Luồng request từ browser đến view" [ref=e23]:
+      - generic [ref=e24]:
+        - text: 🌐 Browser
+        - generic [ref=e25]: Khách bấm / gửi form
+      - generic [ref=e26]: →
+      - generic [ref=e27]:
+        - text: 🧭 Route
+        - generic [ref=e28]: routes/web.php
+      - generic [ref=e29]: →
+      - generic [ref=e30]:
+        - text: 🛡 Middleware
+        - generic [ref=e31]: auth · verified · admin
+      - generic [ref=e32]: →
+      - generic [ref=e33]:
+        - text: 🎮 Controller
+        - generic [ref=e34]: Điều phối request
+      - generic [ref=e35]: →
+      - generic [ref=e36]:
+        - text: ⚙️ Service
+        - generic [ref=e37]: Luật nghiệp vụ
+      - generic [ref=e38]: →
+      - generic [ref=e39]:
+        - text: 🗄 Database / View
+        - generic [ref=e40]: Lưu dữ liệu · trả HTML
+    - generic [ref=e41]:
+      - generic [ref=e42]: logic
+      - generic [ref=e44]: dữ liệu
+      - generic [ref=e46]: "hệ thống ngoài: GHN/MoMo/VNPAY"
+    - generic [ref=e48]:
+      - article [ref=e49]:
+        - generic [ref=e50]: "1"
+        - heading "Cửa hàng" [level=3] [ref=e51]
+        - paragraph [ref=e52]: Catalog, tìm kiếm, sản phẩm, review, wishlist.
+      - article [ref=e53]:
+        - generic [ref=e54]: "2"
+        - heading "Giỏ & checkout" [level=3] [ref=e55]
+        - paragraph [ref=e56]: Giỏ trong session; đơn và kho trong database.
+      - article [ref=e57]:
+        - generic [ref=e58]: "3"
+        - heading "Vận hành" [level=3] [ref=e59]
+        - paragraph [ref=e60]: Admin quản lý đơn, kho, nhập hàng và coupon.
+      - article [ref=e61]:
+        - generic [ref=e62]: "4"
+        - heading "Tích hợp" [level=3] [ref=e63]
+        - paragraph [ref=e64]: GHN giao hàng; MoMo/VNPAY thanh toán; mail qua queue.
+  - generic [ref=e65]:
+    - generic [ref=e66]: 02 · Luồng cần thuộc nhất
+    - 'heading "Checkout: từ giỏ đến đơn hàng" [level=2] [ref=e67]'
+    - paragraph [ref=e68]: Chọn từng bước để thấy file chính và lý do bước đó tồn tại.
+    - generic [ref=e69]:
+      - tablist [ref=e70]:
+        - button "1. Mở trang thanh toán" [ref=e71] [cursor=pointer]
+        - button "2. Kiểm tra form & token" [ref=e72] [cursor=pointer]
+        - button "3. Tính phí GHN & coupon" [ref=e73] [cursor=pointer]
+        - button "4. Transaction tạo đơn" [ref=e74] [cursor=pointer]
+        - button "5. Giữ tồn kho" [ref=e75] [cursor=pointer]
+        - button "6. COD hoặc cổng thanh toán" [ref=e76] [cursor=pointer]
+      - generic [ref=e77]:
+        - generic [ref=e78]: BẮT ĐẦU
+        - heading "GET /thanh-toan tạo phiên checkout" [level=3] [ref=e79]
+        - generic [ref=e80]: CheckoutController::create()
+        - paragraph [ref=e81]: Khách chọn variant trong giỏ. Controller đọc lại item hợp lệ, lấy địa chỉ, tạo UUID checkout_token và giữ nó trong session. Token là vé dùng một lần của lần checkout này.
+  - generic [ref=e82]:
+    - generic [ref=e83]: 03 · Luật không được phá
+    - heading "Đơn hàng là một máy trạng thái" [level=2] [ref=e84]
+    - paragraph [ref=e85]:
+      - text: Không sửa trực tiếp
+      - code [ref=e86]: order.status
+      - text: . Mọi chuyển đổi đi qua
+      - code [ref=e87]: OrderStateMachine
+      - text: để có validation, shipping status và history.
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]: pendingchờ xác nhận
+        - generic [ref=e91]: confirmedđã tạo vận đơn
+        - generic [ref=e92]: shippingđang giao
+      - generic [ref=e93]: →
+      - generic [ref=e94]:
+        - generic [ref=e95]: completedhoàn thành
+        - generic [ref=e96]: delivery_failed → returning → returned
+        - generic [ref=e97]: cancelled
+    - generic [ref=e98]:
+      - article [ref=e99]:
+        - heading "🔒 Lock" [level=3] [ref=e100]
+        - paragraph [ref=e101]:
+          - code [ref=e102]: lockForUpdate()
+          - text: chặn hai request cùng sửa một đơn/variant.
+      - article [ref=e103]:
+        - heading "↩ Idempotency" [level=3] [ref=e104]
+        - paragraph [ref=e105]: Cùng event/key chạy lại là no-op, nên không trừ/trả tồn hai lần.
+      - article [ref=e106]:
+        - heading "🧾 History" [level=3] [ref=e107]
+        - paragraph [ref=e108]:
+          - text: Mỗi chuyển trạng thái tạo
+          - code [ref=e109]: order_status_histories
+          - text: .
+  - generic [ref=e110]:
+    - generic [ref=e111]: 04 · Toàn bộ chức năng
+    - heading "Click một chức năng, lần đúng đường code" [level=2] [ref=e112]
+    - paragraph [ref=e113]: "Mỗi màn hình chỉ rõ: ai được dùng, URL khởi đầu, logic theo thời gian, dữ liệu thay đổi, luật bảo vệ và thứ tự mở file."
+    - generic [ref=e114]:
+      - generic [ref=e115]: Storefront
+      - generic [ref=e116]: Tài khoản
+      - generic [ref=e117]: Thanh toán & GHN
+      - generic [ref=e118]: Admin
+      - generic [ref=e119]: Vận hành & bảo mật
+    - generic [ref=e120]:
+      - generic "Danh sách chức năng" [ref=e121]:
+        - 'button "Storefront · Xem & tìm sản phẩm GET / · GET /san-pham · GET /san-pham/{slug}" [ref=e122] [cursor=pointer]':
+          - text: Storefront · Xem & tìm sản phẩm
+          - generic [ref=e123]: "GET / · GET /san-pham · GET /san-pham/{slug}"
+        - button "Storefront · Giỏ hàng session GET/POST/PATCH/DELETE /gio-hang" [ref=e124] [cursor=pointer]:
+          - text: Storefront · Giỏ hàng session
+          - generic [ref=e125]: GET/POST/PATCH/DELETE /gio-hang
+        - button "Tài khoản · Đăng ký, login, xác thực email GET/POST /dang-ky · /dang-nhap · /xac-thuc-email" [ref=e126] [cursor=pointer]:
+          - text: Tài khoản · Đăng ký, login, xác thực email
+          - generic [ref=e127]: GET/POST /dang-ky · /dang-nhap · /xac-thuc-email
+        - button "Tài khoản · Profile & sổ địa chỉ PATCH /tai-khoan · CRUD /tai-khoan/dia-chi" [ref=e128] [cursor=pointer]:
+          - text: Tài khoản · Profile & sổ địa chỉ
+          - generic [ref=e129]: PATCH /tai-khoan · CRUD /tai-khoan/dia-chi
+        - 'button "Tài khoản · Wishlist & đánh giá POST /yeu-thich/{product} · POST /san-pham/{product}/danh-gia" [ref=e130] [cursor=pointer]':
+          - text: Tài khoản · Wishlist & đánh giá
+          - generic [ref=e131]: "POST /yeu-thich/{product} · POST /san-pham/{product}/danh-gia"
+        - button "Checkout · Checkout, coupon & COD GET/POST /thanh-toan · POST /thanh-toan/kiem-tra-ma" [ref=e132] [cursor=pointer]:
+          - text: Checkout · Checkout, coupon & COD
+          - generic [ref=e133]: GET/POST /thanh-toan · POST /thanh-toan/kiem-tra-ma
+        - button "Thanh toán · VNPAY & MoMo IPN return + ipn endpoints của VNPAY/MoMo" [ref=e134] [cursor=pointer]:
+          - text: Thanh toán · VNPAY & MoMo IPN
+          - generic [ref=e135]: return + ipn endpoints của VNPAY/MoMo
+        - 'button "Vận chuyển · GHN: địa chỉ, phí, vận đơn & webhook GET/POST /dia-diem/* · POST /van-chuyen/ghn/webhook" [ref=e136] [cursor=pointer]':
+          - text: "Vận chuyển · GHN: địa chỉ, phí, vận đơn & webhook"
+          - generic [ref=e137]: GET/POST /dia-diem/* · POST /van-chuyen/ghn/webhook
+        - 'button "Hậu mãi · Hủy đơn & đổi/trả POST /don-hang/{order}/huy · /doi-tra" [ref=e138] [cursor=pointer]':
+          - text: Hậu mãi · Hủy đơn & đổi/trả
+          - generic [ref=e139]: "POST /don-hang/{order}/huy · /doi-tra"
+        - 'button "Admin · Catalog: category, product, ảnh, variant Resource /admin/categories · /admin/products" [ref=e140] [cursor=pointer]':
+          - text: "Admin · Catalog: category, product, ảnh, variant"
+          - generic [ref=e141]: Resource /admin/categories · /admin/products
+        - button "Admin · Kho, nhập hàng & supplier Admin inventory · suppliers · purchase-receipts" [ref=e142] [cursor=pointer]:
+          - text: Admin · Kho, nhập hàng & supplier
+          - generic [ref=e143]: Admin inventory · suppliers · purchase-receipts
+        - button "Admin · Quản lý đơn, coupon, người dùng, settings Các route /admin/orders, coupons, users, settings, activity-logs" [ref=e144] [cursor=pointer]:
+          - text: Admin · Quản lý đơn, coupon, người dùng, settings
+          - generic [ref=e145]: Các route /admin/orders, coupons, users, settings, activity-logs
+        - button "Bảo mật · Admin 2FA, headers & lỗi /bao-mat/xac-thuc-hai-lop · toàn bộ HTTP" [ref=e146] [cursor=pointer]:
+          - text: Bảo mật · Admin 2FA, headers & lỗi
+          - generic [ref=e147]: /bao-mat/xac-thuc-hai-lop · toàn bộ HTTP
+        - button "Vận hành · Mail, queue, schedule, health, backup Queue worker · scheduler · GET /health · artisan commands" [ref=e148] [cursor=pointer]:
+          - text: Vận hành · Mail, queue, schedule, health, backup
+          - generic [ref=e149]: Queue worker · scheduler · GET /health · artisan commands
+      - article [ref=e150]:
+        - generic [ref=e151]:
+          - generic [ref=e152]: Storefront
+          - heading "Xem & tìm sản phẩm" [level=3] [ref=e153]
+          - paragraph [ref=e154]: "Điểm vào: GET / · GET /san-pham · GET /san-pham/{slug} · Quyền: public"
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e157]: Browser
+            - strong [ref=e160]: truy cập trang chủ / danh sách / chi tiết
+          - generic [ref=e161]:
+            - generic [ref=e162]: Route
+            - strong [ref=e165]: route-model binding tìm Product qua slug
+          - generic [ref=e166]:
+            - generic [ref=e167]: Controller
+            - strong [ref=e170]: eager-load quan hệ cần thiết, lọc q/category/sort
+          - generic [ref=e171]:
+            - generic [ref=e172]: View
+            - strong [ref=e175]: Blade shop.home / products / show render HTML
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e178]: File chính
+            - code [ref=e179]: "StorefrontController::{home,products,show}"
+          - generic [ref=e180]:
+            - generic [ref=e181]: Dữ liệu tác động
+            - text: Chỉ đọc products, categories, variants, images, reviews.
+          - generic [ref=e182]:
+            - generic [ref=e183]: Luật cần thuộc
+            - text: Chỉ product status=active và variant active hiển thị; review chỉ hiện is_visible.
+        - generic [ref=e184]: "Thứ tự học: Mở routes/web.php → StorefrontController → resources/views/shop/show.blade.php → Product, ProductVariant."
+  - generic [ref=e185]:
+    - generic [ref=e186]: 04 · Bảng phải nhớ
+    - heading "Ai sở hữu dữ liệu nào?" [level=2] [ref=e187]
+    - paragraph [ref=e188]: Nhìn bảng này trước khi thêm field hoặc sửa logic.
+    - table [ref=e190]:
+      - rowgroup [ref=e191]:
+        - row [ref=e192]:
+          - columnheader "Khái niệm" [ref=e193]
+          - columnheader "Bảng/model" [ref=e194]
+          - columnheader "Điều phải nhớ" [ref=e195]
+          - columnheader "File logic chính" [ref=e196]
+      - rowgroup [ref=e197]:
+        - row [ref=e198]:
+          - cell "Sản phẩm" [ref=e199]
+          - cell [ref=e200]:
+            - code [ref=e201]: products
+            - text: +
+            - code [ref=e202]: product_variants
+          - cell "Variant mới có màu, size, SKU và stock." [ref=e203]
+          - cell [ref=e204]:
+            - code [ref=e205]: StorefrontController
+        - row [ref=e206]:
+          - cell "Giỏ" [ref=e207]
+          - cell [ref=e208]:
+            - code [ref=e209]: session('cart')
+          - cell "Chỉ lưu variant ID + quantity; không giữ giá." [ref=e210]
+          - cell [ref=e211]:
+            - code [ref=e212]: CartController
+        - row [ref=e213]:
+          - cell "Đơn" [ref=e214]
+          - cell [ref=e215]:
+            - code [ref=e216]: orders
+            - text: +
+            - code [ref=e217]: order_items
+          - cell "Item snapshot tên/ảnh/giá lúc mua." [ref=e218]
+          - cell [ref=e219]:
+            - code [ref=e220]: CheckoutController
+        - row [ref=e221]:
+          - cell "Kho" [ref=e222]
+          - cell [ref=e223]:
+            - code [ref=e224]: inventory_movements
+          - cell "Mọi tăng/giảm phải có ledger + idempotency key." [ref=e225]
+          - cell [ref=e226]:
+            - code [ref=e227]: InventoryService
+        - row [ref=e228]:
+          - cell "Callback" [ref=e229]
+          - cell [ref=e230]:
+            - code [ref=e231]: webhook_receipts
+          - cell "Chống IPN GHN/MoMo/VNPAY gửi lại." [ref=e232]
+          - cell [ref=e233]:
+            - code [ref=e234]: WebhookIdempotencyService
+        - row [ref=e235]:
+          - cell "Đổi trả" [ref=e236]
+          - cell [ref=e237]:
+            - code [ref=e238]: return_requests
+            - text: + items/history
+          - cell "Chỉ sau completed, trong 7 ngày." [ref=e239]
+          - cell [ref=e240]:
+            - code [ref=e241]: ReturnStateMachine
+  - generic [ref=e242]:
+    - generic [ref=e243]: 05 · Ôn bằng thẻ nhớ
+    - heading "Lật thẻ, trả lời trước rồi mới xem" [level=2] [ref=e244]
+    - paragraph [ref=e245]: Mỗi ngày chọn 3 thẻ và giải thích thành tiếng.
+    - generic [ref=e246]:
+      - button "Vì sao checkout đọc lại giá & stock? Session chỉ là ý định mua. Product/variant có thể đổi giá, hết hàng hoặc ngừng active trước khi khách bấm đặt." [ref=e247] [cursor=pointer]:
+        - generic:
+          - generic [ref=e248]: Vì sao checkout đọc lại giá & stock?
+          - generic [ref=e249]: Session chỉ là ý định mua. Product/variant có thể đổi giá, hết hàng hoặc ngừng active trước khi khách bấm đặt.
+      - button "Return URL có đánh dấu paid không? Không. Browser redirect không đáng tin. IPN đã xác thực chữ ký + amount mới là nguồn sự thật." [ref=e250] [cursor=pointer]:
+        - generic:
+          - generic [ref=e251]: Return URL có đánh dấu paid không?
+          - generic [ref=e252]: Không. Browser redirect không đáng tin. IPN đã xác thực chữ ký + amount mới là nguồn sự thật.
+      - button "Khi nào coupon online bị consume? Chỉ khi MoMo/VNPAY IPN báo paid. COD consume ngay lúc tạo đơn trong transaction." [ref=e253] [cursor=pointer]:
+        - generic:
+          - generic [ref=e254]: Khi nào coupon online bị consume?
+          - generic [ref=e255]: Chỉ khi MoMo/VNPAY IPN báo paid. COD consume ngay lúc tạo đơn trong transaction.
+      - button "GHN báo partial return thì sao? Chỉ đặt shipping_status partial_return. Không tự cộng kho vì GHN không chỉ rõ item nào về." [ref=e256] [cursor=pointer]:
+        - generic:
+          - generic [ref=e257]: GHN báo partial return thì sao?
+          - generic [ref=e258]: Chỉ đặt shipping_status partial_return. Không tự cộng kho vì GHN không chỉ rõ item nào về.
+      - button "Vì sao OrderItem là snapshot? Để hóa đơn cũ vẫn đúng nếu admin đổi tên, ảnh, giá hay biến thể product sau này." [ref=e259] [cursor=pointer]:
+        - generic:
+          - generic [ref=e260]: Vì sao OrderItem là snapshot?
+          - generic [ref=e261]: Để hóa đơn cũ vẫn đúng nếu admin đổi tên, ảnh, giá hay biến thể product sau này.
+      - button "Làm sao kho không bị trừ hai lần? Transaction + row lock + InventoryMovement.idempotency_key. Key đã tồn tại thì applyOnce không làm gì." [ref=e262] [cursor=pointer]:
+        - generic:
+          - generic [ref=e263]: Làm sao kho không bị trừ hai lần?
+          - generic [ref=e264]: Transaction + row lock + InventoryMovement.idempotency_key. Key đã tồn tại thì applyOnce không làm gì.
+    - paragraph [ref=e265]: Chạm/click một thẻ để lật.
+  - generic [ref=e267]:
+    - generic [ref=e268]: 06 · Kiểm tra nhanh
+    - paragraph [ref=e269]: Khách bấm “Đặt hàng” hai lần gần như cùng lúc. Cơ chế nào trực tiếp giúp cùng session không tạo hai checkout song song?
+    - generic [ref=e270]:
+      - button "Route ->block(30, 15) và checkout_token" [ref=e271] [cursor=pointer]
+      - button "CSS của form" [ref=e272] [cursor=pointer]
+      - button "Queue worker" [ref=e273] [cursor=pointer]
+  - generic [ref=e275]:
+    - generic [ref=e276]: 07 · Checklist trước khi nói “đã hiểu”
+    - heading "Tự đánh dấu sau mỗi luồng" [level=2] [ref=e277]
+    - generic [ref=e278]:
+      - generic [ref=e279]:
+        - checkbox "Tôi biết route khởi đầu của checkout." [ref=e280]
+        - text: Tôi biết route khởi đầu của checkout.
+      - generic [ref=e281]:
+        - checkbox "Tôi trace được stock thay đổi ở đâu." [ref=e282]
+        - text: Tôi trace được stock thay đổi ở đâu.
+      - generic [ref=e283]:
+        - checkbox "Tôi phân biệt Return URL và IPN." [ref=e284]
+        - text: Tôi phân biệt Return URL và IPN.
+      - generic [ref=e285]:
+        - checkbox "Tôi biết state transition hợp lệ nằm ở file nào." [ref=e286]
+        - text: Tôi biết state transition hợp lệ nằm ở file nào.
+      - generic [ref=e287]:
+        - checkbox "Tôi biết GHN webhook xác thực thế nào." [ref=e288]
+        - text: Tôi biết GHN webhook xác thực thế nào.
+      - generic [ref=e289]:
+        - checkbox "Tôi biết test nào mô tả luồng mình vừa đọc." [ref=e290]
+        - text: Tôi biết test nào mô tả luồng mình vừa đọc.
+  - generic [ref=e291]: Vua Beach learning workbook · Đọc route → controller → service → model → test, rồi quay lại route.

@@ -1,0 +1,150 @@
+- generic [ref=f3e2]:
+  - complementary [ref=f3e3]:
+    - link "Trang tổng quan Vua Beach" [ref=f3e4] [cursor=pointer]:
+      - /url: http://127.0.0.1:8010/admin
+      - generic [ref=f3e5]: 
+      - generic [ref=f3e7]: Vua Beach
+    - paragraph [ref=f3e8]: Quản lý cửa hàng
+    - navigation "Báo cáo và tài chính" [ref=f3e9]:
+      - link " Báo cáo doanh thu" [ref=f3e10] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/reports
+        - generic [ref=f3e11]: 
+        - generic [ref=f3e12]: Báo cáo doanh thu
+      - link " Tài chính" [ref=f3e13] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/finance
+        - generic [ref=f3e14]: 
+        - generic [ref=f3e15]: Tài chính
+    - navigation "Điều hướng quản trị" [ref=f3e16]:
+      - link " Tổng quan" [ref=f3e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin
+        - generic [ref=f3e18]: 
+        - generic [ref=f3e19]: Tổng quan
+      - link " Sản phẩm" [ref=f3e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/products
+        - generic [ref=f3e21]: 
+        - generic [ref=f3e22]: Sản phẩm
+      - link " Tồn kho" [ref=f3e23] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/inventory
+        - generic [ref=f3e24]: 
+        - generic [ref=f3e25]: Tồn kho
+      - link " Nhập kho" [ref=f3e26] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/purchase-receipts
+        - generic [ref=f3e27]: 
+        - generic [ref=f3e28]: Nhập kho
+      - link " Nhà cung cấp" [ref=f3e29] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/suppliers
+        - generic [ref=f3e30]: 
+        - generic [ref=f3e31]: Nhà cung cấp
+      - link " Danh mục" [ref=f3e32] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/categories
+        - generic [ref=f3e33]: 
+        - generic [ref=f3e34]: Danh mục
+      - link " Đơn hàng" [ref=f3e35] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/orders
+        - generic [ref=f3e36]: 
+        - generic [ref=f3e37]: Đơn hàng
+      - link " Đổi trả" [ref=f3e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/returns
+        - generic [ref=f3e39]: 
+        - generic [ref=f3e40]: Đổi trả
+      - link " Mã ưu đãi" [ref=f3e41] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/coupons
+        - generic [ref=f3e42]: 
+        - generic [ref=f3e43]: Mã ưu đãi
+      - link " Tài khoản" [ref=f3e44] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/users
+        - generic [ref=f3e45]: 
+        - generic [ref=f3e46]: Tài khoản
+      - link " Nhật ký quản trị" [ref=f3e47] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/activity-logs
+        - generic [ref=f3e48]: 
+        - generic [ref=f3e49]: Nhật ký quản trị
+      - link " Cài đặt website" [ref=f3e50] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/settings
+        - generic [ref=f3e51]: 
+        - generic [ref=f3e52]: Cài đặt website
+    - generic [ref=f3e53]:
+      - generic [ref=f3e54]: Q
+      - generic [ref=f3e55]:
+        - strong [ref=f3e56]: Quản trị E2E
+        - generic [ref=f3e57]: Quản trị viên
+      - button "Đăng xuất" [ref=f3e59] [cursor=pointer]:
+        - generic [ref=f3e60]: 
+  - generic [ref=f3e61]:
+    - banner [ref=f3e62]:
+      - text: 
+      - generic [ref=f3e63]:
+        - paragraph [ref=f3e64]: VUA BEACH
+        - heading "Giao dịch thanh toán" [level=1] [ref=f3e65]
+      - link "Xem website (mở trong thẻ mới)" [ref=f3e66] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010
+        - generic [aria-hidden] [ref=f3e67]: 
+        - generic [ref=f3e68]: Xem website
+    - main [ref=f3e69]:
+      - navigation "Tài chính" [ref=f3e70]:
+        - link "Thống kê" [ref=f3e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8010/admin/finance
+        - link "Giao dịch" [ref=f3e72] [cursor=pointer]:
+          - /url: http://127.0.0.1:8010/admin/finance/transactions
+        - link "Xuất CSV" [ref=f3e73] [cursor=pointer]:
+          - /url: http://127.0.0.1:8010/admin/finance/export
+      - generic [ref=f3e74]:
+        - generic [ref=f3e75]:
+          - generic [ref=f3e76]: Mã đơn, người nhận, điện thoại
+          - textbox "Mã đơn, người nhận, điện thoại" [ref=f3e77]
+        - generic [ref=f3e78]:
+          - generic [ref=f3e79]: Từ ngày
+          - textbox "Từ ngày" [ref=f3e80]
+        - generic [ref=f3e81]:
+          - generic [ref=f3e82]: Đến ngày
+          - textbox "Đến ngày" [ref=f3e83]
+        - generic [ref=f3e84]:
+          - generic [ref=f3e85]: Số tiền tối thiểu
+          - spinbutton "Số tiền tối thiểu" [ref=f3e86]
+        - generic [ref=f3e87]:
+          - generic [ref=f3e88]: Số tiền tối đa
+          - spinbutton "Số tiền tối đa" [ref=f3e89]
+        - generic [ref=f3e90]:
+          - generic [ref=f3e91]: Phương thức
+          - combobox "Phương thức" [ref=f3e92]:
+            - option "Tất cả / mặc định" [selected]
+            - option "COD"
+            - option "MoMo"
+            - option "VNPAY"
+        - generic [ref=f3e93]:
+          - generic [ref=f3e94]: Thanh toán
+          - combobox "Thanh toán" [ref=f3e95]:
+            - option "Tất cả / mặc định" [selected]
+            - option "Đang khởi tạo"
+            - option "Chờ khách thanh toán"
+            - option "Đã thanh toán"
+            - option "Không thành công"
+            - option "Đã hủy"
+            - option "Chờ hoàn tiền"
+            - option "Đã hoàn tiền"
+            - option "Chưa thanh toán"
+        - generic [ref=f3e96]:
+          - generic [ref=f3e97]: Sắp xếp
+          - combobox "Sắp xếp" [ref=f3e98]:
+            - option "Tất cả / mặc định" [selected]
+            - option "Mới nhất"
+            - option "Cũ nhất"
+            - option "Tiền tăng dần"
+            - option "Tiền giảm dần"
+        - generic [ref=f3e99]:
+          - button "Lọc" [ref=f3e100] [cursor=pointer]
+          - link "Xóa bộ lọc" [ref=f3e101] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/admin/finance/transactions
+      - paragraph [ref=f3e102]: Giao dịch đại diện theo từng đơn. Mở chi tiết đơn để xem toàn bộ các lần thanh toán. Chỉ COD được cập nhật thủ công; xác nhận hoàn tiền sau khi đã trả tiền thực tế.
+      - table [ref=f3e104]:
+        - rowgroup [ref=f3e105]:
+          - row [ref=f3e106]:
+            - columnheader "Đơn / ngày" [ref=f3e107]
+            - columnheader "Người nhận" [ref=f3e108]
+            - columnheader "Phương thức" [ref=f3e109]
+            - columnheader "Tổng tiền" [ref=f3e110]
+            - columnheader "Thanh toán" [ref=f3e111]
+            - columnheader "Cập nhật COD" [ref=f3e112]
+        - rowgroup [ref=f3e113]:
+          - row [ref=f3e114]:
+            - cell "Chưa có giao dịch phù hợp." [ref=f3e115]

@@ -1,0 +1,2 @@
+<nav class="d-flex gap-2 mb-3" aria-label="Báo cáo"><a class="btn btn-outline-secondary" href="{{ route('admin.reports.index') }}">Bảng số liệu</a><a class="btn btn-outline-secondary" href="{{ route('admin.reports.charts') }}">Biểu đồ</a></nav>
+<p class="muted">Theo ngày tạo đơn; chỉ tính đơn đã thu tiền, chưa hoàn tiền, không bị hủy hoặc hoàn hàng. Doanh thu đơn gồm phí vận chuyển và giảm giá; danh mục tính giá sản phẩm lúc đặt, chưa trừ ưu đãi toàn đơn.</p>

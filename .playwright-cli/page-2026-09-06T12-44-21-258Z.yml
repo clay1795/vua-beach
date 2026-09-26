@@ -1,0 +1,74 @@
+- generic [ref=f14e1]:
+  - banner [ref=f14e2]:
+    - generic [ref=f14e3]:
+      - text: 
+      - link "Trang chủ Vua Beach" [ref=f14e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "Logo Vua Beach" [ref=f14e5]
+      - generic [ref=f14e6]:
+        - text: 
+        - generic [ref=f14e7]:
+          - button "Mở menu tài khoản" [ref=f14e8] [cursor=pointer]:
+            - generic [ref=f14e9]: 
+            - text: 
+          - text:  
+        - link "Giỏ hàng" [ref=f14e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gio-hang
+          - generic [ref=f14e12]: 
+          - generic [ref=f14e13]: "0"
+    - navigation "Danh mục chính" [ref=f14e14]:
+      - button "Mở menu" [ref=f14e16] [cursor=pointer]:
+        - generic [ref=f14e17]: 
+        - generic [ref=f14e18]: Danh mục
+  - main [ref=f14e19]:
+    - generic [ref=f14e20]:
+      - generic [ref=f14e22]:
+        - heading "Mùa hè đang chờ bạn." [level=2] [ref=f14e23]
+        - paragraph [ref=f14e24]: Đăng nhập để tiếp tục mua sắm và theo dõi đơn hàng.
+      - generic [ref=f14e25]:
+        - heading "Đăng nhập" [level=1] [ref=f14e26]
+        - paragraph [ref=f14e27]: Chào mừng bạn trở lại Vua Beach.
+        - generic [ref=f14e28]:
+          - generic [ref=f14e29]:
+            - generic [ref=f14e30]: Tên đăng nhập
+            - textbox "Tên đăng nhập" [active] [ref=f14e31]
+          - generic [ref=f14e32]:
+            - generic [ref=f14e33]: Mật khẩu
+            - textbox "Mật khẩu" [ref=f14e34]
+          - generic [ref=f14e35]:
+            - checkbox "Ghi nhớ đăng nhập" [ref=f14e36]
+            - generic [ref=f14e37]: Ghi nhớ đăng nhập
+          - button "Đăng nhập" [ref=f14e38] [cursor=pointer]
+        - paragraph [ref=f14e39]:
+          - text: Chưa có tài khoản?
+          - link "Tạo tài khoản" [ref=f14e40] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dang-ky
+  - contentinfo [ref=f14e41]:
+    - generic [ref=f14e42]:
+      - generic [ref=f14e43]:
+        - link "Trang chủ Vua Beach" [ref=f14e44] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "Logo Vua Beach" [ref=f14e45]
+        - navigation "Liên kết cuối trang" [ref=f14e46]:
+          - link "Sản phẩm" [ref=f14e47] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham
+          - link "Giỏ hàng" [ref=f14e48] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/gio-hang
+          - link "Đăng nhập" [ref=f14e49] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dang-nhap
+          - link "Giao hàng" [ref=f14e50] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=f14e51] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=f14e52] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=f14e53]:
+          - link "Gọi 0998 999999" [ref=f14e54] [cursor=pointer]:
+            - /url: tel:0998999999
+            - generic [ref=f14e55]: 
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f14e56] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f14e57]: 
+      - generic [ref=f14e58]:
+        - generic [ref=f14e59]: © 2026 Vua Beach
+        - text:  

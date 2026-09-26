@@ -1,0 +1,330 @@
+- generic [active] [ref=e1]:
+  - link "Chuyển đến nội dung chính" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - status "Thông báo chế độ thanh toán thử nghiệm" [ref=e3]:
+    - generic [ref=e4]:
+      - generic [aria-hidden] [ref=e5]: 
+      - generic [ref=e6]:
+        - strong [ref=e7]: "Chế độ thử nghiệm:"
+        - text: MoMo và VNPAY đang dùng Sandbox. Không có giao dịch hay khoản tiền thật nào được xử lý.
+  - banner [ref=e8]:
+    - generic [ref=e9]:
+      - 'link " Hotline: 0900 000 000" [ref=e10] [cursor=pointer]':
+        - /url: tel:0900000000
+        - generic [ref=e11]: 
+        - generic [ref=e12]:
+          - text: "Hotline:"
+          - strong [ref=e13]: 0900 000 000
+      - link "Trang chủ Vua Beach" [ref=e14] [cursor=pointer]:
+        - /url: https://staging.tuphim.online
+        - generic [ref=e15]: 
+      - generic [ref=e17]:
+        - search [ref=e18]:
+          - generic [ref=e19]: Tìm sản phẩm
+          - textbox "Tìm sản phẩm" [ref=e20]
+          - button "Tìm kiếm" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: 
+        - generic [ref=e23]:
+          - button "Mở menu tài khoản" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: 
+            - generic [ref=e27]:
+              - generic [ref=e28]: Tài khoản
+              - strong [ref=e29]: Đăng nhập
+            - generic [ref=e30]: 
+          - text:  
+        - link "Giỏ hàng" [ref=e31] [cursor=pointer]:
+          - /url: https://staging.tuphim.online/gio-hang
+          - generic [ref=e32]: 
+    - navigation "Danh mục chính" [ref=e33]:
+      - generic [ref=e34]:
+        - text: 
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "Trang chủ" [ref=e38] [cursor=pointer]:
+              - /url: https://staging.tuphim.online
+          - listitem [ref=e39]:
+            - link "Đồ bơi nam" [ref=e40] [cursor=pointer]:
+              - /url: https://staging.tuphim.online/san-pham?category=do-boi-nam
+          - listitem [ref=e41]:
+            - link "Đồ bơi nữ" [ref=e42] [cursor=pointer]:
+              - /url: https://staging.tuphim.online/san-pham?category=do-boi-nu
+          - listitem [ref=e43]:
+            - link "Đồ bơi trẻ em" [ref=e44] [cursor=pointer]:
+              - /url: https://staging.tuphim.online/san-pham?category=do-boi-tre-em
+          - listitem [ref=e45]:
+            - link "Phụ kiện bơi" [ref=e46] [cursor=pointer]:
+              - /url: https://staging.tuphim.online/san-pham?category=phu-kien-boi
+          - listitem [ref=e47]:
+            - link "Tất cả sản phẩm" [ref=e48] [cursor=pointer]:
+              - /url: https://staging.tuphim.online/san-pham
+  - main [ref=e50]:
+    - generic [ref=e51]:
+      - paragraph [ref=e52]: Bộ sưu tập Vua Beach
+      - heading "Đồ bơi cho mọi hành trình" [level=1] [ref=e53]
+      - paragraph [ref=e54]: Lọc nhanh theo nhu cầu, sau đó chọn màu và kích cỡ phù hợp với bạn.
+    - group [ref=e55]:
+      - text: 
+      - form "Bộ lọc sản phẩm" [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: Tìm kiếm
+          - generic [ref=e59]:
+            - generic [ref=e60]: 
+            - textbox "Tìm kiếm" [ref=e62]:
+              - /placeholder: Nhập tên sản phẩm
+        - generic [ref=e63]:
+          - generic [ref=e64]: Danh mục
+          - combobox "Danh mục" [ref=e65]:
+            - option "Tất cả danh mục" [selected]
+            - option "Đồ bơi nữ"
+            - option "Đồ bơi nam"
+            - option "Đồ bơi trẻ em"
+            - option "Phụ kiện bơi"
+        - generic [ref=e66]:
+          - generic [ref=e67]: Sắp xếp
+          - combobox "Sắp xếp" [ref=e68]:
+            - option "Mới cập nhật" [selected]
+            - option "Giá thấp trước"
+            - option "Giá cao trước"
+        - button " Áp dụng" [ref=e70] [cursor=pointer]:
+          - generic [ref=e71]: 
+          - text: Áp dụng
+    - heading "11 sản phẩm" [level=2] [ref=e73]
+    - generic [ref=e74]:
+      - article [ref=e76]:
+        - link "Xem Bộ bơi dài tay hồng phối chân váy đen" [ref=e77] [cursor=pointer]:
+          - /url: https://staging.tuphim.online/san-pham/bo-boi-dai-tay-hong-phoi-chan-vay-den
+          - img "Bộ bơi dài tay hồng phối chân váy đen" [ref=e79]
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - paragraph [ref=e83]: Đồ bơi nữ
+              - link "Bộ bơi dài tay hồng phối chân váy đen" [ref=e84] [cursor=pointer]:
+                - /url: https://staging.tuphim.online/san-pham/bo-boi-dai-tay-hong-phoi-chan-vay-den
+            - generic [ref=e85]: 540.000đ
+          - generic [ref=e86]:
+            - combobox "Chọn phân loại Bộ bơi dài tay hồng phối chân váy đen" [ref=e87]:
+              - option "Hồng phối đen - Size S" [selected]
+              - option "Hồng phối đen - Size M"
+              - option "Hồng phối đen - Size L"
+            - button "Đăng nhập để thêm Bộ bơi dài tay hồng phối chân váy đen" [ref=e88] [cursor=pointer]:
+              - generic [ref=e89]: 
+              - text: Đăng nhập để mua
+      - article [ref=e91]:
+        - link "Xem Đồ bơi cộc tay liền thân quần short đen" [ref=e92] [cursor=pointer]:
+          - /url: https://staging.tuphim.online/san-pham/do-boi-coc-tay-lien-than-quan-short-den
+          - generic [ref=e93]: Đang giảm giá
+          - img "Đồ bơi cộc tay liền thân quần short đen" [ref=e95]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - paragraph [ref=e99]: Đồ bơi nữ
+              - link "Đồ bơi cộc tay liền thân quần short đen" [ref=e100] [cursor=pointer]:
+                - /url: https://staging.tuphim.online/san-pham/do-boi-coc-tay-lien-than-quan-short-den
+            - generic [ref=e101]:
+              - text: 419.000đ
+              - generic [ref=e102]: 450.000đ
+          - generic [ref=e103]:
+            - combobox "Chọn phân loại Đồ bơi cộc tay liền thân quần short đen" [ref=e104]:
+              - option "Đen - Size S" [selected]
+              - option "Đen - Size M"
+              - option "Đen - Size L"
+            - button "Đăng nhập để thêm Đồ bơi cộc tay liền thân quần short đen" [ref=e105] [cursor=pointer]:
+              - generic [ref=e106]: 
+              - text: Đăng nhập để mua
+      - article [ref=e108]:
+        - link "Xem Bộ bơi liền tay dài phối ren" [ref=e109] [cursor=pointer]:
+          - /url: https://staging.tuphim.online/san-pham/bo-boi-lien-tay-dai-phoi-ren
+          - img "Bộ bơi liền tay dài phối ren" [ref=e111]
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - paragraph [ref=e115]: Đồ bơi nữ
+              - link "Bộ bơi liền tay dài phối ren" [ref=e116] [cursor=pointer]:
+                - /url: https://staging.tuphim.online/san-pham/bo-boi-lien-tay-dai-phoi-ren
+            - generic [ref=e117]: 520.000đ
+          - generic [ref=e118]:
+            - combobox "Chọn phân loại Bộ bơi liền tay dài phối ren" [ref=e119]:
+              - option "Kem - Size S" [selected]
+              - option "Kem - Size M"
+              - option "Kem - Size L"
+            - button "Đăng nhập để thêm Bộ bơi liền tay dài phối ren" [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]: 
+              - text: Đăng nhập để mua
+      - article [ref=e123]:
+        - link "Xem Bikini cạp cao quần váy họa tiết nhiệt đới" [ref=e124] [cursor=pointer]:
+          - /url: https://staging.tuphim.online/san-pham/bikini-cap-cao-quan-vay-hoa-tiet-nhiet-doi
+          - generic [ref=e125]: Đang giảm giá
+          - img "Bikini cạp cao quần váy họa tiết nhiệt đới" [ref=e127]
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - paragraph [ref=e131]: Đồ bơi nữ
+              - link "Bikini cạp cao quần váy họa tiết nhiệt đới" [ref=e132] [cursor=pointer]:
+                - /url: https://staging.tuphim.online/san-pham/bikini-cap-cao-quan-vay-hoa-tiet-nhiet-doi
+            - generic [ref=e133]:
+              - text: 399.000đ
+              - generic [ref=e134]: 450.000đ
+          - generic [ref=e135]:
+            - combobox "Chọn phân loại Bikini cạp cao quần váy họa tiết nhiệt đới" [ref=e136]:
+              - option "Họa tiết nhiệt đới - Size S" [selected]
+              - option "Họa tiết nhiệt đới - Size M"
+              - option "Họa tiết nhiệt đới - Size L"
+            - button "Đăng nhập để thêm Bikini cạp cao quần váy họa tiết nhiệt đới" [ref=e137] [cursor=pointer]:
+              - generic [ref=e138]: 
+              - text: Đăng nhập để mua
+      - article [ref=e140]:
+        - link "Xem Bộ bơi dài tay quần đùi xanh phối trắng" [ref=e141] [cursor=pointer]:
+          - /url: https://staging.tuphim.online/san-pham/bo-boi-dai-tay-quan-dui-xanh-phoi-trang
+          - img "Bộ bơi dài tay quần đùi xanh phối trắng" [ref=e143]
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - paragraph [ref=e147]: Đồ bơi nữ
+              - link "Bộ bơi dài tay quần đùi xanh phối trắng" [ref=e148] [cursor=pointer]:
+                - /url: https://staging.tuphim.online/san-pham/bo-boi-dai-tay-quan-dui-xanh-phoi-trang
+            - generic [ref=e149]: 630.000đ
+          - generic [ref=e150]:
+            - combobox "Chọn phân loại Bộ bơi dài tay quần đùi xanh phối trắng" [ref=e151]:
+              - option "Xanh phối trắng - Size S" [selected]
+              - option "Xanh phối trắng - Size M"
+              - option "Xanh phối trắng - Size L"
+            - button "Đăng nhập để thêm Bộ bơi dài tay quần đùi xanh phối trắng" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]: 
+              - text: Đăng nhập để mua
+      - article [ref=e155]:
+        - link "Xem Bộ bơi liền váy dài tay đen phối ghi" [ref=e156] [cursor=pointer]:
+          - /url: https://staging.tuphim.online/san-pham/bo-boi-lien-vay-dai-tay-den-phoi-ghi
+          - generic [ref=e157]: Đang giảm giá
+          - img "Bộ bơi liền váy dài tay đen phối ghi" [ref=e159]
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - paragraph [ref=e163]: Đồ bơi nữ
+              - link "Bộ bơi liền váy dài tay đen phối ghi" [ref=e164] [cursor=pointer]:
+                - /url: https://staging.tuphim.online/san-pham/bo-boi-lien-vay-dai-tay-den-phoi-ghi
+            - generic [ref=e165]:
+              - text: 499.000đ
+              - generic [ref=e166]: 550.000đ
+          - generic [ref=e167]:
+            - combobox "Chọn phân loại Bộ bơi liền váy dài tay đen phối ghi" [ref=e168]:
+              - option "Đen phối ghi - Size S" [selected]
+              - option "Đen phối ghi - Size M"
+              - option "Đen phối ghi - Size L"
+            - button "Đăng nhập để thêm Bộ bơi liền váy dài tay đen phối ghi" [ref=e169] [cursor=pointer]:
+              - generic [ref=e170]: 
+              - text: Đăng nhập để mua
+      - article [ref=e172]:
+        - link "Xem Bộ bơi liền tay dài đen tối giản" [ref=e173] [cursor=pointer]:
+          - /url: https://staging.tuphim.online/san-pham/bo-boi-lien-tay-dai-den-toi-gian
+          - img "Bộ bơi liền tay dài đen tối giản" [ref=e175]
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - paragraph [ref=e179]: Đồ bơi nữ
+              - link "Bộ bơi liền tay dài đen tối giản" [ref=e180] [cursor=pointer]:
+                - /url: https://staging.tuphim.online/san-pham/bo-boi-lien-tay-dai-den-toi-gian
+            - generic [ref=e181]: 480.000đ
+          - generic [ref=e182]:
+            - combobox "Chọn phân loại Bộ bơi liền tay dài đen tối giản" [ref=e183]:
+              - option "Đen - Size S" [selected]
+              - option "Đen - Size M"
+              - option "Đen - Size L"
+            - button "Đăng nhập để thêm Bộ bơi liền tay dài đen tối giản" [ref=e184] [cursor=pointer]:
+              - generic [ref=e185]: 
+              - text: Đăng nhập để mua
+      - article [ref=e187]:
+        - link "Xem Quần bơi nam cao cấp đen phối sóng" [ref=e188] [cursor=pointer]:
+          - /url: https://staging.tuphim.online/san-pham/quan-boi-nam-cao-cap-den-phoi-song
+          - img "Quần bơi nam cao cấp đen phối sóng" [ref=e190]
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - paragraph [ref=e194]: Đồ bơi nam
+              - link "Quần bơi nam cao cấp đen phối sóng" [ref=e195] [cursor=pointer]:
+                - /url: https://staging.tuphim.online/san-pham/quan-boi-nam-cao-cap-den-phoi-song
+            - generic [ref=e196]: 520.000đ
+          - generic [ref=e197]:
+            - combobox "Chọn phân loại Quần bơi nam cao cấp đen phối sóng" [ref=e198]:
+              - option "Đen phối sóng - Size M" [selected]
+              - option "Đen phối sóng - Size L"
+              - option "Đen phối sóng - Size XL"
+            - button "Đăng nhập để thêm Quần bơi nam cao cấp đen phối sóng" [ref=e199] [cursor=pointer]:
+              - generic [ref=e200]: 
+              - text: Đăng nhập để mua
+      - article [ref=e202]:
+        - link "Xem Quần bơi nam cao cấp đen phối xanh" [ref=e203] [cursor=pointer]:
+          - /url: https://staging.tuphim.online/san-pham/quan-boi-nam-cao-cap-den-phoi-xanh
+          - generic [ref=e204]: Đang giảm giá
+          - img "Quần bơi nam cao cấp đen phối xanh" [ref=e206]
+        - generic [ref=e207]:
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - paragraph [ref=e210]: Đồ bơi nam
+              - link "Quần bơi nam cao cấp đen phối xanh" [ref=e211] [cursor=pointer]:
+                - /url: https://staging.tuphim.online/san-pham/quan-boi-nam-cao-cap-den-phoi-xanh
+            - generic [ref=e212]:
+              - text: 479.000đ
+              - generic [ref=e213]: 520.000đ
+          - generic [ref=e214]:
+            - combobox "Chọn phân loại Quần bơi nam cao cấp đen phối xanh" [ref=e215]:
+              - option "Đen phối xanh - Size M" [selected]
+              - option "Đen phối xanh - Size L"
+              - option "Đen phối xanh - Size XL"
+            - button "Đăng nhập để thêm Quần bơi nam cao cấp đen phối xanh" [ref=e216] [cursor=pointer]:
+              - generic [ref=e217]: 
+              - text: Đăng nhập để mua
+    - navigation "Phân trang sản phẩm" [ref=e218]:
+      - paragraph [ref=e219]:
+        - text: Trang
+        - strong [ref=e220]: "1"
+        - text: / 2
+      - generic [ref=e221]:
+        - generic [ref=e222]:
+          - generic [aria-hidden] [ref=e223]: 
+          - generic [ref=e224]: Trang trước
+        - generic "Danh sách trang" [ref=e225]:
+          - generic [ref=e226]: "1"
+          - link "Đi đến trang 2" [ref=e227] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/san-pham?page=2
+            - text: "2"
+        - link "Trang sau" [ref=e228] [cursor=pointer]:
+          - /url: https://staging.tuphim.online/san-pham?page=2
+          - generic [aria-hidden] [ref=e230]: 
+  - text:    
+  - contentinfo [ref=e231]:
+    - generic [ref=e232]:
+      - generic [ref=e233]:
+        - link "Trang chủ Vua Beach" [ref=e234] [cursor=pointer]:
+          - /url: https://staging.tuphim.online
+          - generic [ref=e235]: 
+        - navigation "Liên kết cuối trang" [ref=e237]:
+          - link "Sản phẩm" [ref=e238] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/san-pham
+          - link "Giỏ hàng" [ref=e239] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/gio-hang
+          - link "Đăng nhập" [ref=e240] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/dang-nhap
+          - link "Giao hàng" [ref=e241] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=e242] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=e243] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=e244]:
+          - link "Gọi 0900 000 000" [ref=e245] [cursor=pointer]:
+            - /url: tel:0900000000
+            - generic [ref=e246]: 
+            - generic [ref=e247]: 0900 000 000
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=e248] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=e249]: 
+            - generic [ref=e250]: sp.doitheauto5s@gmail.com
+      - generic [ref=e251]:
+        - generic [ref=e252]: © 2026 Vua Beach
+        - generic "Cam kết dịch vụ" [ref=e253]:
+          - generic [ref=e254]:
+            - generic [ref=e255]: 
+            - text: Giao hàng toàn quốc
+          - generic [ref=e256]:
+            - generic [ref=e257]: 
+            - text: Đổi size trong 7 ngày

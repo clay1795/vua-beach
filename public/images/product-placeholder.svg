@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title description">
+  <title id="title">Ảnh sản phẩm Vua Beach</title>
+  <desc id="description">Ảnh đại diện mặc định khi sản phẩm chưa có hình</desc>
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8f6f9"/>
+      <stop offset="1" stop-color="#c7e8ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#sea)"/>
+  <circle cx="450" cy="480" r="150" fill="#fff" opacity=".75"/>
+  <path d="M285 500c70-95 140-95 210 0 55 74 100 76 145 7" fill="none" stroke="#2c94ad" stroke-width="34" stroke-linecap="round"/>
+  <path d="M265 562c82-58 160-55 233 9 57 50 111 48 162-6" fill="none" stroke="#73c5d6" stroke-width="25" stroke-linecap="round"/>
+  <text x="450" y="760" text-anchor="middle" fill="#174553" font-family="Arial, sans-serif" font-size="54" font-weight="700">VUA BEACH</text>
+  <text x="450" y="825" text-anchor="middle" fill="#557985" font-family="Arial, sans-serif" font-size="30">Hình ảnh đang được cập nhật</text>
+</svg>

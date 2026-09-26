@@ -1,0 +1,306 @@
+- generic [active] [ref=f45e1]:
+  - banner [ref=f45e2]:
+    - generic [ref=f45e3]:
+      - 'link " Hotline: 0998 999999" [ref=f45e4] [cursor=pointer]':
+        - /url: tel:0998999999
+        - generic [ref=f45e5]: 
+        - generic [ref=f45e6]:
+          - text: "Hotline:"
+          - strong [ref=f45e7]: 0998 999999
+      - link "Trang chủ Vua Beach" [ref=f45e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "Logo Vua Beach" [ref=f45e9]
+      - generic [ref=f45e10]:
+        - search [ref=f45e11]:
+          - generic [ref=f45e12]: Tìm sản phẩm
+          - textbox "Tìm sản phẩm" [ref=f45e13]
+          - button "Tìm kiếm" [ref=f45e14] [cursor=pointer]:
+            - generic [ref=f45e15]: 
+        - generic [ref=f45e16]:
+          - button "Mở menu tài khoản" [ref=f45e17] [cursor=pointer]:
+            - generic [ref=f45e18]: 
+            - generic [ref=f45e20]:
+              - generic [ref=f45e21]: Xin chào
+              - strong [ref=f45e22]: Lương Chiến Hiệp
+            - generic [ref=f45e23]: 
+          - text:    
+        - link "Giỏ hàng" [ref=f45e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gio-hang
+          - generic [ref=f45e25]: 
+          - generic [ref=f45e26]: "1"
+    - navigation "Danh mục chính" [ref=f45e27]:
+      - generic [ref=f45e28]:
+        - text: 
+        - list [ref=f45e30]:
+          - listitem [ref=f45e31]:
+            - link "Trang chủ" [ref=f45e32] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000
+          - listitem [ref=f45e33]:
+            - link "Đồ Bơi" [ref=f45e34] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=do-boi
+          - listitem [ref=f45e35]:
+            - link "Đồ bơi nam" [ref=f45e36] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=do-boi-nam
+          - listitem [ref=f45e37]:
+            - link "Đồ bơi nữ" [ref=f45e38] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=do-boi-nu
+          - listitem [ref=f45e39]:
+            - link "Đồ bơi trẻ em" [ref=f45e40] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=do-boi-tre-em
+          - listitem [ref=f45e41]:
+            - link "Phụ kiện bơi" [ref=f45e42] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=phu-kien-boi
+          - listitem [ref=f45e43]:
+            - link "Tất cả sản phẩm" [ref=f45e44] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham
+          - listitem [ref=f45e45]:
+            - link "Đơn hàng của tôi" [ref=f45e46] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/don-hang-cua-toi
+  - main [ref=f45e47]:
+    - generic [ref=f45e48]:
+      - generic [ref=f45e49]:
+        - paragraph [ref=f45e50]: Thanh toán an toàn
+        - heading "Hoàn tất đơn hàng" [level=1] [ref=f45e51]
+        - paragraph [ref=f45e52]: Kiểm tra thông tin giao hàng và chọn phương thức thanh toán phù hợp.
+      - generic [ref=f45e53]:
+        - generic [ref=f45e54]: 
+        - text: Thông tin được bảo mật
+    - generic [ref=f45e55]:
+      - generic [ref=f45e57]:
+        - generic [ref=f45e58]:
+          - generic [ref=f45e59]: "1"
+          - generic [ref=f45e60]:
+            - heading "Thông tin giao hàng" [level=2] [ref=f45e61]
+            - paragraph [ref=f45e62]: Nhập thông tin người nhận chính xác.
+        - generic [ref=f45e63]:
+          - generic [ref=f45e64]: Chọn địa chỉ đã lưu
+          - combobox "Chọn địa chỉ đã lưu" [ref=f45e65]:
+            - option "Nhập địa chỉ khác"
+            - option "Nhà riêng - Lương Chiến Hiệp (Mặc định)" [selected]
+            - option "Nhà riêng - Quản trị viên"
+          - generic [ref=f45e66]:
+            - text: Địa chỉ mặc định được chọn sẵn.
+            - link "Quản lý sổ địa chỉ" [ref=f45e67] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/tai-khoan
+        - generic [ref=f45e68]:
+          - generic [ref=f45e69]:
+            - generic [ref=f45e70]: Họ và tên
+            - textbox "Họ và tên" [ref=f45e71]: Lương Chiến Hiệp
+          - generic [ref=f45e72]:
+            - generic [ref=f45e73]: Số điện thoại
+            - textbox "Số điện thoại" [ref=f45e74]: "0989666666"
+          - generic [ref=f45e75]:
+            - generic [ref=f45e76]: Email
+            - textbox "Email" [ref=f45e77]: luongchienhieplch@gmail.com
+          - generic [ref=f45e78]:
+            - generic [ref=f45e79]: Địa chỉ nhận hàng
+            - textbox "Địa chỉ nhận hàng" [ref=f45e80]: Phú Diễn
+          - generic [ref=f45e81]:
+            - generic [ref=f45e82]: Khu vực nhận hàng
+            - generic [ref=f45e83]:
+              - combobox [ref=f45e85]:
+                - option "Chọn tỉnh/thành"
+                - option "Lào Cai"
+                - option "Hưng Yên"
+                - option "Hòa Bình"
+                - option "Sơn La"
+                - option "Điện Biên"
+                - option "Lai Châu"
+                - option "Yên Bái"
+                - option "Bình Định"
+                - option "Ninh Thuận"
+                - option "Phú Yên"
+                - option "Kon Tum"
+                - option "Bình Thuận"
+                - option "Bạc Liêu"
+                - option "Cà Mau"
+                - option "Hậu Giang"
+                - option "Bắc Ninh"
+                - option "Bắc Giang"
+                - option "Lạng Sơn"
+                - option "Cao Bằng"
+                - option "Bắc Kạn"
+                - option "Thái Nguyên"
+                - option "Quảng Nam"
+                - option "Quảng Ngãi"
+                - option "Đắk Nông"
+                - option "Tây Ninh"
+                - option "Bình Phước"
+                - option "Quảng Trị"
+                - option "Quảng Bình"
+                - option "Hà Tĩnh"
+                - option "Nghệ An"
+                - option "Thanh Hóa"
+                - option "Ninh Bình"
+                - option "Hà Nam"
+                - option "Nam Định"
+                - option "Quảng Ninh"
+                - option "Phú Thọ"
+                - option "Tuyên Quang"
+                - option "Hà Giang"
+                - option "Thái Bình"
+                - option "Hải Dương"
+                - option "Hải Phòng"
+                - option "Thừa Thiên Huế"
+                - option "Vĩnh Phúc"
+                - option "Cần Thơ"
+                - option "Kiên Giang"
+                - option "Sóc Trăng"
+                - option "An Giang"
+                - option "Đồng Tháp"
+                - option "Vĩnh Long"
+                - option "Trà Vinh"
+                - option "Bến Tre"
+                - option "Tiền Giang"
+                - option "Long An"
+                - option "Đắk Lắk"
+                - option "Lâm Đồng"
+                - option "Khánh Hòa"
+                - option "Gia Lai"
+                - option "Bà Rịa - Vũng Tàu"
+                - option "Bình Dương"
+                - option "Đồng Nai"
+                - option "Đà Nẵng"
+                - option "Hồ Chí Minh"
+                - option "Hà Nội" [selected]
+              - combobox [ref=f45e87]:
+                - option "Chọn quận/huyện"
+                - option "Quận Nam Từ Liêm"
+                - option "Huyện Thường Tín"
+                - option "Huyện Phú Xuyên"
+                - option "Huyện Quốc Oai"
+                - option "Huyện Chương Mỹ"
+                - option "Huyện Ứng Hòa"
+                - option "Huyện Thanh Oai"
+                - option "Huyện Thạch Thất"
+                - option "Huyện Phúc Thọ"
+                - option "Huyện Mỹ Đức"
+                - option "Huyện Hoài Đức"
+                - option "Huyện Đan Phượng"
+                - option "Huyện Ba Vì"
+                - option "Thị xã Sơn Tây"
+                - option "Huyện Thanh Trì"
+                - option "Huyện Gia Lâm"
+                - option "Huyện Sóc Sơn"
+                - option "Huyện Đông Anh"
+                - option "Huyện Mê Linh"
+                - option "Quận Hà Đông"
+                - option "Quận Thanh Xuân"
+                - option "Quận Tây Hồ"
+                - option "Quận Long Biên"
+                - option "Quận Hoàng Mai"
+                - option "Quận Hoàn Kiếm"
+                - option "Quận Hai Bà Trưng"
+                - option "Quận Đống Đa"
+                - option "Quận Cầu Giấy"
+                - option "Quận Ba Đình"
+                - option "Quận Bắc Từ Liêm" [selected]
+              - combobox [disabled] [ref=f45e89]:
+                - option "Đang tải..." [selected]
+            - generic [ref=f45e90]: Phí được GHN tính theo khu vực nhận hàng.
+          - generic [ref=f45e91]:
+            - generic [ref=f45e92]: Ghi chú (không bắt buộc)
+            - textbox "Ghi chú (không bắt buộc)" [ref=f45e93]
+        - separator [ref=f45e94]
+        - generic [ref=f45e95]:
+          - generic [ref=f45e96]: "2"
+          - generic [ref=f45e97]:
+            - heading "Hình thức thanh toán" [level=2] [ref=f45e98]
+            - paragraph [ref=f45e99]: Chọn một trong hai hình thức bên dưới.
+        - generic [ref=f45e100]:
+          - generic [ref=f45e101] [cursor=pointer]:
+            - radio "Thanh toán trực tiếp Thanh toán tiền mặt khi nhận hàng." [checked] [ref=f45e102]
+            - generic [ref=f45e104]: 
+            - generic [ref=f45e105]: Thanh toán trực tiếpThanh toán tiền mặt khi nhận hàng.
+          - generic [ref=f45e106] [cursor=pointer]:
+            - radio "M Ví điện tử MoMo Thanh toán nhanh bằng ứng dụng MoMo." [ref=f45e107]
+            - generic [ref=f45e108]: M
+            - generic [ref=f45e109]: Ví điện tử MoMoThanh toán nhanh bằng ứng dụng MoMo.
+          - generic [ref=f45e110] [cursor=pointer]:
+            - radio "VNPAY-QR / Ngân hàng Quét QR hoặc thanh toán qua cổng VNPAY bảo mật." [ref=f45e111]
+            - generic [ref=f45e113]: 
+            - generic [ref=f45e114]: VNPAY-QR / Ngân hàngQuét QR hoặc thanh toán qua cổng VNPAY bảo mật.
+        - generic [ref=f45e115]:
+          - checkbox "Tôi đã đọc và đồng ý với chính sách giao hàng, chính sách đổi trả và điều khoản mua hàng." [ref=f45e116]
+          - generic [ref=f45e117]:
+            - text: Tôi đã đọc và đồng ý với
+            - link "chính sách giao hàng" [ref=f45e118] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+            - text: ","
+            - link "chính sách đổi trả" [ref=f45e119] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+            - text: và
+            - link "điều khoản mua hàng" [ref=f45e120] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+            - text: .
+      - complementary [ref=f45e122]:
+        - heading "Sản phẩm đã chọn" [level=2] [ref=f45e123]
+        - generic [ref=f45e125]:
+          - generic [ref=f45e126]: Bikini × 1
+          - generic [ref=f45e127]: 800.000đ
+        - separator [ref=f45e128]
+        - generic [ref=f45e129]:
+          - generic [ref=f45e130]: Mã ưu đãi (nếu có)
+          - generic [ref=f45e131]:
+            - textbox "Mã ưu đãi (nếu có)" [ref=f45e132]:
+              - /placeholder: Nhập mã giảm giá
+            - button "Áp dụng" [ref=f45e133] [cursor=pointer]
+          - paragraph
+        - separator [ref=f45e134]
+        - generic [ref=f45e135]:
+          - generic [ref=f45e136]: Tiền hàng
+          - strong [ref=f45e137]: 800.000đ
+        - generic [ref=f45e138]:
+          - generic [ref=f45e139]: Phí giao hàng
+          - strong [ref=f45e140]: 30.000đ
+        - separator [ref=f45e141]
+        - generic [ref=f45e142]:
+          - strong [ref=f45e143]: Tổng thanh toán
+          - strong [ref=f45e144]: 830.000đ
+        - button "Xác nhận đặt hàng " [ref=f45e145] [cursor=pointer]:
+          - text: Xác nhận đặt hàng
+          - generic [ref=f45e146]: 
+        - paragraph [ref=f45e147]:
+          - generic [ref=f45e148]: 
+          - text: Thông tin của bạn được bảo mật.
+  - contentinfo [ref=f45e149]:
+    - generic [ref=f45e150]:
+      - generic [ref=f45e151]:
+        - link "Trang chủ Vua Beach" [ref=f45e152] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "Logo Vua Beach" [ref=f45e153]
+        - navigation "Liên kết cuối trang" [ref=f45e154]:
+          - link "Sản phẩm" [ref=f45e155] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham
+          - link "Giỏ hàng" [ref=f45e156] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/gio-hang
+          - link "Tài khoản" [ref=f45e157] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/tai-khoan
+          - link "Đơn hàng" [ref=f45e158] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/don-hang-cua-toi
+          - link "Quản trị" [ref=f45e159] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/admin
+          - link "Giao hàng" [ref=f45e160] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=f45e161] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=f45e162] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=f45e163]:
+          - link "Gọi 0998 999999" [ref=f45e164] [cursor=pointer]:
+            - /url: tel:0998999999
+            - generic [ref=f45e165]: 
+            - generic [ref=f45e166]: 0998 999999
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f45e167] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f45e168]: 
+            - generic [ref=f45e169]: sp.doitheauto5s@gmail.com
+      - generic [ref=f45e170]:
+        - generic [ref=f45e171]: © 2026 Vua Beach
+        - generic "Cam kết dịch vụ" [ref=f45e172]:
+          - generic [ref=f45e173]:
+            - generic [ref=f45e174]: 
+            - text: Giao hàng toàn quốc
+          - generic [ref=f45e175]:
+            - generic [ref=f45e176]: 
+            - text: Đổi size trong 7 ngày

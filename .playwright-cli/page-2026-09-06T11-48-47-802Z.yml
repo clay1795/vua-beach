@@ -1,0 +1,214 @@
+- generic [ref=f9e2]:
+  - complementary [ref=f9e3]:
+    - link "Trang tổng quan Vua Beach" [ref=f9e4] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/admin
+      - img "Logo Vua Beach" [ref=f9e5]
+    - paragraph [ref=f9e6]: Quản lý cửa hàng
+    - navigation "Điều hướng quản trị" [ref=f9e7]:
+      - link " Tổng quan" [ref=f9e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin
+        - generic [ref=f9e9]: 
+        - generic [ref=f9e10]: Tổng quan
+      - link " Sản phẩm" [ref=f9e11] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/products
+        - generic [ref=f9e12]: 
+        - generic [ref=f9e13]: Sản phẩm
+      - link " Tồn kho" [ref=f9e14] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/inventory
+        - generic [ref=f9e15]: 
+        - generic [ref=f9e16]: Tồn kho
+      - link " Nhập kho" [ref=f9e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/purchase-receipts
+        - generic [ref=f9e18]: 
+        - generic [ref=f9e19]: Nhập kho
+      - link " Nhà cung cấp" [ref=f9e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/suppliers
+        - generic [ref=f9e21]: 
+        - generic [ref=f9e22]: Nhà cung cấp
+      - link " Danh mục" [ref=f9e23] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/categories
+        - generic [ref=f9e24]: 
+        - generic [ref=f9e25]: Danh mục
+      - link " Đơn hàng" [ref=f9e26] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/orders
+        - generic [ref=f9e27]: 
+        - generic [ref=f9e28]: Đơn hàng
+      - link " Đổi trả" [ref=f9e29] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/returns
+        - generic [ref=f9e30]: 
+        - generic [ref=f9e31]: Đổi trả
+      - link " Mã ưu đãi" [ref=f9e32] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/coupons
+        - generic [ref=f9e33]: 
+        - generic [ref=f9e34]: Mã ưu đãi
+      - link " Tài khoản" [ref=f9e35] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/users
+        - generic [ref=f9e36]: 
+        - generic [ref=f9e37]: Tài khoản
+      - link " Nhật ký quản trị" [ref=f9e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/activity-logs
+        - generic [ref=f9e39]: 
+        - generic [ref=f9e40]: Nhật ký quản trị
+      - link " Cài đặt website" [ref=f9e41] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/settings
+        - generic [ref=f9e42]: 
+        - generic [ref=f9e43]: Cài đặt website
+    - generic [ref=f9e44]:
+      - generic [ref=f9e45]: L
+      - generic [ref=f9e46]:
+        - strong [ref=f9e47]: Lương Chiến Hiệp
+        - generic [ref=f9e48]: Quản trị viên
+      - button "Đăng xuất" [ref=f9e50] [cursor=pointer]:
+        - generic [ref=f9e51]: 
+  - generic [ref=f9e52]:
+    - banner [ref=f9e53]:
+      - text: 
+      - generic [ref=f9e54]:
+        - paragraph [ref=f9e55]: VUA BEACH
+        - heading "Tổng quan cửa hàng" [level=1] [ref=f9e56]
+      - link " Xem website" [ref=f9e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=f9e58]: 
+        - generic [ref=f9e59]: Xem website
+    - main [ref=f9e60]:
+      - generic [ref=f9e61]:
+        - paragraph [ref=f9e63]: Theo dõi hoạt động kinh doanh hôm nay.
+        - link "+ Thêm sản phẩm" [ref=f9e64] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/products/create
+      - generic [ref=f9e65]:
+        - generic [ref=f9e67]:
+          - generic [ref=f9e68]:
+            - text: Tổng doanh thu
+            - generic [ref=f9e69]: 831.900đ
+            - text: Đơn đã hoàn thành
+          - generic [ref=f9e70]: 
+        - generic [ref=f9e73]:
+          - generic [ref=f9e74]:
+            - text: Tổng đơn hàng
+            - generic [ref=f9e75]: "10"
+            - text: 0 đơn chờ xử lý
+          - generic [ref=f9e76]: 
+        - generic [ref=f9e79]:
+          - generic [ref=f9e80]:
+            - text: Sản phẩm
+            - generic [ref=f9e81]: "14"
+            - text: 5 danh mục
+          - generic [ref=f9e82]: 
+        - generic [ref=f9e85]:
+          - generic [ref=f9e86]:
+            - text: Khách hàng
+            - generic [ref=f9e87]: "1"
+            - text: Tài khoản khách
+          - generic [ref=f9e88]: 
+      - generic [ref=f9e90]:
+        - generic [ref=f9e93]:
+          - generic [ref=f9e94]:
+            - heading "Doanh thu 6 tháng gần nhất" [level=5] [ref=f9e95]
+            - text: Chỉ tính đơn đã hoàn thành
+          - generic [ref=f9e96]: VNĐ
+        - generic [ref=f9e100]:
+          - heading "Danh mục có sản phẩm" [level=5] [ref=f9e101]
+          - paragraph [ref=f9e102]: Số lượng sản phẩm theo danh mục
+          - generic [ref=f9e104]:
+            - generic [ref=f9e105]: Đồ bơi nữ
+            - generic [ref=f9e106]: "7"
+          - generic [ref=f9e110]:
+            - generic [ref=f9e111]: Đồ Bơi
+            - generic [ref=f9e112]: "3"
+          - generic [ref=f9e116]:
+            - generic [ref=f9e117]: Đồ bơi nam
+            - generic [ref=f9e118]: "2"
+          - generic [ref=f9e122]:
+            - generic [ref=f9e123]: Đồ bơi trẻ em
+            - generic [ref=f9e124]: "2"
+          - generic [ref=f9e128]:
+            - generic [ref=f9e129]: Phụ kiện bơi
+            - generic [ref=f9e130]: "0"
+      - generic [ref=f9e132]:
+        - generic [ref=f9e134]:
+          - generic [ref=f9e135]:
+            - heading "Đơn hàng gần đây" [level=5] [ref=f9e136]
+            - link "Xem tất cả" [ref=f9e137] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admin/orders
+          - table [ref=f9e139]:
+            - rowgroup [ref=f9e140]:
+              - row [ref=f9e141]:
+                - columnheader "Mã đơn" [ref=f9e142]
+                - columnheader "Khách hàng" [ref=f9e143]
+                - columnheader "Tổng tiền" [ref=f9e144]
+                - columnheader "Trạng thái" [ref=f9e145]
+            - rowgroup [ref=f9e146]:
+              - row [ref=f9e147]:
+                - cell [ref=f9e148]:
+                  - link "VB-TP4BSYP" [ref=f9e149] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/orders/16
+                  - text: 06/09/2026
+                - cell "Lương Chiến Hiệp" [ref=f9e150]
+                - cell "42.900đ" [ref=f9e151]
+                - cell "Đã hủy" [ref=f9e152]
+              - row [ref=f9e154]:
+                - cell [ref=f9e155]:
+                  - link "VB-KEEVDVQ" [ref=f9e156] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/orders/15
+                  - text: 06/09/2026
+                - cell "Lương Chiến Hiệp" [ref=f9e157]
+                - cell "42.900đ" [ref=f9e158]
+                - cell "Đã hủy" [ref=f9e159]
+              - row [ref=f9e161]:
+                - cell [ref=f9e162]:
+                  - link "VB-UD1LZ1T" [ref=f9e163] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/orders/14
+                  - text: 06/09/2026
+                - cell "Quản trị viên" [ref=f9e164]
+                - cell "71.500đ" [ref=f9e165]
+                - cell "Đã hủy" [ref=f9e166]
+              - row [ref=f9e168]:
+                - cell [ref=f9e169]:
+                  - link "VB-PBEX1FE" [ref=f9e170] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/orders/13
+                  - text: 06/09/2026
+                - cell "Quản trị viên" [ref=f9e171]
+                - cell "550.500đ" [ref=f9e172]
+                - cell "Đã hủy" [ref=f9e173]
+              - row [ref=f9e175]:
+                - cell [ref=f9e176]:
+                  - link "VB-P0NXZTP" [ref=f9e177] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/orders/12
+                  - text: 06/09/2026
+                - cell "Quản trị viên" [ref=f9e178]
+                - cell "591.500đ" [ref=f9e179]
+                - cell "Đã hủy" [ref=f9e180]
+              - row [ref=f9e182]:
+                - cell [ref=f9e183]:
+                  - link "VB-VOCNYDZ" [ref=f9e184] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8000/admin/orders/11
+                  - text: 06/09/2026
+                - cell "Quản trị viên" [ref=f9e185]
+                - cell "550.500đ" [ref=f9e186]
+                - cell "Đã hủy" [ref=f9e187]
+        - generic [ref=f9e190]:
+          - generic [ref=f9e191]:
+            - heading "Sắp hết hàng" [level=5] [ref=f9e192]
+            - generic [ref=f9e193]: 
+          - paragraph [ref=f9e194]: Theo mức cảnh báo riêng của từng biến thể.
+          - paragraph [ref=f9e195]:
+            - generic [ref=f9e196]: 
+            - text: Tồn kho đang ổn định.
+      - generic [ref=f9e197]:
+        - generic [ref=f9e199]:
+          - generic [ref=f9e200]:
+            - generic [ref=f9e201]:
+              - heading "Sản phẩm bán chạy" [level=5] [ref=f9e202]
+              - paragraph [ref=f9e203]: Chỉ tính từ đơn đã hoàn thành.
+            - generic [ref=f9e204]: 
+          - generic [ref=f9e205]:
+            - generic [ref=f9e206]: Bikini1 sản phẩm đã bán
+            - generic [ref=f9e207]: 800.000đ
+        - generic [ref=f9e209]:
+          - heading "Vận hành kho" [level=5] [ref=f9e210]
+          - paragraph [ref=f9e211]: Tạo phiếu nhập để tăng tồn kho có lịch sử, nhà cung cấp và giá nhập.
+          - generic [ref=f9e212]:
+            - link "Lập phiếu nhập" [ref=f9e213] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admin/purchase-receipts/create
+            - link "Xem lịch sử" [ref=f9e214] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admin/inventory

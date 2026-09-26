@@ -1,0 +1,156 @@
+- generic [active] [ref=f12e1]:
+  - banner [ref=f12e2]:
+    - generic [ref=f12e3]:
+      - text: 
+      - link "Trang chủ Vua Beach" [ref=f12e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "Logo Vua Beach" [ref=f12e5]
+      - generic [ref=f12e6]:
+        - text: 
+        - generic [ref=f12e7]:
+          - button "Mở menu tài khoản" [ref=f12e8] [cursor=pointer]:
+            - generic [ref=f12e9]: 
+            - text: 
+          - text:  
+        - link "Giỏ hàng" [ref=f12e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gio-hang
+          - generic [ref=f12e12]: 
+          - generic [ref=f12e13]: "0"
+    - navigation "Danh mục chính" [ref=f12e14]:
+      - button "Mở menu" [ref=f12e16] [cursor=pointer]:
+        - generic [ref=f12e17]: 
+        - generic [ref=f12e18]: Danh mục
+  - main [ref=f12e19]:
+    - link " Quay lại cửa hàng" [ref=f12e20] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/san-pham
+      - generic [ref=f12e21]: 
+      - text: Quay lại cửa hàng
+    - generic [ref=f12e22]:
+      - img "Bộ bơi liền váy dài tay đen phối ghi" [ref=f12e24]
+      - generic [ref=f12e25]:
+        - generic [ref=f12e26]: Đồ bơi nữ
+        - heading "Bộ bơi liền váy dài tay đen phối ghi" [level=1] [ref=f12e27]
+        - generic [ref=f12e28]: 499.000đ 550.000đ
+        - paragraph [ref=f12e29]: Thiết kế liền váy dài tay gọn gàng, gam đen ghi dễ mặc và phù hợp nhiều vóc dáng.
+        - generic [ref=f12e30]:
+          - generic [ref=f12e31]:
+            - generic [ref=f12e32]:
+              - generic [ref=f12e33]: Màu sắc
+              - generic "Chọn màu sắc" [ref=f12e34]:
+                - button "Đen phối ghi" [pressed] [ref=f12e35] [cursor=pointer]
+            - generic [ref=f12e36]:
+              - generic [ref=f12e37]: Kích cỡ
+              - generic "Chọn kích cỡ" [ref=f12e38]:
+                - button "Size L" [pressed] [ref=f12e39] [cursor=pointer]
+                - button "Size M" [ref=f12e40] [cursor=pointer]
+                - button "Size S" [ref=f12e41] [cursor=pointer]
+              - paragraph [ref=f12e42]: Còn 15 sản phẩm cho màu Đen phối ghi, size L.
+          - generic [ref=f12e43]:
+            - generic [ref=f12e44]:
+              - generic [ref=f12e45]: Số lượng
+              - spinbutton "Số lượng" [ref=f12e46]: "1"
+            - button " Thêm vào giỏ" [ref=f12e48] [cursor=pointer]:
+              - generic [ref=f12e49]: 
+              - text: Thêm vào giỏ
+        - paragraph [ref=f12e50]:
+          - generic [ref=f12e51]: 
+          - text: Hỗ trợ đổi size trong 7 ngày.
+    - generic [ref=f12e52]:
+      - generic [ref=f12e53]:
+        - generic [ref=f12e54]:
+          - paragraph [ref=f12e55]: Cảm nhận khách hàng
+          - heading "Đánh giá sản phẩm" [level=2] [ref=f12e56]
+        - text: 0 đánh giá
+      - paragraph [ref=f12e58]: Chưa có đánh giá. Khách đã mua và nhận hàng có thể đánh giá sản phẩm tại đây.
+    - generic [ref=f12e59]:
+      - heading "Có thể bạn sẽ thích" [level=2] [ref=f12e61]
+      - generic [ref=f12e62]:
+        - article [ref=f12e64]:
+          - link [ref=f12e65] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham/bo-boi-dai-tay-hong-phoi-chan-vay-den
+            - img "Bộ bơi dài tay hồng phối chân váy đen" [ref=f12e66]
+          - generic [ref=f12e67]:
+            - generic [ref=f12e68]:
+              - generic [ref=f12e69]:
+                - paragraph [ref=f12e70]: Đồ bơi nữ
+                - link "Bộ bơi dài tay hồng phối chân váy đen" [ref=f12e71] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/san-pham/bo-boi-dai-tay-hong-phoi-chan-vay-den
+              - generic [ref=f12e72]: 540.000đ
+            - generic [ref=f12e73]:
+              - combobox "Chọn phân loại Bộ bơi dài tay hồng phối chân váy đen" [ref=f12e74]:
+                - option "Hồng phối đen - Size S" [selected]
+                - option "Hồng phối đen - Size M"
+                - option "Hồng phối đen - Size L"
+              - button "Thêm Bộ bơi dài tay hồng phối chân váy đen vào giỏ" [ref=f12e75] [cursor=pointer]:
+                - generic [ref=f12e76]: 
+                - text: Thêm vào giỏ
+        - article [ref=f12e78]:
+          - link "Đang giảm giá Đồ bơi cộc tay liền thân quần short đen" [ref=f12e79] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham/do-boi-coc-tay-lien-than-quan-short-den
+            - generic [ref=f12e80]: Đang giảm giá
+            - img "Đồ bơi cộc tay liền thân quần short đen" [ref=f12e81]
+          - generic [ref=f12e82]:
+            - generic [ref=f12e83]:
+              - generic [ref=f12e84]:
+                - paragraph [ref=f12e85]: Đồ bơi nữ
+                - link "Đồ bơi cộc tay liền thân quần short đen" [ref=f12e86] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/san-pham/do-boi-coc-tay-lien-than-quan-short-den
+              - generic [ref=f12e87]:
+                - text: 419.000đ
+                - generic [ref=f12e88]: 450.000đ
+            - generic [ref=f12e89]:
+              - combobox "Chọn phân loại Đồ bơi cộc tay liền thân quần short đen" [ref=f12e90]:
+                - option "Đen - Size S" [selected]
+                - option "Đen - Size M"
+                - option "Đen - Size L"
+              - button "Thêm Đồ bơi cộc tay liền thân quần short đen vào giỏ" [ref=f12e91] [cursor=pointer]:
+                - generic [ref=f12e92]: 
+                - text: Thêm vào giỏ
+        - article [ref=f12e94]:
+          - link [ref=f12e95] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham/bo-boi-lien-tay-dai-phoi-ren
+            - img "Bộ bơi liền tay dài phối ren" [ref=f12e96]
+          - generic [ref=f12e97]:
+            - generic [ref=f12e98]:
+              - generic [ref=f12e99]:
+                - paragraph [ref=f12e100]: Đồ bơi nữ
+                - link "Bộ bơi liền tay dài phối ren" [ref=f12e101] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/san-pham/bo-boi-lien-tay-dai-phoi-ren
+              - generic [ref=f12e102]: 520.000đ
+            - generic [ref=f12e103]:
+              - combobox "Chọn phân loại Bộ bơi liền tay dài phối ren" [ref=f12e104]:
+                - option "Kem - Size S" [selected]
+                - option "Kem - Size M"
+                - option "Kem - Size L"
+              - button "Thêm Bộ bơi liền tay dài phối ren vào giỏ" [ref=f12e105] [cursor=pointer]:
+                - generic [ref=f12e106]: 
+                - text: Thêm vào giỏ
+  - contentinfo [ref=f12e107]:
+    - generic [ref=f12e108]:
+      - generic [ref=f12e109]:
+        - link "Trang chủ Vua Beach" [ref=f12e110] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "Logo Vua Beach" [ref=f12e111]
+        - navigation "Liên kết cuối trang" [ref=f12e112]:
+          - link "Sản phẩm" [ref=f12e113] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham
+          - link "Giỏ hàng" [ref=f12e114] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/gio-hang
+          - link "Đăng nhập" [ref=f12e115] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dang-nhap
+          - link "Giao hàng" [ref=f12e116] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=f12e117] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=f12e118] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=f12e119]:
+          - link "Gọi 0998 999999" [ref=f12e120] [cursor=pointer]:
+            - /url: tel:0998999999
+            - generic [ref=f12e121]: 
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f12e122] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f12e123]: 
+      - generic [ref=f12e124]:
+        - generic [ref=f12e125]: © 2026 Vua Beach
+        - text:  

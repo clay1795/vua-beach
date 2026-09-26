@@ -1,0 +1,226 @@
+- generic [active] [ref=f19e1]:
+  - banner [ref=f19e2]:
+    - generic [ref=f19e3]:
+      - text: 
+      - link "Trang chủ Vua Beach" [ref=f19e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "Logo Vua Beach" [ref=f19e5]
+      - generic [ref=f19e6]:
+        - text: 
+        - generic [ref=f19e7]:
+          - button "Mở menu tài khoản" [ref=f19e8] [cursor=pointer]:
+            - generic [ref=f19e9]: 
+            - text: 
+          - text:    
+        - link "Giỏ hàng" [ref=f19e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gio-hang
+          - generic [ref=f19e12]: 
+          - generic [ref=f19e13]: "1"
+    - navigation "Danh mục chính" [ref=f19e14]:
+      - button "Mở menu" [ref=f19e16] [cursor=pointer]:
+        - generic [ref=f19e17]: 
+        - generic [ref=f19e18]: Danh mục
+  - main [ref=f19e19]:
+    - generic [ref=f19e20]:
+      - generic [ref=f19e21]:
+        - paragraph [ref=f19e22]: Thanh toán an toàn
+        - heading "Hoàn tất đơn hàng" [level=1] [ref=f19e23]
+        - paragraph [ref=f19e24]: Kiểm tra thông tin giao hàng và chọn phương thức thanh toán phù hợp.
+      - generic [ref=f19e25]:
+        - generic [ref=f19e26]: 
+        - text: Thông tin được bảo mật
+    - generic [ref=f19e27]:
+      - generic [ref=f19e29]:
+        - generic [ref=f19e30]:
+          - generic [ref=f19e31]: "1"
+          - generic [ref=f19e32]:
+            - heading "Thông tin giao hàng" [level=2] [ref=f19e33]
+            - paragraph [ref=f19e34]: Nhập thông tin người nhận chính xác.
+        - generic [ref=f19e35]:
+          - generic [ref=f19e36]:
+            - generic [ref=f19e37]: Họ và tên
+            - textbox "Họ và tên" [ref=f19e38]: Kiểm thử giao diện
+          - generic [ref=f19e39]:
+            - generic [ref=f19e40]: Số điện thoại
+            - textbox "Số điện thoại" [ref=f19e41]: "0900000000"
+          - generic [ref=f19e42]:
+            - generic [ref=f19e43]: Email
+            - textbox "Email" [ref=f19e44]: codex-mobile-audit@example.test
+          - generic [ref=f19e45]:
+            - generic [ref=f19e46]: Địa chỉ nhận hàng
+            - textbox "Địa chỉ nhận hàng" [ref=f19e47]
+          - generic [ref=f19e48]:
+            - generic [ref=f19e49]: Khu vực nhận hàng
+            - generic [ref=f19e50]:
+              - generic [ref=f19e51]:
+                - generic [ref=f19e52]: Tỉnh hoặc thành phố
+                - combobox "Tỉnh hoặc thành phố" [ref=f19e53]:
+                  - option "Chọn tỉnh/thành" [selected]
+                  - option "Lào Cai"
+                  - option "Hưng Yên"
+                  - option "Hòa Bình"
+                  - option "Sơn La"
+                  - option "Điện Biên"
+                  - option "Lai Châu"
+                  - option "Yên Bái"
+                  - option "Bình Định"
+                  - option "Ninh Thuận"
+                  - option "Phú Yên"
+                  - option "Kon Tum"
+                  - option "Bình Thuận"
+                  - option "Bạc Liêu"
+                  - option "Cà Mau"
+                  - option "Hậu Giang"
+                  - option "Bắc Ninh"
+                  - option "Bắc Giang"
+                  - option "Lạng Sơn"
+                  - option "Cao Bằng"
+                  - option "Bắc Kạn"
+                  - option "Thái Nguyên"
+                  - option "Quảng Nam"
+                  - option "Quảng Ngãi"
+                  - option "Đắk Nông"
+                  - option "Tây Ninh"
+                  - option "Bình Phước"
+                  - option "Quảng Trị"
+                  - option "Quảng Bình"
+                  - option "Hà Tĩnh"
+                  - option "Nghệ An"
+                  - option "Thanh Hóa"
+                  - option "Ninh Bình"
+                  - option "Hà Nam"
+                  - option "Nam Định"
+                  - option "Quảng Ninh"
+                  - option "Phú Thọ"
+                  - option "Tuyên Quang"
+                  - option "Hà Giang"
+                  - option "Thái Bình"
+                  - option "Hải Dương"
+                  - option "Hải Phòng"
+                  - option "Thừa Thiên Huế"
+                  - option "Vĩnh Phúc"
+                  - option "Cần Thơ"
+                  - option "Kiên Giang"
+                  - option "Sóc Trăng"
+                  - option "An Giang"
+                  - option "Đồng Tháp"
+                  - option "Vĩnh Long"
+                  - option "Trà Vinh"
+                  - option "Bến Tre"
+                  - option "Tiền Giang"
+                  - option "Long An"
+                  - option "Đắk Lắk"
+                  - option "Lâm Đồng"
+                  - option "Khánh Hòa"
+                  - option "Gia Lai"
+                  - option "Bà Rịa - Vũng Tàu"
+                  - option "Bình Dương"
+                  - option "Đồng Nai"
+                  - option "Đà Nẵng"
+                  - option "Hồ Chí Minh"
+                  - option "Hà Nội"
+              - generic [ref=f19e54]:
+                - generic [ref=f19e55]: Quận hoặc huyện
+                - combobox "Quận hoặc huyện" [disabled] [ref=f19e56]:
+                  - option "Chọn quận/huyện" [selected]
+              - generic [ref=f19e57]:
+                - generic [ref=f19e58]: Phường hoặc xã
+                - combobox "Phường hoặc xã" [disabled] [ref=f19e59]:
+                  - option "Chọn phường/xã" [selected]
+            - generic [ref=f19e60]: Phí được GHN tính theo khu vực nhận hàng.
+          - generic [ref=f19e61]:
+            - generic [ref=f19e62]: Ghi chú (không bắt buộc)
+            - textbox "Ghi chú (không bắt buộc)" [ref=f19e63]
+        - separator [ref=f19e64]
+        - generic [ref=f19e65]:
+          - generic [ref=f19e66]: "2"
+          - generic [ref=f19e67]:
+            - heading "Hình thức thanh toán" [level=2] [ref=f19e68]
+            - paragraph [ref=f19e69]: Chọn một trong các hình thức bên dưới.
+        - generic [ref=f19e70]:
+          - generic [ref=f19e71] [cursor=pointer]:
+            - radio "Thanh toán trực tiếp Thanh toán tiền mặt khi nhận hàng." [checked] [ref=f19e72]
+            - generic [ref=f19e74]: 
+            - generic [ref=f19e75]: Thanh toán trực tiếpThanh toán tiền mặt khi nhận hàng.
+          - generic [ref=f19e76] [cursor=pointer]:
+            - radio "M Ví điện tử MoMo Thanh toán nhanh bằng ứng dụng MoMo." [ref=f19e77]
+            - generic [ref=f19e78]: M
+            - generic [ref=f19e79]: Ví điện tử MoMoThanh toán nhanh bằng ứng dụng MoMo.
+          - generic [ref=f19e80] [cursor=pointer]:
+            - radio "VNPAY-QR / Ngân hàng Quét QR hoặc thanh toán qua cổng VNPAY bảo mật." [ref=f19e81]
+            - generic [ref=f19e83]: 
+            - generic [ref=f19e84]: VNPAY-QR / Ngân hàngQuét QR hoặc thanh toán qua cổng VNPAY bảo mật.
+        - generic [ref=f19e85]:
+          - checkbox "Tôi đã đọc và đồng ý với chính sách giao hàng, chính sách đổi trả và điều khoản mua hàng." [ref=f19e86]
+          - generic [ref=f19e87]:
+            - text: Tôi đã đọc và đồng ý với
+            - link "chính sách giao hàng" [ref=f19e88] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+            - text: ","
+            - link "chính sách đổi trả" [ref=f19e89] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+            - text: và
+            - link "điều khoản mua hàng" [ref=f19e90] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+            - text: .
+      - complementary [ref=f19e92]:
+        - heading "Sản phẩm đã chọn" [level=2] [ref=f19e93]
+        - generic [ref=f19e95]:
+          - generic [ref=f19e96]: Test × 1
+          - generic [ref=f19e97]: 9.999đ
+        - separator [ref=f19e98]
+        - generic [ref=f19e99]:
+          - generic [ref=f19e100]: Mã ưu đãi (nếu có)
+          - generic [ref=f19e101]:
+            - textbox "Mã ưu đãi (nếu có)" [ref=f19e102]:
+              - /placeholder: Nhập mã giảm giá
+            - button "Áp dụng" [ref=f19e103] [cursor=pointer]
+          - paragraph
+        - separator [ref=f19e104]
+        - generic [ref=f19e105]:
+          - generic [ref=f19e106]: Tiền hàng
+          - strong [ref=f19e107]: 9.999đ
+        - generic [ref=f19e108]:
+          - generic [ref=f19e109]: Phí giao hàng
+          - strong [ref=f19e110]: 30.000đ
+        - separator [ref=f19e111]
+        - generic [ref=f19e112]:
+          - strong [ref=f19e113]: Tổng thanh toán
+          - strong [ref=f19e114]: 39.999đ
+        - button "Xác nhận đặt hàng " [ref=f19e115] [cursor=pointer]:
+          - text: Xác nhận đặt hàng
+          - generic [ref=f19e116]: 
+        - paragraph [ref=f19e117]:
+          - generic [ref=f19e118]: 
+          - text: Thông tin của bạn được bảo mật.
+  - contentinfo [ref=f19e119]:
+    - generic [ref=f19e120]:
+      - generic [ref=f19e121]:
+        - link "Trang chủ Vua Beach" [ref=f19e122] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "Logo Vua Beach" [ref=f19e123]
+        - navigation "Liên kết cuối trang" [ref=f19e124]:
+          - link "Sản phẩm" [ref=f19e125] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham
+          - link "Giỏ hàng" [ref=f19e126] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/gio-hang
+          - link "Tài khoản" [ref=f19e127] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/tai-khoan
+          - link "Đơn hàng" [ref=f19e128] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/don-hang-cua-toi
+          - link "Giao hàng" [ref=f19e129] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=f19e130] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=f19e131] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=f19e132]:
+          - link "Gọi 0998 999999" [ref=f19e133] [cursor=pointer]:
+            - /url: tel:0998999999
+            - generic [ref=f19e134]: 
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f19e135] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f19e136]: 
+      - generic [ref=f19e137]:
+        - generic [ref=f19e138]: © 2026 Vua Beach
+        - text:  

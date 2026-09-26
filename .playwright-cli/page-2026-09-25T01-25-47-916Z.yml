@@ -1,0 +1,115 @@
+- generic [ref=f2e2]:
+  - complementary [ref=f2e3]:
+    - link "Trang tổng quan Vua Beach" [ref=f2e4] [cursor=pointer]:
+      - /url: http://127.0.0.1:8010/admin
+      - generic [ref=f2e5]: 
+      - generic [ref=f2e7]: Vua Beach
+    - paragraph [ref=f2e8]: Quản lý cửa hàng
+    - navigation "Báo cáo và tài chính" [ref=f2e9]:
+      - link " Báo cáo doanh thu" [ref=f2e10] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/reports
+        - generic [ref=f2e11]: 
+        - generic [ref=f2e12]: Báo cáo doanh thu
+      - link " Tài chính" [ref=f2e13] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/finance
+        - generic [ref=f2e14]: 
+        - generic [ref=f2e15]: Tài chính
+    - navigation "Điều hướng quản trị" [ref=f2e16]:
+      - link " Tổng quan" [ref=f2e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin
+        - generic [ref=f2e18]: 
+        - generic [ref=f2e19]: Tổng quan
+      - link " Sản phẩm" [ref=f2e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/products
+        - generic [ref=f2e21]: 
+        - generic [ref=f2e22]: Sản phẩm
+      - link " Tồn kho" [ref=f2e23] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/inventory
+        - generic [ref=f2e24]: 
+        - generic [ref=f2e25]: Tồn kho
+      - link " Nhập kho" [ref=f2e26] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/purchase-receipts
+        - generic [ref=f2e27]: 
+        - generic [ref=f2e28]: Nhập kho
+      - link " Nhà cung cấp" [ref=f2e29] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/suppliers
+        - generic [ref=f2e30]: 
+        - generic [ref=f2e31]: Nhà cung cấp
+      - link " Danh mục" [ref=f2e32] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/categories
+        - generic [ref=f2e33]: 
+        - generic [ref=f2e34]: Danh mục
+      - link " Đơn hàng" [ref=f2e35] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/orders
+        - generic [ref=f2e36]: 
+        - generic [ref=f2e37]: Đơn hàng
+      - link " Đổi trả" [ref=f2e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/returns
+        - generic [ref=f2e39]: 
+        - generic [ref=f2e40]: Đổi trả
+      - link " Mã ưu đãi" [ref=f2e41] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/coupons
+        - generic [ref=f2e42]: 
+        - generic [ref=f2e43]: Mã ưu đãi
+      - link " Tài khoản" [ref=f2e44] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/users
+        - generic [ref=f2e45]: 
+        - generic [ref=f2e46]: Tài khoản
+      - link " Nhật ký quản trị" [ref=f2e47] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/activity-logs
+        - generic [ref=f2e48]: 
+        - generic [ref=f2e49]: Nhật ký quản trị
+      - link " Cài đặt website" [ref=f2e50] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010/admin/settings
+        - generic [ref=f2e51]: 
+        - generic [ref=f2e52]: Cài đặt website
+    - generic [ref=f2e53]:
+      - generic [ref=f2e54]: Q
+      - generic [ref=f2e55]:
+        - strong [ref=f2e56]: Quản trị E2E
+        - generic [ref=f2e57]: Quản trị viên
+      - button "Đăng xuất" [ref=f2e59] [cursor=pointer]:
+        - generic [ref=f2e60]: 
+  - generic [ref=f2e61]:
+    - banner [ref=f2e62]:
+      - text: 
+      - generic [ref=f2e63]:
+        - paragraph [ref=f2e64]: VUA BEACH
+        - heading "Biểu đồ doanh thu" [level=1] [ref=f2e65]
+      - link "Xem website (mở trong thẻ mới)" [ref=f2e66] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010
+        - generic [aria-hidden] [ref=f2e67]: 
+        - generic [ref=f2e68]: Xem website
+    - main [ref=f2e69]:
+      - navigation "Báo cáo" [ref=f2e70]:
+        - link "Bảng số liệu" [ref=f2e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8010/admin/reports
+        - link "Biểu đồ" [ref=f2e72] [cursor=pointer]:
+          - /url: http://127.0.0.1:8010/admin/reports/charts
+      - paragraph [ref=f2e73]: Theo ngày tạo đơn; chỉ tính đơn đã thu tiền, chưa hoàn tiền, không bị hủy hoặc hoàn hàng. Doanh thu đơn gồm phí vận chuyển và giảm giá; danh mục tính giá sản phẩm lúc đặt, chưa trừ ưu đãi toàn đơn.
+      - generic [ref=f2e74]:
+        - generic [ref=f2e76]:
+          - heading "Theo danh mục" [level=2] [ref=f2e77]
+          - img "Theo danh mục" [ref=f2e79]
+          - link "Xem bảng số liệu đầy đủ" [ref=f2e80] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/admin/reports
+        - generic [ref=f2e82]:
+          - heading "30 ngày gần nhất" [level=2] [ref=f2e83]
+          - img "30 ngày gần nhất" [ref=f2e85]
+          - link "Xem bảng số liệu đầy đủ" [ref=f2e86] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/admin/reports
+        - generic [ref=f2e88]:
+          - heading "12 tháng gần nhất" [level=2] [ref=f2e89]
+          - img "12 tháng gần nhất" [ref=f2e91]
+          - link "Xem bảng số liệu đầy đủ" [ref=f2e92] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/admin/reports
+        - generic [ref=f2e94]:
+          - heading "Theo năm" [level=2] [ref=f2e95]
+          - img "Theo năm" [ref=f2e97]
+          - link "Xem bảng số liệu đầy đủ" [ref=f2e98] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/admin/reports
+        - generic [ref=f2e100]:
+          - heading "Theo phương thức" [level=2] [ref=f2e101]
+          - img "Theo phương thức" [ref=f2e103]
+          - link "Xem bảng số liệu đầy đủ" [ref=f2e104] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/admin/reports

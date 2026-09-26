@@ -1,0 +1,116 @@
+- generic [active] [ref=f26e1]:
+  - banner [ref=f26e2]:
+    - generic [ref=f26e3]:
+      - text: 
+      - link "Trang chủ Vua Beach" [ref=f26e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "Logo Vua Beach" [ref=f26e5]
+      - generic [ref=f26e6]:
+        - text: 
+        - generic [ref=f26e7]:
+          - button "Mở menu tài khoản" [ref=f26e8] [cursor=pointer]:
+            - generic [ref=f26e9]: 
+            - text: 
+          - text:    
+        - link "Giỏ hàng" [ref=f26e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gio-hang
+          - generic [ref=f26e12]: 
+          - generic [ref=f26e13]: "1"
+    - navigation "Danh mục chính" [ref=f26e14]:
+      - button "Mở menu" [ref=f26e16] [cursor=pointer]:
+        - generic [ref=f26e17]: 
+        - generic [ref=f26e18]: Danh mục
+  - main [ref=f26e19]:
+    - link " Đơn hàng của tôi" [ref=f26e20] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/don-hang-cua-toi
+      - generic [ref=f26e21]: 
+      - text: Đơn hàng của tôi
+    - generic [ref=f26e22]:
+      - generic [ref=f26e23]:
+        - paragraph [ref=f26e24]: Chi tiết đơn hàng
+        - heading "VB-CODEX-MOBILE" [level=1] [ref=f26e25]
+        - paragraph [ref=f26e26]: Đặt ngày 06/09/2026 lúc 19:45
+      - generic [ref=f26e27]: Hoàn thành
+    - generic [ref=f26e28]:
+      - generic [ref=f26e30]:
+        - generic [ref=f26e31]:
+          - heading "Sản phẩm" [level=2] [ref=f26e32]
+          - generic [ref=f26e33]: 1 sản phẩm
+        - generic [ref=f26e34]:
+          - generic [ref=f26e35]:
+            - img "Bikini" [ref=f26e36]
+            - generic [ref=f26e37]:
+              - strong [ref=f26e38]: Bikini
+              - paragraph [ref=f26e39]: Đỏ - Size S - Số lượng 1
+          - strong [ref=f26e40]: 800.000đ
+        - generic [ref=f26e41]:
+          - generic [ref=f26e42]:
+            - text: Tiền hàng
+            - strong [ref=f26e43]: 800.000đ
+          - generic [ref=f26e44]:
+            - text: Phí giao hàng
+            - strong [ref=f26e45]: 30.000đ
+          - generic [ref=f26e46]:
+            - text: Tổng thanh toán
+            - strong [ref=f26e47]: 830.000đ
+      - generic [ref=f26e48]:
+        - complementary [ref=f26e49]:
+          - generic [ref=f26e50]:
+            - heading "Thông tin nhận hàng" [level=2] [ref=f26e51]
+            - generic [ref=f26e52]: 
+          - generic [ref=f26e53]:
+            - strong [ref=f26e54]: Kiểm thử giao diện
+            - text: "0900000000"
+            - paragraph [ref=f26e55]: Địa chỉ kiểm thử
+          - generic [ref=f26e56]:
+            - generic [ref=f26e57]:
+              - generic [ref=f26e58]: Thanh toán
+              - strong [ref=f26e59]: Thanh toán trực tiếp
+            - generic [ref=f26e60]:
+              - generic [ref=f26e61]: Trạng thái thanh toán
+              - strong [ref=f26e62]: Đã thanh toán
+            - generic [ref=f26e63]:
+              - generic [ref=f26e64]: Vận chuyển
+              - strong [ref=f26e65]: Đã giao
+        - link "Yêu cầu đổi trả / đổi size" [ref=f26e66] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/don-hang/17/doi-tra
+    - generic [ref=f26e67]:
+      - generic [ref=f26e68]:
+        - heading "Lịch sử đơn hàng" [level=2] [ref=f26e69]
+        - generic [ref=f26e70]: 
+      - list [ref=f26e71]:
+        - listitem [ref=f26e72]:
+          - generic [ref=f26e74]:
+            - strong [ref=f26e75]: Đơn hàng hoàn thành
+            - paragraph [ref=f26e76]: 06/09/2026 19:45
+  - contentinfo [ref=f26e77]:
+    - generic [ref=f26e78]:
+      - generic [ref=f26e79]:
+        - link "Trang chủ Vua Beach" [ref=f26e80] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "Logo Vua Beach" [ref=f26e81]
+        - navigation "Liên kết cuối trang" [ref=f26e82]:
+          - link "Sản phẩm" [ref=f26e83] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham
+          - link "Giỏ hàng" [ref=f26e84] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/gio-hang
+          - link "Tài khoản" [ref=f26e85] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/tai-khoan
+          - link "Đơn hàng" [ref=f26e86] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/don-hang-cua-toi
+          - link "Giao hàng" [ref=f26e87] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=f26e88] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=f26e89] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=f26e90]:
+          - link "Gọi 0998 999999" [ref=f26e91] [cursor=pointer]:
+            - /url: tel:0998999999
+            - generic [ref=f26e92]: 
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f26e93] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f26e94]: 
+      - generic [ref=f26e95]:
+        - generic [ref=f26e96]: © 2026 Vua Beach
+        - text:  

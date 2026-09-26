@@ -1,0 +1,68 @@
+- generic [active] [ref=f15e1]:
+  - banner [ref=f15e2]:
+    - generic [ref=f15e3]:
+      - text: 
+      - link "Trang chủ Vua Beach" [ref=f15e4] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "Logo Vua Beach" [ref=f15e5]
+      - generic [ref=f15e6]:
+        - text: 
+        - generic [ref=f15e7]:
+          - button "Mở menu tài khoản" [ref=f15e8] [cursor=pointer]:
+            - generic [ref=f15e9]: 
+            - text: 
+          - text:    
+        - link "Giỏ hàng" [ref=f15e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gio-hang
+          - generic [ref=f15e12]: 
+          - generic [ref=f15e13]: "0"
+    - navigation "Danh mục chính" [ref=f15e14]:
+      - button "Mở menu" [ref=f15e16] [cursor=pointer]:
+        - generic [ref=f15e17]: 
+        - generic [ref=f15e18]: Danh mục
+  - main [ref=f15e19]:
+    - generic [ref=f15e21]:
+      - generic [ref=f15e22]: 
+      - paragraph [ref=f15e24]: Bảo vệ tài khoản
+      - heading "Kiểm tra email của bạn" [level=1] [ref=f15e25]
+      - paragraph [ref=f15e26]:
+        - text: Liên kết xác thực đang được gửi đến
+        - strong [ref=f15e27]: codex-mobile-audit@example.test
+        - text: . Hãy xác thực để thêm sản phẩm vào giỏ và xem lịch sử đơn hàng.
+      - generic [ref=f15e28]:
+        - button "Gửi lại liên kết" [ref=f15e30] [cursor=pointer]
+        - link "Mở ứng dụng email" [ref=f15e31] [cursor=pointer]:
+          - /url: mailto:codex-mobile-audit@example.test
+      - paragraph [ref=f15e32]: Liên kết có hiệu lực trong 60 phút. Nếu chưa thấy email, hãy kiểm tra thư mục Spam hoặc Thư rác.
+      - button "Đăng xuất tài khoản" [ref=f15e34] [cursor=pointer]
+  - contentinfo [ref=f15e35]:
+    - generic [ref=f15e36]:
+      - generic [ref=f15e37]:
+        - link "Trang chủ Vua Beach" [ref=f15e38] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "Logo Vua Beach" [ref=f15e39]
+        - navigation "Liên kết cuối trang" [ref=f15e40]:
+          - link "Sản phẩm" [ref=f15e41] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham
+          - link "Giỏ hàng" [ref=f15e42] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/gio-hang
+          - link "Tài khoản" [ref=f15e43] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/tai-khoan
+          - link "Đơn hàng" [ref=f15e44] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/don-hang-cua-toi
+          - link "Giao hàng" [ref=f15e45] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=f15e46] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=f15e47] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=f15e48]:
+          - link "Gọi 0998 999999" [ref=f15e49] [cursor=pointer]:
+            - /url: tel:0998999999
+            - generic [ref=f15e50]: 
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f15e51] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f15e52]: 
+      - generic [ref=f15e53]:
+        - generic [ref=f15e54]: © 2026 Vua Beach
+        - text:  

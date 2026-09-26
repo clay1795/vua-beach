@@ -1,0 +1,107 @@
+- generic [ref=f6e2]:
+  - complementary [ref=f6e3]:
+    - link "Trang tổng quan Vua Beach" [ref=f6e4] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/admin
+      - generic [ref=f6e5]: 
+      - generic [ref=f6e7]: Vua Beach
+    - paragraph [ref=f6e8]: Quản lý cửa hàng
+    - navigation "Điều hướng quản trị" [ref=f6e9]:
+      - link " Tổng quan" [ref=f6e10] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin
+        - generic [ref=f6e11]: 
+        - generic [ref=f6e12]: Tổng quan
+      - link " Sản phẩm" [ref=f6e13] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/products
+        - generic [ref=f6e14]: 
+        - generic [ref=f6e15]: Sản phẩm
+      - link " Tồn kho" [ref=f6e16] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/inventory
+        - generic [ref=f6e17]: 
+        - generic [ref=f6e18]: Tồn kho
+      - link " Danh mục" [ref=f6e19] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/categories
+        - generic [ref=f6e20]: 
+        - generic [ref=f6e21]: Danh mục
+      - link " Đơn hàng" [ref=f6e22] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/orders
+        - generic [ref=f6e23]: 
+        - generic [ref=f6e24]: Đơn hàng
+      - link " Tài khoản" [ref=f6e25] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/users
+        - generic [ref=f6e26]: 
+        - generic [ref=f6e27]: Tài khoản
+      - link " Cài đặt website" [ref=f6e28] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/settings
+        - generic [ref=f6e29]: 
+        - generic [ref=f6e30]: Cài đặt website
+    - generic [ref=f6e31]:
+      - generic [ref=f6e32]: L
+      - generic [ref=f6e33]:
+        - strong [ref=f6e34]: Lương Chiên Hiệp
+        - generic [ref=f6e35]: Quản trị viên
+      - button "Đăng xuất" [ref=f6e37] [cursor=pointer]:
+        - generic [ref=f6e38]: 
+  - generic [ref=f6e39]:
+    - banner [ref=f6e40]:
+      - text: 
+      - generic [ref=f6e41]:
+        - paragraph [ref=f6e42]: VUA BEACH
+        - heading "Lịch sử tồn kho" [level=1] [ref=f6e43]
+      - link " Xem website" [ref=f6e44] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=f6e45]: 
+        - generic [ref=f6e46]: Xem website
+    - main [ref=f6e47]:
+      - generic [ref=f6e48]:
+        - paragraph [ref=f6e49]: Theo dõi lượng hàng nhập, xuất và số dư của từng biến thể.
+        - link " Quản lý sản phẩm" [ref=f6e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/products
+          - generic [ref=f6e51]: 
+          - text: Quản lý sản phẩm
+      - generic [ref=f6e52]:
+        - textbox "Tìm tên sản phẩm hoặc SKU" [ref=f6e54]
+        - combobox [ref=f6e56]:
+          - option "Mọi biến động" [selected]
+          - option "Nhập kho"
+          - option "Xuất kho"
+        - generic [ref=f6e57]:
+          - button "Lọc" [ref=f6e58] [cursor=pointer]
+          - link "Xóa" [ref=f6e59] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/admin/inventory
+      - table [ref=f6e61]:
+        - rowgroup [ref=f6e62]:
+          - row [ref=f6e63]:
+            - columnheader "Thời gian" [ref=f6e64]
+            - columnheader "Sản phẩm" [ref=f6e65]
+            - columnheader "Phân loại / SKU" [ref=f6e66]
+            - columnheader "Biến động" [ref=f6e67]
+            - columnheader "Số dư" [ref=f6e68]
+            - columnheader "Lý do" [ref=f6e69]
+        - rowgroup [ref=f6e70]:
+          - row [ref=f6e71]:
+            - cell "04/09/2026 19:46" [ref=f6e72]: 04/09/202619:46
+            - cell "Bộ bơi dài tay hồng phối chân váy đen" [ref=f6e73]
+            - cell [ref=f6e74]:
+              - text: Hồng phối đen · S
+              - code [ref=f6e75]: Chưa có SKU
+            - cell "-1" [ref=f6e76]
+            - cell "7" [ref=f6e78]
+            - cell "Khách đặt đơn Đặt đơn VB-MJCSEUC" [ref=f6e79]: Khách đặt đơnĐặt đơn VB-MJCSEUC
+          - row [ref=f6e80]:
+            - cell "04/09/2026 19:46" [ref=f6e81]: 04/09/202619:46
+            - cell "Bikini cạp cao quần váy họa tiết nhiệt đới" [ref=f6e82]
+            - cell [ref=f6e83]:
+              - text: Họa tiết nhiệt đới · S
+              - code [ref=f6e84]: Chưa có SKU
+            - cell "-2" [ref=f6e85]
+            - cell "8" [ref=f6e87]
+            - cell "Khách đặt đơn Đặt đơn VB-MJCSEUC" [ref=f6e88]: Khách đặt đơnĐặt đơn VB-MJCSEUC
+          - row [ref=f6e89]:
+            - cell "04/09/2026 19:46" [ref=f6e90]: 04/09/202619:46
+            - cell "Quần bơi nam cao cấp đen phối sóng" [ref=f6e91]
+            - cell [ref=f6e92]:
+              - text: Đen phối sóng · M
+              - code [ref=f6e93]: Chưa có SKU
+            - cell "-1" [ref=f6e94]
+            - cell "14" [ref=f6e96]
+            - cell "Khách đặt đơn Đặt đơn VB-MJCSEUC" [ref=f6e97]: Khách đặt đơnĐặt đơn VB-MJCSEUC

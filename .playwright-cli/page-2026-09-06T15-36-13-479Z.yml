@@ -1,0 +1,294 @@
+- generic [active] [ref=f5e1]:
+  - link "Chuyển đến nội dung chính" [ref=f5e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f5e3]:
+    - generic [ref=f5e4]:
+      - text: 
+      - link "Trang chủ Vua Beach" [ref=f5e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "Logo Vua Beach" [ref=f5e6]
+      - generic [ref=f5e7]:
+        - text: 
+        - generic [ref=f5e8]:
+          - button "Mở menu tài khoản" [ref=f5e9] [cursor=pointer]:
+            - generic [ref=f5e10]: 
+            - text: 
+          - text:  
+        - link "Giỏ hàng" [ref=f5e12] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gio-hang
+          - generic [ref=f5e13]: 
+          - generic [ref=f5e14]: "0"
+    - navigation "Danh mục chính" [ref=f5e15]:
+      - button "Mở menu" [ref=f5e17] [cursor=pointer]:
+        - generic [ref=f5e18]: 
+        - generic [ref=f5e19]: Danh mục
+  - main [ref=f5e21]:
+    - generic [ref=f5e22]:
+      - paragraph [ref=f5e23]: Bộ sưu tập Vua Beach
+      - heading "Đồ bơi cho mọi hành trình" [level=1] [ref=f5e24]
+      - paragraph [ref=f5e25]: Lọc nhanh theo nhu cầu, sau đó chọn màu và kích cỡ phù hợp với bạn.
+    - form "Bộ lọc sản phẩm" [ref=f5e26]:
+      - generic [ref=f5e28]:
+        - generic [ref=f5e29]: 
+        - textbox "Tên sản phẩm" [ref=f5e31]:
+          - /placeholder: Tìm tên sản phẩm
+      - combobox "Danh mục" [ref=f5e33]:
+        - option "Tất cả danh mục" [selected]
+        - option "Đồ Bơi"
+        - option "Đồ bơi nữ"
+        - option "Đồ bơi nam"
+        - option "Đồ bơi trẻ em"
+        - option "Phụ kiện bơi"
+      - combobox "Sắp xếp" [ref=f5e35]:
+        - option "Mới cập nhật" [selected]
+        - option "Giá thấp trước"
+        - option "Giá cao trước"
+      - button " Lọc sản phẩm" [ref=f5e37] [cursor=pointer]:
+        - generic [ref=f5e38]: 
+        - text: Lọc sản phẩm
+    - heading "14 sản phẩm" [level=2] [ref=f5e40]
+    - generic [ref=f5e41]:
+      - article [ref=f5e43]:
+        - link "Xem Test" [ref=f5e44] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/san-pham/test
+          - generic [ref=f5e45]: Đang giảm giá
+          - img "Test" [ref=f5e46]
+        - generic [ref=f5e47]:
+          - generic [ref=f5e48]:
+            - generic [ref=f5e49]:
+              - paragraph [ref=f5e50]: Đồ Bơi
+              - link "Test" [ref=f5e51] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/san-pham/test
+            - generic [ref=f5e52]:
+              - text: 9.999đ
+              - generic [ref=f5e53]: 10.000đ
+          - generic [ref=f5e54]:
+            - combobox "Chọn phân loại Test" [ref=f5e55]:
+              - option "Vàng - Size S" [selected]
+            - button "Thêm Test vào giỏ" [ref=f5e56] [cursor=pointer]:
+              - generic [ref=f5e57]: 
+              - text: Thêm vào giỏ
+      - article [ref=f5e59]:
+        - link "Xem Quần bơi nam cao cấp đen phối sóng" [ref=f5e60] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/san-pham/quan-boi-nam-cao-cap-den-phoi-song
+          - img "Quần bơi nam cao cấp đen phối sóng" [ref=f5e61]
+        - generic [ref=f5e62]:
+          - generic [ref=f5e63]:
+            - generic [ref=f5e64]:
+              - paragraph [ref=f5e65]: Đồ bơi nam
+              - link "Quần bơi nam cao cấp đen phối sóng" [ref=f5e66] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/san-pham/quan-boi-nam-cao-cap-den-phoi-song
+            - generic [ref=f5e67]: 520.000đ
+          - generic [ref=f5e68]:
+            - combobox "Chọn phân loại Quần bơi nam cao cấp đen phối sóng" [ref=f5e69]:
+              - option "Đen phối sóng - Size M" [selected]
+              - option "Đen phối sóng - Size L"
+              - option "Đen phối sóng - Size XL"
+            - button "Thêm Quần bơi nam cao cấp đen phối sóng vào giỏ" [ref=f5e70] [cursor=pointer]:
+              - generic [ref=f5e71]: 
+              - text: Thêm vào giỏ
+      - article [ref=f5e73]:
+        - link "Xem Quần bơi nam cao cấp đen phối xanh" [ref=f5e74] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/san-pham/quan-boi-nam-cao-cap-den-phoi-xanh
+          - generic [ref=f5e75]: Đang giảm giá
+          - img "Quần bơi nam cao cấp đen phối xanh" [ref=f5e76]
+        - generic [ref=f5e77]:
+          - generic [ref=f5e78]:
+            - generic [ref=f5e79]:
+              - paragraph [ref=f5e80]: Đồ bơi nam
+              - link "Quần bơi nam cao cấp đen phối xanh" [ref=f5e81] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/san-pham/quan-boi-nam-cao-cap-den-phoi-xanh
+            - generic [ref=f5e82]:
+              - text: 479.000đ
+              - generic [ref=f5e83]: 520.000đ
+          - generic [ref=f5e84]:
+            - combobox "Chọn phân loại Quần bơi nam cao cấp đen phối xanh" [ref=f5e85]:
+              - option "Đen phối xanh - Size M" [selected]
+              - option "Đen phối xanh - Size L"
+              - option "Đen phối xanh - Size XL"
+            - button "Thêm Quần bơi nam cao cấp đen phối xanh vào giỏ" [ref=f5e86] [cursor=pointer]:
+              - generic [ref=f5e87]: 
+              - text: Thêm vào giỏ
+      - article [ref=f5e89]:
+        - link "Xem Bộ rời bé trai tay dài kèm mũ" [ref=f5e90] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/san-pham/bo-roi-be-trai-tay-dai-kem-mu
+          - img "Bộ rời bé trai tay dài kèm mũ" [ref=f5e91]
+        - generic [ref=f5e92]:
+          - generic [ref=f5e93]:
+            - generic [ref=f5e94]:
+              - paragraph [ref=f5e95]: Đồ bơi trẻ em
+              - link "Bộ rời bé trai tay dài kèm mũ" [ref=f5e96] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/san-pham/bo-roi-be-trai-tay-dai-kem-mu
+            - generic [ref=f5e97]: 300.000đ
+          - generic [ref=f5e98]:
+            - combobox "Chọn phân loại Bộ rời bé trai tay dài kèm mũ" [ref=f5e99]:
+              - option "Xanh - Size 4" [selected]
+              - option "Xanh - Size 6"
+              - option "Xanh - Size 8"
+            - button "Thêm Bộ rời bé trai tay dài kèm mũ vào giỏ" [ref=f5e100] [cursor=pointer]:
+              - generic [ref=f5e101]: 
+              - text: Thêm vào giỏ
+      - article [ref=f5e103]:
+        - link "Xem Bộ rời bé trai xanh phối cam" [ref=f5e104] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/san-pham/bo-roi-be-trai-xanh-phoi-cam
+          - img "Bộ rời bé trai xanh phối cam" [ref=f5e105]
+        - generic [ref=f5e106]:
+          - generic [ref=f5e107]:
+            - generic [ref=f5e108]:
+              - paragraph [ref=f5e109]: Đồ bơi trẻ em
+              - link "Bộ rời bé trai xanh phối cam" [ref=f5e110] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/san-pham/bo-roi-be-trai-xanh-phoi-cam
+            - generic [ref=f5e111]: 250.000đ
+          - generic [ref=f5e112]:
+            - combobox "Chọn phân loại Bộ rời bé trai xanh phối cam" [ref=f5e113]:
+              - option "Xanh phối cam - Size 4" [selected]
+              - option "Xanh phối cam - Size 6"
+              - option "Xanh phối cam - Size 8"
+            - button "Thêm Bộ rời bé trai xanh phối cam vào giỏ" [ref=f5e114] [cursor=pointer]:
+              - generic [ref=f5e115]: 
+              - text: Thêm vào giỏ
+      - article [ref=f5e117]:
+        - link "Xem Bộ bơi dài tay hồng phối chân váy đen" [ref=f5e118] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/san-pham/bo-boi-dai-tay-hong-phoi-chan-vay-den
+          - img "Bộ bơi dài tay hồng phối chân váy đen" [ref=f5e119]
+        - generic [ref=f5e120]:
+          - generic [ref=f5e121]:
+            - generic [ref=f5e122]:
+              - paragraph [ref=f5e123]: Đồ bơi nữ
+              - link "Bộ bơi dài tay hồng phối chân váy đen" [ref=f5e124] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/san-pham/bo-boi-dai-tay-hong-phoi-chan-vay-den
+            - generic [ref=f5e125]: 540.000đ
+          - generic [ref=f5e126]:
+            - combobox "Chọn phân loại Bộ bơi dài tay hồng phối chân váy đen" [ref=f5e127]:
+              - option "Hồng phối đen - Size S" [selected]
+              - option "Hồng phối đen - Size M"
+              - option "Hồng phối đen - Size L"
+            - button "Thêm Bộ bơi dài tay hồng phối chân váy đen vào giỏ" [ref=f5e128] [cursor=pointer]:
+              - generic [ref=f5e129]: 
+              - text: Thêm vào giỏ
+      - article [ref=f5e131]:
+        - link "Xem Đồ bơi cộc tay liền thân quần short đen" [ref=f5e132] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/san-pham/do-boi-coc-tay-lien-than-quan-short-den
+          - generic [ref=f5e133]: Đang giảm giá
+          - img "Đồ bơi cộc tay liền thân quần short đen" [ref=f5e134]
+        - generic [ref=f5e135]:
+          - generic [ref=f5e136]:
+            - generic [ref=f5e137]:
+              - paragraph [ref=f5e138]: Đồ bơi nữ
+              - link "Đồ bơi cộc tay liền thân quần short đen" [ref=f5e139] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/san-pham/do-boi-coc-tay-lien-than-quan-short-den
+            - generic [ref=f5e140]:
+              - text: 419.000đ
+              - generic [ref=f5e141]: 450.000đ
+          - generic [ref=f5e142]:
+            - combobox "Chọn phân loại Đồ bơi cộc tay liền thân quần short đen" [ref=f5e143]:
+              - option "Đen - Size S" [selected]
+              - option "Đen - Size M"
+              - option "Đen - Size L"
+            - button "Thêm Đồ bơi cộc tay liền thân quần short đen vào giỏ" [ref=f5e144] [cursor=pointer]:
+              - generic [ref=f5e145]: 
+              - text: Thêm vào giỏ
+      - article [ref=f5e147]:
+        - link "Xem Bộ bơi liền tay dài phối ren" [ref=f5e148] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/san-pham/bo-boi-lien-tay-dai-phoi-ren
+          - img "Bộ bơi liền tay dài phối ren" [ref=f5e149]
+        - generic [ref=f5e150]:
+          - generic [ref=f5e151]:
+            - generic [ref=f5e152]:
+              - paragraph [ref=f5e153]: Đồ bơi nữ
+              - link "Bộ bơi liền tay dài phối ren" [ref=f5e154] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/san-pham/bo-boi-lien-tay-dai-phoi-ren
+            - generic [ref=f5e155]: 520.000đ
+          - generic [ref=f5e156]:
+            - combobox "Chọn phân loại Bộ bơi liền tay dài phối ren" [ref=f5e157]:
+              - option "Kem - Size S" [selected]
+              - option "Kem - Size M"
+              - option "Kem - Size L"
+            - button "Thêm Bộ bơi liền tay dài phối ren vào giỏ" [ref=f5e158] [cursor=pointer]:
+              - generic [ref=f5e159]: 
+              - text: Thêm vào giỏ
+      - article [ref=f5e161]:
+        - link "Xem Bikini cạp cao quần váy họa tiết nhiệt đới" [ref=f5e162] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/san-pham/bikini-cap-cao-quan-vay-hoa-tiet-nhiet-doi
+          - generic [ref=f5e163]: Đang giảm giá
+          - img "Bikini cạp cao quần váy họa tiết nhiệt đới" [ref=f5e164]
+        - generic [ref=f5e165]:
+          - generic [ref=f5e166]:
+            - generic [ref=f5e167]:
+              - paragraph [ref=f5e168]: Đồ bơi nữ
+              - link "Bikini cạp cao quần váy họa tiết nhiệt đới" [ref=f5e169] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/san-pham/bikini-cap-cao-quan-vay-hoa-tiet-nhiet-doi
+            - generic [ref=f5e170]:
+              - text: 399.000đ
+              - generic [ref=f5e171]: 450.000đ
+          - generic [ref=f5e172]:
+            - combobox "Chọn phân loại Bikini cạp cao quần váy họa tiết nhiệt đới" [ref=f5e173]:
+              - option "Họa tiết nhiệt đới - Size S" [selected]
+              - option "Họa tiết nhiệt đới - Size M"
+              - option "Họa tiết nhiệt đới - Size L"
+            - button "Thêm Bikini cạp cao quần váy họa tiết nhiệt đới vào giỏ" [ref=f5e174] [cursor=pointer]:
+              - generic [ref=f5e175]: 
+              - text: Thêm vào giỏ
+    - navigation "Phân trang sản phẩm" [ref=f5e176]:
+      - paragraph [ref=f5e177]:
+        - text: Trang
+        - strong [ref=f5e178]: "1"
+        - text: / 2
+      - generic [ref=f5e179]:
+        - generic [aria-hidden] [ref=f5e181]: 
+        - generic "Danh sách trang" [ref=f5e182]:
+          - generic [ref=f5e183]: "1"
+          - link "Đi đến trang 2" [ref=f5e184] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham?page=2
+            - text: "2"
+        - link [ref=f5e185] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/san-pham?page=2
+          - generic [aria-hidden] [ref=f5e186]: 
+  - navigation "Điều hướng nhanh trên điện thoại" [ref=f5e187]:
+    - link " Trang chủ" [ref=f5e188] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000
+      - generic [ref=f5e189]: 
+      - generic [ref=f5e190]: Trang chủ
+    - link " Sản phẩm" [ref=f5e191] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/san-pham
+      - generic [ref=f5e192]: 
+      - generic [ref=f5e193]: Sản phẩm
+    - link " 0 Giỏ hàng" [ref=f5e194] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/gio-hang
+      - generic [ref=f5e195]:
+        - generic [ref=f5e196]: 
+        - generic [ref=f5e197]: "0"
+      - generic [ref=f5e198]: Giỏ hàng
+    - link " Đăng nhập" [ref=f5e199] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/dang-nhap
+      - generic [ref=f5e200]: 
+      - generic [ref=f5e201]: Đăng nhập
+  - contentinfo [ref=f5e202]:
+    - generic [ref=f5e203]:
+      - generic [ref=f5e204]:
+        - link "Trang chủ Vua Beach" [ref=f5e205] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "Logo Vua Beach" [ref=f5e206]
+        - navigation "Liên kết cuối trang" [ref=f5e207]:
+          - link "Sản phẩm" [ref=f5e208] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham
+          - link "Giỏ hàng" [ref=f5e209] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/gio-hang
+          - link "Đăng nhập" [ref=f5e210] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dang-nhap
+          - link "Giao hàng" [ref=f5e211] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=f5e212] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=f5e213] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=f5e214]:
+          - link "Gọi 0998 999999" [ref=f5e215] [cursor=pointer]:
+            - /url: tel:0998999999
+            - generic [ref=f5e216]: 
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f5e217] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f5e218]: 
+      - generic [ref=f5e219]:
+        - generic [ref=f5e220]: © 2026 Vua Beach
+        - text:  

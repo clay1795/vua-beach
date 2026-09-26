@@ -1,0 +1,145 @@
+- generic [active] [ref=f8e1]:
+  - link "Chuyển đến nội dung chính" [ref=f8e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f8e3]:
+    - generic [ref=f8e4]:
+      - text: 
+      - link "Trang chủ Vua Beach" [ref=f8e5] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "Logo Vua Beach" [ref=f8e6]
+      - generic [ref=f8e7]:
+        - text: 
+        - generic [ref=f8e8]:
+          - button "Mở menu tài khoản" [ref=f8e9] [cursor=pointer]:
+            - generic [ref=f8e10]: 
+            - text: 
+          - text:  
+        - link "Giỏ hàng" [ref=f8e12] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gio-hang
+          - generic [ref=f8e13]: 
+          - generic [ref=f8e14]: "0"
+    - navigation "Danh mục chính" [ref=f8e15]:
+      - button "Mở menu" [ref=f8e17] [cursor=pointer]:
+        - generic [ref=f8e18]: 
+        - generic [ref=f8e19]: Danh mục
+  - main [ref=f8e21]:
+    - link " Quay lại cửa hàng" [ref=f8e22] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/san-pham
+      - generic [ref=f8e23]: 
+      - text: Quay lại cửa hàng
+    - generic [ref=f8e24]:
+      - img "Quần bơi nam cao cấp đen phối sóng" [ref=f8e26]
+      - generic [ref=f8e27]:
+        - generic [ref=f8e28]: Đồ bơi nam
+        - heading "Quần bơi nam cao cấp đen phối sóng" [level=1] [ref=f8e29]
+        - generic [ref=f8e30]: 520.000đ
+        - paragraph [ref=f8e31]: Quần bơi nam dáng thể thao, nền đen phối họa tiết sóng khỏe khoắn và chất liệu co giãn nhanh khô.
+        - generic [ref=f8e32]:
+          - generic [ref=f8e33]:
+            - generic [ref=f8e34]:
+              - generic [ref=f8e35]: Màu sắc
+              - generic "Chọn màu sắc" [ref=f8e36]:
+                - button "Đen phối sóng" [pressed] [ref=f8e37] [cursor=pointer]
+            - generic [ref=f8e38]:
+              - generic [ref=f8e39]: Kích cỡ
+              - generic "Chọn kích cỡ" [ref=f8e40]:
+                - button "Size L" [pressed] [ref=f8e41] [cursor=pointer]
+                - button "Size M" [ref=f8e42] [cursor=pointer]
+                - button "Size XL" [ref=f8e43] [cursor=pointer]
+              - paragraph [ref=f8e44]: Còn 16 sản phẩm cho màu Đen phối sóng, size L.
+          - generic [ref=f8e45]:
+            - generic [ref=f8e46]:
+              - generic [ref=f8e47]: Số lượng
+              - spinbutton "Số lượng" [ref=f8e48]: "1"
+            - button " Thêm vào giỏ" [ref=f8e50] [cursor=pointer]:
+              - generic [ref=f8e51]: 
+              - text: Thêm vào giỏ
+        - generic "Quyền lợi mua hàng" [ref=f8e52]:
+          - generic [ref=f8e53]:
+            - generic [ref=f8e54]: 
+            - text: Đổi size trong 7 ngày
+          - generic [ref=f8e55]:
+            - generic [ref=f8e56]: 
+            - text: Thanh toán bảo mật
+          - generic [ref=f8e57]:
+            - generic [ref=f8e58]: 
+            - text: Giao hàng toàn quốc
+    - generic [ref=f8e59]:
+      - generic [ref=f8e60]:
+        - generic [ref=f8e61]:
+          - paragraph [ref=f8e62]: Cảm nhận khách hàng
+          - heading "Đánh giá sản phẩm" [level=2] [ref=f8e63]
+        - text: 0 đánh giá
+      - paragraph [ref=f8e65]: Chưa có đánh giá. Khách đã mua và nhận hàng có thể đánh giá sản phẩm tại đây.
+    - generic [ref=f8e66]:
+      - heading "Có thể bạn sẽ thích" [level=2] [ref=f8e68]
+      - article [ref=f8e71]:
+        - link "Xem Quần bơi nam cao cấp đen phối xanh" [ref=f8e72] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/san-pham/quan-boi-nam-cao-cap-den-phoi-xanh
+          - generic [ref=f8e73]: Đang giảm giá
+          - img "Quần bơi nam cao cấp đen phối xanh" [ref=f8e74]
+        - generic [ref=f8e75]:
+          - generic [ref=f8e76]:
+            - generic [ref=f8e77]:
+              - paragraph [ref=f8e78]: Đồ bơi nam
+              - link "Quần bơi nam cao cấp đen phối xanh" [ref=f8e79] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/san-pham/quan-boi-nam-cao-cap-den-phoi-xanh
+            - generic [ref=f8e80]:
+              - text: 479.000đ
+              - generic [ref=f8e81]: 520.000đ
+          - generic [ref=f8e82]:
+            - combobox "Chọn phân loại Quần bơi nam cao cấp đen phối xanh" [ref=f8e83]:
+              - option "Đen phối xanh - Size L" [selected]
+              - option "Đen phối xanh - Size M"
+              - option "Đen phối xanh - Size XL"
+            - button "Thêm Quần bơi nam cao cấp đen phối xanh vào giỏ" [ref=f8e84] [cursor=pointer]:
+              - generic [ref=f8e85]: 
+              - text: Thêm vào giỏ
+  - navigation "Điều hướng nhanh trên điện thoại" [ref=f8e86]:
+    - link " Trang chủ" [ref=f8e87] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000
+      - generic [ref=f8e88]: 
+      - generic [ref=f8e89]: Trang chủ
+    - link " Sản phẩm" [ref=f8e90] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/san-pham
+      - generic [ref=f8e91]: 
+      - generic [ref=f8e92]: Sản phẩm
+    - link " 0 Giỏ hàng" [ref=f8e93] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/gio-hang
+      - generic [ref=f8e94]:
+        - generic [ref=f8e95]: 
+        - generic [ref=f8e96]: "0"
+      - generic [ref=f8e97]: Giỏ hàng
+    - link " Đăng nhập" [ref=f8e98] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/dang-nhap
+      - generic [ref=f8e99]: 
+      - generic [ref=f8e100]: Đăng nhập
+  - contentinfo [ref=f8e101]:
+    - generic [ref=f8e102]:
+      - generic [ref=f8e103]:
+        - link "Trang chủ Vua Beach" [ref=f8e104] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "Logo Vua Beach" [ref=f8e105]
+        - navigation "Liên kết cuối trang" [ref=f8e106]:
+          - link "Sản phẩm" [ref=f8e107] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham
+          - link "Giỏ hàng" [ref=f8e108] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/gio-hang
+          - link "Đăng nhập" [ref=f8e109] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dang-nhap
+          - link "Giao hàng" [ref=f8e110] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=f8e111] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=f8e112] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=f8e113]:
+          - link "Gọi 0998 999999" [ref=f8e114] [cursor=pointer]:
+            - /url: tel:0998999999
+            - generic [ref=f8e115]: 
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f8e116] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f8e117]: 
+      - generic [ref=f8e118]:
+        - generic [ref=f8e119]: © 2026 Vua Beach
+        - text:  

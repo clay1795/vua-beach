@@ -1,0 +1,107 @@
+- generic [ref=e1]:
+  - link "Chuyển đến nội dung chính" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - 'link " Hotline: 0900 000 000" [ref=e5] [cursor=pointer]':
+        - /url: tel:0900000000
+        - generic [ref=e6]: 
+        - generic [ref=e7]:
+          - text: "Hotline:"
+          - strong [ref=e8]: 0900 000 000
+      - link "Trang chủ Vua Beach" [ref=e9] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010
+        - generic [ref=e10]: 
+      - generic [ref=e12]:
+        - search [ref=e13]:
+          - generic [ref=e14]: Tìm sản phẩm
+          - textbox "Tìm sản phẩm" [ref=e15]
+          - button "Tìm kiếm" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]: 
+        - generic [ref=e18]:
+          - button "Mở menu tài khoản" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+            - generic [ref=e22]:
+              - generic [ref=e23]: Tài khoản
+              - strong [ref=e24]: Đăng nhập
+            - generic [ref=e25]: 
+          - text:  
+        - link "Giỏ hàng" [ref=e26] [cursor=pointer]:
+          - /url: http://127.0.0.1:8010/gio-hang
+          - generic [ref=e27]: 
+    - navigation "Danh mục chính" [ref=e28]:
+      - generic [ref=e29]:
+        - text: 
+        - list [ref=e31]:
+          - listitem [ref=e32]:
+            - link "Trang chủ" [ref=e33] [cursor=pointer]:
+              - /url: http://127.0.0.1:8010
+          - listitem [ref=e34]:
+            - link "Đồ bơi nữ" [ref=e35] [cursor=pointer]:
+              - /url: http://127.0.0.1:8010/san-pham?category=do-boi-nu-e2e
+          - listitem [ref=e36]:
+            - link "Tất cả sản phẩm" [ref=e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:8010/san-pham
+  - main [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e42]:
+        - heading "Mùa hè đang chờ bạn." [level=2] [ref=e43]
+        - paragraph [ref=e44]: Đăng nhập để tiếp tục mua sắm và theo dõi đơn hàng.
+      - generic [ref=e45]:
+        - heading "Đăng nhập" [level=1] [ref=e46]
+        - paragraph [ref=e47]: Chào mừng bạn trở lại Vua Beach.
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: Tên đăng nhập
+            - textbox "Tên đăng nhập" [active] [ref=e51]
+          - generic [ref=e52]:
+            - generic [ref=e53]: Mật khẩu
+            - textbox "Mật khẩu" [ref=e54]
+          - generic [ref=e55]:
+            - checkbox "Ghi nhớ đăng nhập" [ref=e56]
+            - generic [ref=e57]: Ghi nhớ đăng nhập
+            - link "Quên mật khẩu?" [ref=e58] [cursor=pointer]:
+              - /url: http://127.0.0.1:8010/quen-mat-khau
+          - button "Đăng nhập" [ref=e59] [cursor=pointer]
+        - paragraph [ref=e60]:
+          - text: Chưa có tài khoản?
+          - link "Tạo tài khoản" [ref=e61] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/dang-ky
+  - text:    
+  - contentinfo [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - link "Trang chủ Vua Beach" [ref=e65] [cursor=pointer]:
+          - /url: http://127.0.0.1:8010
+          - generic [ref=e66]: 
+        - navigation "Liên kết cuối trang" [ref=e68]:
+          - link "Sản phẩm" [ref=e69] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/san-pham
+          - link "Giỏ hàng" [ref=e70] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/gio-hang
+          - link "Đăng nhập" [ref=e71] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/dang-nhap
+          - link "Giao hàng" [ref=e72] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=e73] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=e74] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=e75]:
+          - link "Gọi 0900 000 000" [ref=e76] [cursor=pointer]:
+            - /url: tel:0900000000
+            - generic [ref=e77]: 
+            - generic [ref=e78]: 0900 000 000
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=e79] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=e80]: 
+            - generic [ref=e81]: sp.doitheauto5s@gmail.com
+      - generic [ref=e82]:
+        - generic [ref=e83]: © 2026 Vua Beach
+        - generic "Cam kết dịch vụ" [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e86]: 
+            - text: Giao hàng toàn quốc
+          - generic [ref=e87]:
+            - generic [ref=e88]: 
+            - text: Đổi size trong 7 ngày

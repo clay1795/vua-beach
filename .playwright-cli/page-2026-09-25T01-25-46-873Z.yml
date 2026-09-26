@@ -1,0 +1,167 @@
+- generic [active] [ref=f1e1]:
+  - link "Chuyển đến nội dung chính" [ref=f1e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - 'link " Hotline: 0900 000 000" [ref=f1e5] [cursor=pointer]':
+        - /url: tel:0900000000
+        - generic [ref=f1e6]: 
+        - generic [ref=f1e7]:
+          - text: "Hotline:"
+          - strong [ref=f1e8]: 0900 000 000
+      - link "Trang chủ Vua Beach" [ref=f1e9] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010
+        - generic [ref=f1e10]: 
+      - generic [ref=f1e12]:
+        - search [ref=f1e13]:
+          - generic [ref=f1e14]: Tìm sản phẩm
+          - textbox "Tìm sản phẩm" [ref=f1e15]
+          - button "Tìm kiếm" [ref=f1e16] [cursor=pointer]:
+            - generic [ref=f1e17]: 
+        - generic [ref=f1e18]:
+          - button "Mở menu tài khoản" [ref=f1e19] [cursor=pointer]:
+            - generic [ref=f1e20]: 
+            - generic [ref=f1e22]:
+              - generic [ref=f1e23]: Xin chào
+              - strong [ref=f1e24]: Quản trị E2E
+            - generic [ref=f1e25]: 
+          - text:    
+        - link "Giỏ hàng" [ref=f1e26] [cursor=pointer]:
+          - /url: http://127.0.0.1:8010/gio-hang
+          - generic [ref=f1e27]: 
+    - navigation "Danh mục chính" [ref=f1e28]:
+      - generic [ref=f1e29]:
+        - text: 
+        - list [ref=f1e31]:
+          - listitem [ref=f1e32]:
+            - link "Trang chủ" [ref=f1e33] [cursor=pointer]:
+              - /url: http://127.0.0.1:8010
+          - listitem [ref=f1e34]:
+            - link "Đồ bơi nữ" [ref=f1e35] [cursor=pointer]:
+              - /url: http://127.0.0.1:8010/san-pham?category=do-boi-nu-e2e
+          - listitem [ref=f1e36]:
+            - link "Tất cả sản phẩm" [ref=f1e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:8010/san-pham
+          - listitem [ref=f1e38]:
+            - link "Đơn hàng của tôi" [ref=f1e39] [cursor=pointer]:
+              - /url: http://127.0.0.1:8010/don-hang-cua-toi
+  - status [ref=f1e41]:
+    - text: Đăng nhập thành công.
+    - button "Đóng" [ref=f1e42] [cursor=pointer]
+  - main [ref=f1e44]:
+    - region [ref=f1e45]:
+      - img "Bộ sưu tập đồ bơi Vua Beach bên bờ biển" [ref=f1e48]
+      - generic [ref=f1e50]:
+        - paragraph [ref=f1e51]: Bộ sưu tập hè 2026
+        - heading "Mùa hè thuộc về bạn." [level=1] [ref=f1e52]: Mùa hèthuộc về bạn.
+        - paragraph [ref=f1e53]: Đồ bơi hiện đại, thoải mái và sẵn sàng cho mọi chuyến đi.
+        - link "Khám phá ngay " [ref=f1e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8010/san-pham
+          - text: Khám phá ngay
+          - generic [ref=f1e55]: 
+    - region "Dịch vụ mua hàng" [ref=f1e56]:
+      - generic "Các chính sách dịch vụ, có thể cuộn ngang trên điện thoại" [ref=f1e58]:
+        - generic [ref=f1e59]:
+          - generic [ref=f1e60]: 
+          - generic [ref=f1e61]:
+            - strong [ref=f1e62]: Giao hàng toàn quốc
+            - generic [ref=f1e63]: Kiểm tra trước khi nhận
+        - generic [ref=f1e64]:
+          - generic [ref=f1e65]: 
+          - generic [ref=f1e66]:
+            - strong [ref=f1e67]: Đổi size trong 7 ngày
+            - generic [ref=f1e68]: Hỗ trợ chọn lại kích cỡ
+        - generic [ref=f1e69]:
+          - generic [ref=f1e70]: 
+          - generic [ref=f1e71]:
+            - strong [ref=f1e72]: Mua sắm an tâm
+            - generic [ref=f1e73]: Thông tin được bảo mật
+    - region [ref=f1e74]:
+      - generic [ref=f1e75]:
+        - paragraph [ref=f1e76]: Chọn cho từng thành viên
+        - heading "Đồ bơi cho cả gia đình" [level=2] [ref=f1e77]
+        - paragraph [ref=f1e78]: Thiết kế thoải mái cho nữ, nam và trẻ em, từ hồ bơi đến những ngày ngoài biển.
+      - generic [ref=f1e80]:
+        - generic [ref=f1e81]: 
+        - heading "Danh mục đang được cập nhật" [level=3] [ref=f1e83]
+    - region [ref=f1e84]:
+      - generic [ref=f1e85]:
+        - generic [ref=f1e86]:
+          - heading "Sản phẩm nổi bật" [level=2] [ref=f1e87]
+          - paragraph [ref=f1e88]: Những thiết kế được chọn nhiều nhờ form dễ mặc, vận động thoải mái và màu sắc bền đẹp.
+        - article [ref=f1e90]:
+          - link [ref=f1e91] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/san-pham/bo-boi-e2e-xanh-bien
+            - img "Bộ bơi E2E xanh biển" [ref=f1e93]
+          - generic:
+            - generic:
+              - text: Đồ bơi nữ
+              - heading "Bộ bơi E2E xanh biển" [level=3]
+              - generic:
+                - strong: 399.000đ
+            - generic [ref=f1e94]:
+              - generic [ref=f1e95]: Chọn phân loại Bộ bơi E2E xanh biển
+              - combobox "Chọn phân loại Bộ bơi E2E xanh biển" [ref=f1e96]:
+                - option "Xanh biển - L" [selected]
+                - option "Xanh biển - M"
+              - button "Thêm vào giỏ" [ref=f1e97] [cursor=pointer]:
+                - generic [ref=f1e98]: 
+                - text: Thêm vào giỏ
+        - link "Xem tất cả sản phẩm " [ref=f1e100] [cursor=pointer]:
+          - /url: http://127.0.0.1:8010/san-pham
+          - text: Xem tất cả sản phẩm
+          - generic [ref=f1e101]: 
+    - generic [ref=f1e103]:
+      - img "Hai người mặc đồ bơi dài tay đi dọc bờ biển" [ref=f1e106]
+      - generic [ref=f1e107]:
+        - heading "Tự tin xuống nước, theo cách của bạn." [level=2] [ref=f1e108]
+        - paragraph [ref=f1e109]: Vua Beach chọn form dáng dễ mặc, chất liệu co giãn và thiết kế phù hợp nhiều vóc dáng. Bạn thoải mái học bơi, đi biển hoặc vận động ngoài trời.
+        - generic [ref=f1e110]:
+          - link "Chọn đồ bơi " [ref=f1e111] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/san-pham
+            - text: Chọn đồ bơi
+            - generic [ref=f1e112]: 
+          - link "Xem chính sách đổi size" [ref=f1e113] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/chinh-sach-doi-tra
+  - text:    
+  - contentinfo [ref=f1e114]:
+    - generic [ref=f1e115]:
+      - generic [ref=f1e116]:
+        - link "Trang chủ Vua Beach" [ref=f1e117] [cursor=pointer]:
+          - /url: http://127.0.0.1:8010
+          - generic [ref=f1e118]: 
+        - navigation "Liên kết cuối trang" [ref=f1e120]:
+          - link "Sản phẩm" [ref=f1e121] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/san-pham
+          - link "Giỏ hàng" [ref=f1e122] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/gio-hang
+          - link "Tài khoản" [ref=f1e123] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/tai-khoan
+          - link "Đơn hàng" [ref=f1e124] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/don-hang-cua-toi
+          - link "Quản trị" [ref=f1e125] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/admin
+          - link "Giao hàng" [ref=f1e126] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=f1e127] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=f1e128] [cursor=pointer]:
+            - /url: http://127.0.0.1:8010/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=f1e129]:
+          - link "Gọi 0900 000 000" [ref=f1e130] [cursor=pointer]:
+            - /url: tel:0900000000
+            - generic [ref=f1e131]: 
+            - generic [ref=f1e132]: 0900 000 000
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f1e133] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f1e134]: 
+            - generic [ref=f1e135]: sp.doitheauto5s@gmail.com
+      - generic [ref=f1e136]:
+        - generic [ref=f1e137]: © 2026 Vua Beach
+        - generic "Cam kết dịch vụ" [ref=f1e138]:
+          - generic [ref=f1e139]:
+            - generic [ref=f1e140]: 
+            - text: Giao hàng toàn quốc
+          - generic [ref=f1e141]:
+            - generic [ref=f1e142]: 
+            - text: Đổi size trong 7 ngày

@@ -1,0 +1,122 @@
+- generic [ref=e1]:
+  - link "Chuyển đến nội dung chính" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - status "Thông báo chế độ thanh toán thử nghiệm" [ref=e3]:
+    - generic [ref=e4]:
+      - generic [aria-hidden] [ref=e5]: 
+      - generic [ref=e6]:
+        - strong [ref=e7]: "Chế độ thử nghiệm:"
+        - text: MoMo và VNPAY đang dùng Sandbox. Không có giao dịch hay khoản tiền thật nào được xử lý.
+  - banner [ref=e8]:
+    - generic [ref=e9]:
+      - 'link " Hotline: 0900 000 000" [ref=e10] [cursor=pointer]':
+        - /url: tel:0900000000
+        - generic [ref=e11]: 
+        - generic [ref=e12]:
+          - text: "Hotline:"
+          - strong [ref=e13]: 0900 000 000
+      - link "Trang chủ Vua Beach" [ref=e14] [cursor=pointer]:
+        - /url: https://staging.tuphim.online
+        - generic [ref=e15]: 
+      - generic [ref=e17]:
+        - search [ref=e18]:
+          - generic [ref=e19]: Tìm sản phẩm
+          - textbox "Tìm sản phẩm" [ref=e20]
+          - button "Tìm kiếm" [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: 
+        - generic [ref=e23]:
+          - button "Mở menu tài khoản" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: 
+            - generic [ref=e27]:
+              - generic [ref=e28]: Tài khoản
+              - strong [ref=e29]: Đăng nhập
+            - generic [ref=e30]: 
+          - text:  
+        - link "Giỏ hàng" [ref=e31] [cursor=pointer]:
+          - /url: https://staging.tuphim.online/gio-hang
+          - generic [ref=e32]: 
+    - navigation "Danh mục chính" [ref=e33]:
+      - generic [ref=e34]:
+        - text: 
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "Trang chủ" [ref=e38] [cursor=pointer]:
+              - /url: https://staging.tuphim.online
+          - listitem [ref=e39]:
+            - link "Đồ bơi nam" [ref=e40] [cursor=pointer]:
+              - /url: https://staging.tuphim.online/san-pham?category=do-boi-nam
+          - listitem [ref=e41]:
+            - link "Đồ bơi nữ" [ref=e42] [cursor=pointer]:
+              - /url: https://staging.tuphim.online/san-pham?category=do-boi-nu
+          - listitem [ref=e43]:
+            - link "Đồ bơi trẻ em" [ref=e44] [cursor=pointer]:
+              - /url: https://staging.tuphim.online/san-pham?category=do-boi-tre-em
+          - listitem [ref=e45]:
+            - link "Phụ kiện bơi" [ref=e46] [cursor=pointer]:
+              - /url: https://staging.tuphim.online/san-pham?category=phu-kien-boi
+          - listitem [ref=e47]:
+            - link "Tất cả sản phẩm" [ref=e48] [cursor=pointer]:
+              - /url: https://staging.tuphim.online/san-pham
+  - main [ref=e50]:
+    - generic [ref=e51]:
+      - generic [ref=e53]:
+        - heading "Mùa hè đang chờ bạn." [level=2] [ref=e54]
+        - paragraph [ref=e55]: Đăng nhập để tiếp tục mua sắm và theo dõi đơn hàng.
+      - generic [ref=e56]:
+        - heading "Đăng nhập" [level=1] [ref=e57]
+        - paragraph [ref=e58]: Chào mừng bạn trở lại Vua Beach.
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: Tên đăng nhập
+            - textbox "Tên đăng nhập" [active] [ref=e62]
+          - generic [ref=e63]:
+            - generic [ref=e64]: Mật khẩu
+            - textbox "Mật khẩu" [ref=e65]
+          - generic [ref=e66]:
+            - checkbox "Ghi nhớ đăng nhập" [ref=e67]
+            - generic [ref=e68]: Ghi nhớ đăng nhập
+            - link "Quên mật khẩu?" [ref=e69] [cursor=pointer]:
+              - /url: https://staging.tuphim.online/quen-mat-khau
+          - button "Đăng nhập" [ref=e70] [cursor=pointer]
+        - paragraph [ref=e71]:
+          - text: Chưa có tài khoản?
+          - link "Tạo tài khoản" [ref=e72] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/dang-ky
+  - text:    
+  - contentinfo [ref=e73]:
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - link "Trang chủ Vua Beach" [ref=e76] [cursor=pointer]:
+          - /url: https://staging.tuphim.online
+          - generic [ref=e77]: 
+        - navigation "Liên kết cuối trang" [ref=e79]:
+          - link "Sản phẩm" [ref=e80] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/san-pham
+          - link "Giỏ hàng" [ref=e81] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/gio-hang
+          - link "Đăng nhập" [ref=e82] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/dang-nhap
+          - link "Giao hàng" [ref=e83] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=e84] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=e85] [cursor=pointer]:
+            - /url: https://staging.tuphim.online/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=e86]:
+          - link "Gọi 0900 000 000" [ref=e87] [cursor=pointer]:
+            - /url: tel:0900000000
+            - generic [ref=e88]: 
+            - generic [ref=e89]: 0900 000 000
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=e90] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=e91]: 
+            - generic [ref=e92]: sp.doitheauto5s@gmail.com
+      - generic [ref=e93]:
+        - generic [ref=e94]: © 2026 Vua Beach
+        - generic "Cam kết dịch vụ" [ref=e95]:
+          - generic [ref=e96]:
+            - generic [ref=e97]: 
+            - text: Giao hàng toàn quốc
+          - generic [ref=e98]:
+            - generic [ref=e99]: 
+            - text: Đổi size trong 7 ngày

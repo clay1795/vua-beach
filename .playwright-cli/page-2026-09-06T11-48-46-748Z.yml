@@ -1,0 +1,210 @@
+- generic [active] [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - 'link " Hotline: 0998 999999" [ref=f8e4] [cursor=pointer]':
+        - /url: tel:0998999999
+        - generic [ref=f8e5]: 
+        - generic [ref=f8e6]:
+          - text: "Hotline:"
+          - strong [ref=f8e7]: 0998 999999
+      - link "Trang chủ Vua Beach" [ref=f8e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img "Logo Vua Beach" [ref=f8e9]
+      - generic [ref=f8e10]:
+        - search [ref=f8e11]:
+          - generic [ref=f8e12]: Tìm sản phẩm
+          - textbox "Tìm sản phẩm" [ref=f8e13]
+          - button "Tìm kiếm" [ref=f8e14] [cursor=pointer]:
+            - generic [ref=f8e15]: 
+        - generic [ref=f8e16]:
+          - button "Mở menu tài khoản" [ref=f8e17] [cursor=pointer]:
+            - generic [ref=f8e18]: 
+            - generic [ref=f8e20]:
+              - generic [ref=f8e21]: Xin chào
+              - strong [ref=f8e22]: Lương Chiến Hiệp
+            - generic [ref=f8e23]: 
+          - text:    
+        - link "Giỏ hàng" [ref=f8e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gio-hang
+          - generic [ref=f8e25]: 
+          - generic [ref=f8e26]: "0"
+    - navigation "Danh mục chính" [ref=f8e27]:
+      - generic [ref=f8e28]:
+        - text: 
+        - list [ref=f8e30]:
+          - listitem [ref=f8e31]:
+            - link "Trang chủ" [ref=f8e32] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000
+          - listitem [ref=f8e33]:
+            - link "Đồ Bơi" [ref=f8e34] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=do-boi
+          - listitem [ref=f8e35]:
+            - link "Đồ bơi nam" [ref=f8e36] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=do-boi-nam
+          - listitem [ref=f8e37]:
+            - link "Đồ bơi nữ" [ref=f8e38] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=do-boi-nu
+          - listitem [ref=f8e39]:
+            - link "Đồ bơi trẻ em" [ref=f8e40] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=do-boi-tre-em
+          - listitem [ref=f8e41]:
+            - link "Phụ kiện bơi" [ref=f8e42] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=phu-kien-boi
+          - listitem [ref=f8e43]:
+            - link "Tất cả sản phẩm" [ref=f8e44] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham
+          - listitem [ref=f8e45]:
+            - link "Đơn hàng của tôi" [ref=f8e46] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/don-hang-cua-toi
+  - generic [ref=f8e48]:
+    - text: Đăng nhập thành công.
+    - button "Đóng" [ref=f8e49] [cursor=pointer]
+  - main [ref=f8e50]:
+    - link " Quay lại cửa hàng" [ref=f8e51] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/san-pham
+      - generic [ref=f8e52]: 
+      - text: Quay lại cửa hàng
+    - generic [ref=f8e53]:
+      - img "Bikini" [ref=f8e55]
+      - generic [ref=f8e56]:
+        - generic [ref=f8e57]: Đồ Bơi
+        - heading "Bikini" [level=1] [ref=f8e58]
+        - generic [ref=f8e59]: 800.000đ 999.999đ
+        - paragraph [ref=f8e60]: Mát mẻ, thoáng khí
+        - generic [ref=f8e61]:
+          - generic [ref=f8e62]:
+            - generic [ref=f8e63]:
+              - generic [ref=f8e64]: Màu sắc
+              - generic "Chọn màu sắc" [ref=f8e65]:
+                - button "Đỏ" [pressed] [ref=f8e66] [cursor=pointer]
+                - button "Hồng" [ref=f8e67] [cursor=pointer]
+                - button "Xanh dương" [ref=f8e68] [cursor=pointer]
+            - generic [ref=f8e69]:
+              - generic [ref=f8e70]: Kích cỡ
+              - generic "Chọn kích cỡ" [ref=f8e71]:
+                - button "Size S" [pressed] [ref=f8e72] [cursor=pointer]
+              - paragraph [ref=f8e73]: Còn 98 sản phẩm cho màu Đỏ, size S.
+          - generic [ref=f8e74]:
+            - generic [ref=f8e75]:
+              - generic [ref=f8e76]: Số lượng
+              - spinbutton "Số lượng" [ref=f8e77]: "1"
+            - button " Thêm vào giỏ" [ref=f8e79] [cursor=pointer]:
+              - generic [ref=f8e80]: 
+              - text: Thêm vào giỏ
+        - paragraph [ref=f8e81]:
+          - generic [ref=f8e82]: 
+          - text: Hỗ trợ đổi size trong 7 ngày.
+        - button " Thêm / bỏ yêu thích" [ref=f8e84] [cursor=pointer]:
+          - generic [ref=f8e85]: 
+          - text: Thêm / bỏ yêu thích
+    - generic [ref=f8e86]:
+      - generic [ref=f8e87]:
+        - generic [ref=f8e88]:
+          - paragraph [ref=f8e89]: Cảm nhận khách hàng
+          - heading "Đánh giá sản phẩm" [level=2] [ref=f8e90]
+        - text: 0 đánh giá
+      - generic [ref=f8e91]:
+        - generic [ref=f8e92]:
+          - generic [ref=f8e93]:
+            - generic [ref=f8e94]: Đơn hàng đã mua
+            - combobox "Đơn hàng đã mua" [ref=f8e95]:
+              - option "VB-MA2Q4H2 · Hoàn thành 05/09/2026" [selected]
+          - generic [ref=f8e96]:
+            - generic [ref=f8e97]: Đánh giá
+            - combobox "Đánh giá" [ref=f8e98]:
+              - option "5 sao" [selected]
+              - option "4 sao"
+              - option "3 sao"
+              - option "2 sao"
+              - option "1 sao"
+        - generic [ref=f8e99]: Chia sẻ trải nghiệm (không bắt buộc)
+        - textbox "Chia sẻ trải nghiệm (không bắt buộc)" [ref=f8e100]:
+          - /placeholder: Chất liệu, form dáng và trải nghiệm sử dụng của bạn...
+        - button " Gửi đánh giá" [ref=f8e101] [cursor=pointer]:
+          - generic [ref=f8e102]: 
+          - text: Gửi đánh giá
+      - paragraph [ref=f8e104]: Chưa có đánh giá. Khách đã mua và nhận hàng có thể đánh giá sản phẩm tại đây.
+    - generic [ref=f8e105]:
+      - heading "Có thể bạn sẽ thích" [level=2] [ref=f8e107]
+      - generic [ref=f8e108]:
+        - article [ref=f8e110]:
+          - link "Đang giảm giá Bikini cạp thấp sắc màu" [ref=f8e111] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham/bikini-cap-thap-sac-mau
+            - generic [ref=f8e112]: Đang giảm giá
+            - img "Bikini cạp thấp sắc màu" [ref=f8e113]
+          - generic [ref=f8e114]:
+            - generic [ref=f8e115]:
+              - generic [ref=f8e116]:
+                - paragraph [ref=f8e117]: Đồ Bơi
+                - link "Bikini cạp thấp sắc màu" [ref=f8e118] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/san-pham/bikini-cap-thap-sac-mau
+              - generic [ref=f8e119]:
+                - text: 666.666đ
+                - generic [ref=f8e120]: 999.999đ
+            - generic [ref=f8e121]:
+              - combobox "Chọn phân loại Bikini cạp thấp sắc màu" [ref=f8e122]:
+                - option "Hồng - Size L" [selected]
+              - button "Thêm Bikini cạp thấp sắc màu vào giỏ" [ref=f8e123] [cursor=pointer]:
+                - generic [ref=f8e124]: 
+                - text: Thêm vào giỏ
+        - article [ref=f8e126]:
+          - link "Đang giảm giá Test" [ref=f8e127] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham/test
+            - generic [ref=f8e128]: Đang giảm giá
+            - img "Test" [ref=f8e129]
+          - generic [ref=f8e130]:
+            - generic [ref=f8e131]:
+              - generic [ref=f8e132]:
+                - paragraph [ref=f8e133]: Đồ Bơi
+                - link "Test" [ref=f8e134] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/san-pham/test
+              - generic [ref=f8e135]:
+                - text: 9.999đ
+                - generic [ref=f8e136]: 10.000đ
+            - generic [ref=f8e137]:
+              - combobox "Chọn phân loại Test" [ref=f8e138]:
+                - option "Vàng - Size S" [selected]
+              - button "Thêm Test vào giỏ" [ref=f8e139] [cursor=pointer]:
+                - generic [ref=f8e140]: 
+                - text: Thêm vào giỏ
+  - contentinfo [ref=f8e141]:
+    - generic [ref=f8e142]:
+      - generic [ref=f8e143]:
+        - link "Trang chủ Vua Beach" [ref=f8e144] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - img "Logo Vua Beach" [ref=f8e145]
+        - navigation "Liên kết cuối trang" [ref=f8e146]:
+          - link "Sản phẩm" [ref=f8e147] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham
+          - link "Giỏ hàng" [ref=f8e148] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/gio-hang
+          - link "Tài khoản" [ref=f8e149] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/tai-khoan
+          - link "Đơn hàng" [ref=f8e150] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/don-hang-cua-toi
+          - link "Quản trị" [ref=f8e151] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/admin
+          - link "Giao hàng" [ref=f8e152] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-giao-hang
+          - link "Đổi trả" [ref=f8e153] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/chinh-sach-doi-tra
+          - link "Điều khoản" [ref=f8e154] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dieu-khoan-mua-hang
+        - generic "Thông tin hỗ trợ" [ref=f8e155]:
+          - link "Gọi 0998 999999" [ref=f8e156] [cursor=pointer]:
+            - /url: tel:0998999999
+            - generic [ref=f8e157]: 
+            - generic [ref=f8e158]: 0998 999999
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f8e159] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f8e160]: 
+            - generic [ref=f8e161]: sp.doitheauto5s@gmail.com
+      - generic [ref=f8e162]:
+        - generic [ref=f8e163]: © 2026 Vua Beach
+        - generic "Cam kết dịch vụ" [ref=f8e164]:
+          - generic [ref=f8e165]:
+            - generic [ref=f8e166]: 
+            - text: Giao hàng toàn quốc
+          - generic [ref=f8e167]:
+            - generic [ref=f8e168]: 
+            - text: Đổi size trong 7 ngày

@@ -1,0 +1,236 @@
+- generic [ref=f32e2]:
+  - complementary [ref=f32e3]:
+    - link "Trang tổng quan Vua Beach" [ref=f32e4] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/admin
+      - img "Logo Vua Beach" [ref=f32e5]
+    - paragraph [ref=f32e6]: Quản lý cửa hàng
+    - navigation "Điều hướng quản trị" [ref=f32e7]:
+      - link " Tổng quan" [ref=f32e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin
+        - generic [ref=f32e9]: 
+        - generic [ref=f32e10]: Tổng quan
+      - link " Sản phẩm" [ref=f32e11] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/products
+        - generic [ref=f32e12]: 
+        - generic [ref=f32e13]: Sản phẩm
+      - link " Tồn kho" [ref=f32e14] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/inventory
+        - generic [ref=f32e15]: 
+        - generic [ref=f32e16]: Tồn kho
+      - link " Nhập kho" [ref=f32e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/purchase-receipts
+        - generic [ref=f32e18]: 
+        - generic [ref=f32e19]: Nhập kho
+      - link " Nhà cung cấp" [ref=f32e20] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/suppliers
+        - generic [ref=f32e21]: 
+        - generic [ref=f32e22]: Nhà cung cấp
+      - link " Danh mục" [ref=f32e23] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/categories
+        - generic [ref=f32e24]: 
+        - generic [ref=f32e25]: Danh mục
+      - link " Đơn hàng" [ref=f32e26] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/orders
+        - generic [ref=f32e27]: 
+        - generic [ref=f32e28]: Đơn hàng
+      - link " Đổi trả" [ref=f32e29] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/returns
+        - generic [ref=f32e30]: 
+        - generic [ref=f32e31]: Đổi trả
+      - link " Mã ưu đãi" [ref=f32e32] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/coupons
+        - generic [ref=f32e33]: 
+        - generic [ref=f32e34]: Mã ưu đãi
+      - link " Tài khoản" [ref=f32e35] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/users
+        - generic [ref=f32e36]: 
+        - generic [ref=f32e37]: Tài khoản
+      - link " Nhật ký quản trị" [ref=f32e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/activity-logs
+        - generic [ref=f32e39]: 
+        - generic [ref=f32e40]: Nhật ký quản trị
+      - link " Cài đặt website" [ref=f32e41] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/settings
+        - generic [ref=f32e42]: 
+        - generic [ref=f32e43]: Cài đặt website
+    - generic [ref=f32e44]:
+      - generic [ref=f32e45]: L
+      - generic [ref=f32e46]:
+        - strong [ref=f32e47]: Lương Chiến Hiệp
+        - generic [ref=f32e48]: Quản trị viên
+      - button "Đăng xuất" [ref=f32e50] [cursor=pointer]:
+        - generic [ref=f32e51]: 
+  - generic [ref=f32e52]:
+    - banner [ref=f32e53]:
+      - text: 
+      - generic [ref=f32e54]:
+        - paragraph [ref=f32e55]: VUA BEACH
+        - heading "Quản lý sản phẩm" [level=1] [ref=f32e56]
+      - link " Xem website" [ref=f32e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=f32e58]: 
+        - generic [ref=f32e59]: Xem website
+    - main [ref=f32e60]:
+      - generic [ref=f32e61]:
+        - paragraph [ref=f32e62]: Thêm, chỉnh sửa và theo dõi các sản phẩm đang bán.
+        - link " Thêm sản phẩm" [ref=f32e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/products/create
+          - generic [ref=f32e64]: 
+          - text: Thêm sản phẩm
+      - table [ref=f32e66]:
+        - rowgroup [ref=f32e67]:
+          - row [ref=f32e68]:
+            - columnheader "Ảnh" [ref=f32e69]
+            - columnheader "Sản phẩm" [ref=f32e70]
+            - columnheader "Danh mục" [ref=f32e71]
+            - columnheader "Giá" [ref=f32e72]
+            - columnheader "Trạng thái" [ref=f32e73]
+            - columnheader "Thao tác" [ref=f32e74]
+        - rowgroup [ref=f32e75]:
+          - row [ref=f32e76]:
+            - cell [ref=f32e77]:
+              - img "Test" [ref=f32e78]
+            - cell "Test" [ref=f32e79]
+            - cell "Đồ Bơi" [ref=f32e80]
+            - cell "9.999đ" [ref=f32e81]
+            - cell "Đang bán" [ref=f32e82]
+            - cell [ref=f32e84]:
+              - link "Sửa" [ref=f32e85] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products/28/edit
+              - button "Xóa" [ref=f32e87] [cursor=pointer]
+          - row [ref=f32e88]:
+            - cell [ref=f32e89]:
+              - img "Quần bơi nam cao cấp đen phối sóng" [ref=f32e90]
+            - cell "Quần bơi nam cao cấp đen phối sóng" [ref=f32e91]
+            - cell "Đồ bơi nam" [ref=f32e92]
+            - cell "520.000đ" [ref=f32e93]
+            - cell "Đang bán" [ref=f32e94]
+            - cell [ref=f32e96]:
+              - link "Sửa" [ref=f32e97] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products/17/edit
+              - button "Xóa" [ref=f32e99] [cursor=pointer]
+          - row [ref=f32e100]:
+            - cell [ref=f32e101]:
+              - img "Quần bơi nam cao cấp đen phối xanh" [ref=f32e102]
+            - cell "Quần bơi nam cao cấp đen phối xanh" [ref=f32e103]
+            - cell "Đồ bơi nam" [ref=f32e104]
+            - cell "479.000đ" [ref=f32e105]
+            - cell "Đang bán" [ref=f32e106]
+            - cell [ref=f32e108]:
+              - link "Sửa" [ref=f32e109] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products/18/edit
+              - button "Xóa" [ref=f32e111] [cursor=pointer]
+          - row [ref=f32e112]:
+            - cell [ref=f32e113]:
+              - img "Bộ rời bé trai tay dài kèm mũ" [ref=f32e114]
+            - cell "Bộ rời bé trai tay dài kèm mũ" [ref=f32e115]
+            - cell "Đồ bơi trẻ em" [ref=f32e116]
+            - cell "300.000đ" [ref=f32e117]
+            - cell "Đang bán" [ref=f32e118]
+            - cell [ref=f32e120]:
+              - link "Sửa" [ref=f32e121] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products/26/edit
+              - button "Xóa" [ref=f32e123] [cursor=pointer]
+          - row [ref=f32e124]:
+            - cell [ref=f32e125]:
+              - img "Bộ rời bé trai xanh phối cam" [ref=f32e126]
+            - cell "Bộ rời bé trai xanh phối cam" [ref=f32e127]
+            - cell "Đồ bơi trẻ em" [ref=f32e128]
+            - cell "250.000đ" [ref=f32e129]
+            - cell "Đang bán" [ref=f32e130]
+            - cell [ref=f32e132]:
+              - link "Sửa" [ref=f32e133] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products/27/edit
+              - button "Xóa" [ref=f32e135] [cursor=pointer]
+          - row [ref=f32e136]:
+            - cell [ref=f32e137]:
+              - img "Bộ bơi dài tay hồng phối chân váy đen" [ref=f32e138]
+            - cell "Bộ bơi dài tay hồng phối chân váy đen" [ref=f32e139]
+            - cell "Đồ bơi nữ" [ref=f32e140]
+            - cell "540.000đ" [ref=f32e141]
+            - cell "Đang bán" [ref=f32e142]
+            - cell [ref=f32e144]:
+              - link "Sửa" [ref=f32e145] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products/19/edit
+              - button "Xóa" [ref=f32e147] [cursor=pointer]
+          - row [ref=f32e148]:
+            - cell [ref=f32e149]:
+              - img "Đồ bơi cộc tay liền thân quần short đen" [ref=f32e150]
+            - cell "Đồ bơi cộc tay liền thân quần short đen" [ref=f32e151]
+            - cell "Đồ bơi nữ" [ref=f32e152]
+            - cell "419.000đ" [ref=f32e153]
+            - cell "Đang bán" [ref=f32e154]
+            - cell [ref=f32e156]:
+              - link "Sửa" [ref=f32e157] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products/20/edit
+              - button "Xóa" [ref=f32e159] [cursor=pointer]
+          - row [ref=f32e160]:
+            - cell [ref=f32e161]:
+              - img "Bộ bơi liền tay dài phối ren" [ref=f32e162]
+            - cell "Bộ bơi liền tay dài phối ren" [ref=f32e163]
+            - cell "Đồ bơi nữ" [ref=f32e164]
+            - cell "520.000đ" [ref=f32e165]
+            - cell "Đang bán" [ref=f32e166]
+            - cell [ref=f32e168]:
+              - link "Sửa" [ref=f32e169] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products/21/edit
+              - button "Xóa" [ref=f32e171] [cursor=pointer]
+          - row [ref=f32e172]:
+            - cell [ref=f32e173]:
+              - img "Bikini cạp cao quần váy họa tiết nhiệt đới" [ref=f32e174]
+            - cell "Bikini cạp cao quần váy họa tiết nhiệt đới" [ref=f32e175]
+            - cell "Đồ bơi nữ" [ref=f32e176]
+            - cell "399.000đ" [ref=f32e177]
+            - cell "Đang bán" [ref=f32e178]
+            - cell [ref=f32e180]:
+              - link "Sửa" [ref=f32e181] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products/22/edit
+              - button "Xóa" [ref=f32e183] [cursor=pointer]
+          - row [ref=f32e184]:
+            - cell [ref=f32e185]:
+              - img "Bộ bơi dài tay quần đùi xanh phối trắng" [ref=f32e186]
+            - cell "Bộ bơi dài tay quần đùi xanh phối trắng" [ref=f32e187]
+            - cell "Đồ bơi nữ" [ref=f32e188]
+            - cell "630.000đ" [ref=f32e189]
+            - cell "Đang bán" [ref=f32e190]
+            - cell [ref=f32e192]:
+              - link "Sửa" [ref=f32e193] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products/23/edit
+              - button "Xóa" [ref=f32e195] [cursor=pointer]
+          - row [ref=f32e196]:
+            - cell [ref=f32e197]:
+              - img "Bộ bơi liền váy dài tay đen phối ghi" [ref=f32e198]
+            - cell "Bộ bơi liền váy dài tay đen phối ghi" [ref=f32e199]
+            - cell "Đồ bơi nữ" [ref=f32e200]
+            - cell "499.000đ" [ref=f32e201]
+            - cell "Đang bán" [ref=f32e202]
+            - cell [ref=f32e204]:
+              - link "Sửa" [ref=f32e205] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products/24/edit
+              - button "Xóa" [ref=f32e207] [cursor=pointer]
+          - row [ref=f32e208]:
+            - cell [ref=f32e209]:
+              - img "Bộ bơi liền tay dài đen tối giản" [ref=f32e210]
+            - cell "Bộ bơi liền tay dài đen tối giản" [ref=f32e211]
+            - cell "Đồ bơi nữ" [ref=f32e212]
+            - cell "480.000đ" [ref=f32e213]
+            - cell "Đang bán" [ref=f32e214]
+            - cell [ref=f32e216]:
+              - link "Sửa" [ref=f32e217] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products/25/edit
+              - button "Xóa" [ref=f32e219] [cursor=pointer]
+      - navigation [ref=f32e221]:
+        - generic [ref=f32e222]:
+          - generic [ref=f32e223]: Hiển thị 1 đến 12 trong tổng số 14 kết quả
+          - list [ref=f32e225]:
+            - listitem "‹ Trang trước" [ref=f32e226]:
+              - generic [aria-hidden]: ‹
+            - listitem [ref=f32e227]:
+              - generic [ref=f32e228]: "1"
+            - listitem [ref=f32e229]:
+              - link "2" [ref=f32e230] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products?page=2
+            - listitem [ref=f32e231]:
+              - link "Trang sau ›" [ref=f32e232] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/products?page=2
+                - text: ›

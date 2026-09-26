@@ -1,0 +1,141 @@
+- generic [active] [ref=f7e1]:
+  - banner [ref=f7e2]:
+    - generic [ref=f7e3]:
+      - 'link " Hotline: 0900 000 000" [ref=f7e4] [cursor=pointer]':
+        - /url: tel:0900000000
+        - generic [ref=f7e5]: 
+        - generic [ref=f7e6]:
+          - text: "Hotline:"
+          - strong [ref=f7e7]: 0900 000 000
+      - link "Trang chủ Vua Beach" [ref=f7e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=f7e9]: 
+      - generic [ref=f7e11]:
+        - search [ref=f7e12]:
+          - generic [ref=f7e13]: Tìm sản phẩm
+          - textbox "Tìm sản phẩm" [ref=f7e14]
+          - button "Tìm kiếm" [ref=f7e15] [cursor=pointer]:
+            - generic [ref=f7e16]: 
+        - generic [ref=f7e17]:
+          - button "Mở menu tài khoản" [ref=f7e18] [cursor=pointer]:
+            - generic [ref=f7e19]: 
+            - generic [ref=f7e21]:
+              - generic [ref=f7e22]: Xin chào
+              - strong [ref=f7e23]: Lương Chiên Hiệp
+            - generic [ref=f7e24]: 
+          - text:    
+        - link "Giỏ hàng" [ref=f7e25] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gio-hang
+          - generic [ref=f7e26]: 
+          - generic [ref=f7e27]: "2"
+    - navigation "Danh mục chính" [ref=f7e28]:
+      - generic [ref=f7e29]:
+        - text: 
+        - list [ref=f7e31]:
+          - listitem [ref=f7e32]:
+            - link "Trang chủ" [ref=f7e33] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000
+          - listitem [ref=f7e34]:
+            - link "Đồ Bơi" [ref=f7e35] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=do-boi
+          - listitem [ref=f7e36]:
+            - link "Đồ bơi nam" [ref=f7e37] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=do-boi-nam
+          - listitem [ref=f7e38]:
+            - link "Đồ bơi nữ" [ref=f7e39] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=do-boi-nu
+          - listitem [ref=f7e40]:
+            - link "Đồ bơi trẻ em" [ref=f7e41] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=do-boi-tre-em
+          - listitem [ref=f7e42]:
+            - link "Phụ kiện bơi" [ref=f7e43] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham?category=phu-kien-boi
+          - listitem [ref=f7e44]:
+            - link "Tất cả sản phẩm" [ref=f7e45] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham
+          - listitem [ref=f7e46]:
+            - link "Đơn hàng của tôi" [ref=f7e47] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/don-hang-cua-toi
+  - main [ref=f7e48]:
+    - generic [ref=f7e49]:
+      - generic [ref=f7e50]:
+        - paragraph [ref=f7e51]: Giỏ hàng
+        - heading "Các món bạn đã chọn" [level=1] [ref=f7e52]
+        - paragraph [ref=f7e53]: Kiểm tra phân loại, số lượng và chọn sản phẩm cần thanh toán.
+      - link "Tiếp tục mua sắm " [ref=f7e54] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/san-pham
+        - text: Tiếp tục mua sắm
+        - generic [ref=f7e55]: 
+    - generic [ref=f7e56]:
+      - generic [ref=f7e58]:
+        - generic [ref=f7e59]:
+          - generic [ref=f7e60]:
+            - checkbox "Chọn tất cả sản phẩm" [checked] [ref=f7e61]
+            - text: Chọn tất cả sản phẩm
+          - generic [ref=f7e62]: 1/1 sản phẩm
+        - article [ref=f7e63]:
+          - checkbox "Chọn Bộ rời bé trai xanh phối cam" [checked] [ref=f7e65]
+          - img "Bộ rời bé trai xanh phối cam" [ref=f7e67]
+          - generic [ref=f7e68]:
+            - link "Bộ rời bé trai xanh phối cam" [ref=f7e69] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/san-pham/bo-roi-be-trai-xanh-phoi-cam
+            - text: Xanh phối cam · Size 4
+          - generic [ref=f7e71]:
+            - button "Giảm số lượng" [ref=f7e72] [cursor=pointer]:
+              - generic [ref=f7e73]: 
+            - spinbutton "Số lượng" [ref=f7e74]: "2"
+            - button "Tăng số lượng" [ref=f7e75] [cursor=pointer]:
+              - generic [ref=f7e76]: 
+          - generic [ref=f7e77]:
+            - strong [ref=f7e78]: 500.000đ
+            - button "Xóa" [ref=f7e80] [cursor=pointer]
+      - complementary [ref=f7e82]:
+        - heading "Sản phẩm thanh toán" [level=2] [ref=f7e83]
+        - generic [ref=f7e84]:
+          - generic [ref=f7e85]: Tạm tính
+          - strong [ref=f7e86]: 500.000đ
+        - generic [ref=f7e87]:
+          - generic [ref=f7e88]: Giao hàng
+          - generic [ref=f7e89]: Miễn phí
+        - separator [ref=f7e90]
+        - generic [ref=f7e91]:
+          - strong [ref=f7e92]: Tổng cộng
+          - strong [ref=f7e93]: 500.000đ
+        - button "Thanh toán sản phẩm đã chọn " [ref=f7e94] [cursor=pointer]:
+          - text: Thanh toán sản phẩm đã chọn
+          - generic [ref=f7e95]: 
+  - contentinfo [ref=f7e96]:
+    - generic [ref=f7e97]:
+      - generic [ref=f7e98]:
+        - link "Trang chủ Vua Beach" [ref=f7e99] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - generic [ref=f7e100]: 
+        - navigation "Liên kết cuối trang" [ref=f7e102]:
+          - link "Sản phẩm" [ref=f7e103] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/san-pham
+          - link "Giỏ hàng" [ref=f7e104] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/gio-hang
+          - link "Tài khoản" [ref=f7e105] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/tai-khoan
+          - link "Đơn hàng" [ref=f7e106] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/don-hang-cua-toi
+          - link "Quản trị" [ref=f7e107] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/admin
+        - generic "Thông tin hỗ trợ" [ref=f7e108]:
+          - link "Gọi 0900 000 000" [ref=f7e109] [cursor=pointer]:
+            - /url: tel:0900000000
+            - generic [ref=f7e110]: 
+            - generic [ref=f7e111]: 0900 000 000
+          - link "Gửi email tới sp.doitheauto5s@gmail.com" [ref=f7e112] [cursor=pointer]:
+            - /url: mailto:sp.doitheauto5s@gmail.com
+            - generic [ref=f7e113]: 
+            - generic [ref=f7e114]: sp.doitheauto5s@gmail.com
+      - generic [ref=f7e115]:
+        - generic [ref=f7e116]: © 2026 Vua Beach
+        - generic "Cam kết dịch vụ" [ref=f7e117]:
+          - generic [ref=f7e118]:
+            - generic [ref=f7e119]: 
+            - text: Giao hàng toàn quốc
+          - generic [ref=f7e120]:
+            - generic [ref=f7e121]: 
+            - text: Đổi size trong 7 ngày

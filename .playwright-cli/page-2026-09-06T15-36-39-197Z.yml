@@ -1,0 +1,6 @@
+- main [ref=f6e2]:
+  - paragraph [ref=f6e3]: LỖI 404
+  - heading "Không tìm thấy trang" [level=1] [ref=f6e4]
+  - paragraph [ref=f6e5]: Trang hoặc dữ liệu bạn yêu cầu không còn tồn tại.
+  - link "Về trang chủ" [ref=f6e6] [cursor=pointer]:
+    - /url: http://127.0.0.1:8000

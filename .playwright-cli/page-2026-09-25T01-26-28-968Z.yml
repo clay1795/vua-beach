@@ -1,0 +1,37 @@
+- generic [ref=f4e2]:
+  - text:                
+  - generic [ref=f4e3]:
+    - banner [ref=f4e4]:
+      - button "Mở menu" [ref=f4e5] [cursor=pointer]:
+        - generic [ref=f4e6]: 
+      - heading "Thêm tài khoản" [level=1] [ref=f4e8]
+      - link "Xem website (mở trong thẻ mới)" [ref=f4e9] [cursor=pointer]:
+        - /url: http://127.0.0.1:8010
+        - generic [aria-hidden] [ref=f4e10]: 
+    - main [ref=f4e11]:
+      - generic [ref=f4e12]:
+        - generic [ref=f4e13]:
+          - generic [ref=f4e14]:
+            - generic [ref=f4e15]: Họ tên
+            - textbox "Họ tên" [ref=f4e16]
+          - generic [ref=f4e17]:
+            - generic [ref=f4e18]: Tên đăng nhập
+            - textbox "Tên đăng nhập" [ref=f4e19]
+          - generic [ref=f4e20]:
+            - generic [ref=f4e21]: Email
+            - textbox "Email" [ref=f4e22]
+          - generic [ref=f4e23]:
+            - generic [ref=f4e24]: Mật khẩu
+            - textbox "Mật khẩu" [ref=f4e25]
+          - generic [ref=f4e26]:
+            - generic [ref=f4e27]: Nhập lại mật khẩu
+            - textbox "Nhập lại mật khẩu" [ref=f4e28]
+          - generic [ref=f4e29]:
+            - generic [ref=f4e30]: Vai trò
+            - combobox "Vai trò" [ref=f4e31]:
+              - option "Khách hàng" [selected]
+              - option "Quản trị viên"
+        - paragraph [ref=f4e32]: Mật khẩu tối thiểu 12 ký tự, gồm chữ hoa, chữ thường, số và ký hiệu. Khi sửa, để trống để giữ mật khẩu hiện tại. Thay email sẽ yêu cầu xác thực lại.
+        - button "Lưu tài khoản" [ref=f4e33] [cursor=pointer]
+        - link "Quay lại" [ref=f4e34] [cursor=pointer]:
+          - /url: http://127.0.0.1:8010/admin/users
