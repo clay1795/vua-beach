@@ -139,7 +139,12 @@ class PreflightCheck extends Command
         $check('Storage public đã liên kết', is_link(public_path('storage')), 'Chạy: php artisan storage:link');
         $check('PHP tối ưu được ảnh WebP', extension_loaded('gd') && function_exists('imagewebp'), 'Bật PHP GD có hỗ trợ WebP để ảnh sản phẩm tải lên được nén tự động.');
         $check('Bảng queue tồn tại', Schema::hasTable('jobs') && Schema::hasTable('failed_jobs'), 'Thiếu bảng queue; chạy migration trước khi dùng email hàng đợi.');
-        $check('Queue worker đang chạy', $this->queueWorkerIsRunning(), 'Chưa có queue worker; chạy: php artisan queue:work --tries=3');
+        $queueRunsInline = in_array(config('queue.default'), ['sync', 'deferred', 'background'], true);
+        $check(
+            'Queue xử lý job sẵn sàng',
+            $queueRunsInline || $this->queueWorkerIsRunning(),
+            'Chưa có queue worker; chạy: php artisan queue:work --tries=3 hoặc dùng QUEUE_CONNECTION=sync trên một Web Service nhỏ.',
+        );
         $check('Scheduler đang chạy', $this->schedulerIsRunning(), 'Chưa có scheduler; chạy schedule:work bằng launchd hoặc Supervisor.');
         [$mailReady, $mailWarning] = $this->mailIsReady();
         $check('SMTP gửi mail đã sẵn sàng', $mailReady, $mailWarning);

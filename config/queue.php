@@ -33,6 +33,7 @@ return [
 
         'sync' => [
             'driver' => 'sync',
+            'after_commit' => (bool) env('QUEUE_AFTER_COMMIT', true),
         ],
 
         'database' => [
