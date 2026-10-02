@@ -118,11 +118,30 @@ class StorefrontTest extends TestCase
     public function test_storefront_displays_an_unambiguous_sandbox_warning(): void
     {
         config()->set('services.payment_sandbox_mode', true);
+        config()->set('services.payment_sandbox_labels', true);
 
         $this->get(route('home'))
             ->assertOk()
             ->assertSee('Chế độ thử nghiệm:')
             ->assertSee('Không có giao dịch hay khoản tiền thật nào được xử lý.');
+    }
+
+    public function test_sandbox_labels_can_be_hidden_without_disabling_sandbox_payments(): void
+    {
+        config()->set('services.payment_sandbox_mode', true);
+        config()->set('services.payment_sandbox_labels', false);
+        $user = User::factory()->create();
+        $category = Category::create(['name' => 'Bikini', 'slug' => 'bikini']);
+        $product = Product::create(['category_id' => $category->id, 'name' => 'Bikini test', 'slug' => 'bikini-test', 'price' => 200000, 'description' => 'Mô tả sản phẩm', 'status' => 'active']);
+        $variant = ProductVariant::create(['product_id' => $product->id, 'color' => 'Xanh', 'size' => 'M', 'stock' => 5]);
+
+        $this->get(route('home'))->assertOk()->assertDontSee('payment-sandbox-banner', false);
+        $this->actingAs($user)->withSession(['cart' => [$variant->id => ['quantity' => 1]]])
+            ->get(route('checkout.create', ['selected_variants' => [$variant->id]]))
+            ->assertOk()
+            ->assertDontSee('payment-sandbox-banner', false)
+            ->assertDontSee('sandbox-chip', false);
+        $this->assertTrue(config('services.payment_sandbox_mode'));
     }
 
     public function test_customer_can_browse_a_product_and_add_it_to_cart(): void

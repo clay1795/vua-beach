@@ -92,12 +92,12 @@
                     <label class="payment-option {{ $momoAvailable ? '' : 'opacity-50' }}">
                         <input class="form-check-input mt-0" type="radio" name="payment_method" value="momo" @disabled(! $momoAvailable) @checked($momoAvailable && old('payment_method') === 'momo')>
                         <span class="momo-mark">M</span>
-                        <span><b>Ví điện tử MoMo @if(config('services.payment_sandbox_mode'))<span class="sandbox-chip">Sandbox</span>@endif</b><br><small class="text-secondary">{{ $momoAvailable ? (config('services.payment_sandbox_mode') ? 'Giao dịch thử nghiệm, không trừ tiền thật.' : 'Thanh toán nhanh bằng ứng dụng MoMo.') : 'MoMo chưa được cấu hình đầy đủ.' }}</small></span>
+                        <span><b>Ví điện tử MoMo @if(config('services.payment_sandbox_mode') && filter_var(config('services.payment_sandbox_labels'), FILTER_VALIDATE_BOOLEAN))<span class="sandbox-chip">Sandbox</span>@endif</b><br><small class="text-secondary">{{ $momoAvailable ? (config('services.payment_sandbox_mode') ? 'Giao dịch thử nghiệm, không trừ tiền thật.' : 'Thanh toán nhanh bằng ứng dụng MoMo.') : 'MoMo chưa được cấu hình đầy đủ.' }}</small></span>
                     </label>
                     <label class="payment-option {{ $vnpayAvailable ? '' : 'opacity-50' }}">
                         <input class="form-check-input mt-0" type="radio" name="payment_method" value="vnpay" @disabled(! $vnpayAvailable) @checked($vnpayAvailable && old('payment_method') === 'vnpay')>
                         <span class="fs-4 text-primary" aria-hidden="true"><i class="bi bi-qr-code-scan"></i></span>
-                        <span><b>VNPAY-QR / Ngân hàng @if(config('services.payment_sandbox_mode'))<span class="sandbox-chip">Sandbox</span>@endif</b><br><small class="text-secondary">{{ $vnpayAvailable ? (config('services.payment_sandbox_mode') ? 'Giao dịch thử nghiệm, không trừ tiền thật.' : 'Quét QR hoặc thanh toán qua cổng VNPAY bảo mật.') : 'Đang chờ cấu hình mã đối tác VNPAY.' }}</small></span>
+                        <span><b>VNPAY-QR / Ngân hàng @if(config('services.payment_sandbox_mode') && filter_var(config('services.payment_sandbox_labels'), FILTER_VALIDATE_BOOLEAN))<span class="sandbox-chip">Sandbox</span>@endif</b><br><small class="text-secondary">{{ $vnpayAvailable ? (config('services.payment_sandbox_mode') ? 'Giao dịch thử nghiệm, không trừ tiền thật.' : 'Quét QR hoặc thanh toán qua cổng VNPAY bảo mật.') : 'Đang chờ cấu hình mã đối tác VNPAY.' }}</small></span>
                     </label>
                 </div>
                 <div class="form-check mt-4 pt-2">

@@ -25,7 +25,7 @@
 <body>
     @php($cartCount = collect(session('cart', []))->sum('quantity'))
     <a class="skip-link" href="#main-content">Chuyển đến nội dung chính</a>
-    @if(filter_var(config('services.payment_sandbox_mode'), FILTER_VALIDATE_BOOLEAN))
+    @if(filter_var(config('services.payment_sandbox_mode'), FILTER_VALIDATE_BOOLEAN) && filter_var(config('services.payment_sandbox_labels'), FILTER_VALIDATE_BOOLEAN))
         <div class="payment-sandbox-banner" role="status" aria-label="Thông báo chế độ thanh toán thử nghiệm">
             <div class="container">
                 <i class="bi bi-cone-striped" aria-hidden="true"></i>

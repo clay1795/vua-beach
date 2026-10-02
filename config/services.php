@@ -3,6 +3,7 @@
 return [
 
     'payment_sandbox_mode' => env('PAYMENT_SANDBOX_MODE', false),
+    'payment_sandbox_labels' => env('PAYMENT_SANDBOX_LABELS', ! filter_var(env('RENDER', false), FILTER_VALIDATE_BOOLEAN)),
 
     'local_tunnel_host_suffixes' => array_values(array_filter(array_map(
         static fn (string $suffix): string => strtolower(trim($suffix)),
